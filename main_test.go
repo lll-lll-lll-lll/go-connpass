@@ -10,8 +10,7 @@ import (
 	"time"
 )
 
-// CreateMdFile ファイル作成テスト
-func CreateMdFile() {
+func TestCreateMDFile(t *testing.T) {
 	n := "TestREADME.md"
 	file, err := os.Create(n)
 	if err != nil {
@@ -19,10 +18,6 @@ func CreateMdFile() {
 	}
 	defer file.Close()
 	defer os.Remove(n)
-}
-
-func TestCreateMDFile(t *testing.T) {
-	CreateMdFile()
 }
 
 func TestTimeCompare(t *testing.T) {
