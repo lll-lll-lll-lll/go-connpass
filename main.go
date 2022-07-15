@@ -44,7 +44,9 @@ func main() {
 	initres := initRequestConnpass()
 
 	qd := make(map[string]string)
+	// 所属知るグループId取得
 	gs := initres.GetGroups()
+	// groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
 	seriesId := ""
 	for _, v := range gs {
 		v := strconv.Itoa(v)
@@ -70,7 +72,7 @@ func main() {
 	mn := new(MarkDown)
 	m := CreateMd(mn, response)
 	s := m.CompleteMdFile(2)
-	file.Write([]byte(string(s)))
+	file.Write([]byte(s))
 }
 
 // 時刻を見やすいように変更
@@ -111,6 +113,7 @@ func ConvertStartAtTime(startedAt string) string {
 	return weekdaymonthja.Replace(str)
 }
 
+// mdファイルの全体像を作るメソッド
 func CreateMd(m *MarkDown, response *ConnpassResponse) *MarkDown {
 	for _, v := range response.Events {
 		if CompareEventTime(v) == true {
@@ -127,6 +130,7 @@ func CreateMd(m *MarkDown, response *ConnpassResponse) *MarkDown {
 	return m
 }
 
+// クエリを作成
 func CreateQuery(values map[string]string) url.Values {
 	q := url.Values{}
 	for k, v := range values {
@@ -163,6 +167,8 @@ func NewMarkDown() *MarkDown {
 	m := new(MarkDown)
 	return m
 }
+
+// mdのmarkを作成
 func (m *MarkDown) CreateMark(mark string, content string, repeat int) string {
 	return strings.Repeat(mark, repeat) + " " + content
 }
@@ -181,6 +187,7 @@ func (m *MarkDown) WriteTitle(content string, repeat int) *MarkDown {
 	return m
 }
 
+// 設定した文字列をつなげて返す
 func (m *MarkDown) CompleteMdFile(brNum int) string {
 	brs := strings.Repeat("\n", brNum)
 	return strings.Join(m.page, brs)

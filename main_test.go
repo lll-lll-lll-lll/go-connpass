@@ -62,3 +62,30 @@ func TestChangeTimeFormat(t *testing.T) {
 	fmt.Println(weekdaymonthja.Replace(str))
 
 }
+
+func TestYYMM(t *testing.T) {
+	weekdaymonthja := strings.NewReplacer(
+		"Sunday", "日",
+		"Monday", "月",
+		"Tueday", "火",
+		"Wednesday", "水",
+		"Thursday", "木",
+		"Friday", "金",
+		"Saturday", "土",
+		"January", "01",
+		"February", "02",
+		"March", "03",
+		"April", "04",
+		"May", "05",
+		"June", "06",
+		"July", "07",
+		"August", "08",
+		"September", "09",
+		"October", "10",
+		"November", "11",
+		"December", "12",
+	)
+	p := time.Now()
+	str := weekdaymonthja.Replace(fmt.Sprintf("%d%s", p.Year(), p.Month().String()))
+	fmt.Println(str)
+}
