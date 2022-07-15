@@ -4,7 +4,7 @@
 
 - https://rakus.connpass.com/event/249194/
 
-- 7月月20日(水) 19:00
+- 7月20日(水) 19:00 ~
 
 ## ラクス
 
@@ -12,7 +12,7 @@
 
 - https://rakus.connpass.com/event/252055/
 
-- 8月月17日(水) 19:00
+- 8月17日(水) 19:00 ~
 
 ## ラクス
 
@@ -20,7 +20,7 @@
 
 - https://rakus.connpass.com/event/251357/
 
-- 8月月3日(水) 19:00
+- 8月3日(水) 19:00 ~
 
 ## Microsoft Learn Student Ambassadors
 
@@ -28,7 +28,7 @@
 
 - https://mspjp.connpass.com/event/249961/
 
-- 7月月24日(日) 15:00
+- 7月24日(日) 15:00 ~
 
 ## ラクス
 
@@ -36,7 +36,7 @@
 
 - https://rakus.connpass.com/event/251361/
 
-- 8月月4日(木) 19:00
+- 8月4日(木) 19:00 ~
 
 ## ラクス
 
@@ -44,7 +44,7 @@
 
 - https://rakus.connpass.com/event/253650/
 
-- 8月月24日(水) 19:00
+- 8月24日(水) 19:00 ~
 
 ## LINE Developer Community
 
@@ -52,7 +52,7 @@
 
 - https://linedevelopercommunity.connpass.com/event/254345/
 
-- 7月月27日(水) 19:00
+- 7月27日(水) 19:00 ~
 
 ## ラクス
 
@@ -60,7 +60,7 @@
 
 - https://rakus.connpass.com/event/252825/
 
-- 8月月18日(木) 19:00
+- 8月18日(木) 19:00 ~
 
 ## ラクス
 
@@ -68,7 +68,7 @@
 
 - https://rakus.connpass.com/event/253656/
 
-- 8月月25日(木) 19:00
+- 8月25日(木) 19:00 ~
 
 ## ラクス
 
@@ -76,7 +76,7 @@
 
 - https://rakus.connpass.com/event/250577/
 
-- 7月月27日(水) 19:00
+- 7月27日(水) 19:00 ~
 
 ## ラクス
 
@@ -84,7 +84,7 @@
 
 - https://rakus.connpass.com/event/249908/
 
-- 7月月21日(木) 19:00
+- 7月21日(木) 19:00 ~
 
 ## LINE Developer Community
 
@@ -92,7 +92,7 @@
 
 - https://linedevelopercommunity.connpass.com/event/254317/
 
-- 7月月28日(木) 19:00
+- 7月28日(木) 19:00 ~
 
 ## ラクス
 
@@ -100,7 +100,7 @@
 
 - https://rakus.connpass.com/event/252172/
 
-- 7月月29日(金) 19:00
+- 7月29日(金) 19:00 ~
 
 ## DDD-Community-Jp
 
@@ -108,7 +108,7 @@
 
 - https://ddd-community-jp.connpass.com/event/254182/
 
-- 7月月23日(土) 20:00
+- 7月23日(土) 20:00 ~
 
 ## ラクス
 
@@ -116,7 +116,7 @@
 
 - https://rakus.connpass.com/event/252053/
 
-- 8月月10日(水) 19:00
+- 8月10日(水) 19:00 ~
 
 ## ラクス
 
@@ -124,7 +124,7 @@
 
 - https://rakus.connpass.com/event/250579/
 
-- 7月月28日(木) 19:00
+- 7月28日(木) 19:00 ~
 
 ## Gophers Japan
 
@@ -132,7 +132,7 @@
 
 - https://gocon.connpass.com/event/253355/
 
-- 8月月15日(月) 19:00
+- 8月15日(月) 19:00 ~
 
 ## LINE Developer Community
 
@@ -140,4 +140,4 @@
 
 - https://linedevelopercommunity.connpass.com/event/253064/
 
-- 7月月21日(木) 20:00
+- 7月21日(木) 20:00 ~
