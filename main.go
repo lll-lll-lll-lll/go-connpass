@@ -120,8 +120,8 @@ func CreateMd(m *MarkDown, response *ConnpassResponse) *MarkDown {
 			es := ConvertStartAtTime(v.StartedAt)
 			m.WriteTitle(owner, 2)
 			m.WriteTitle(et, 3)
-			m.WriteHorizon("-", eu, 1)
-			m.WriteHorizon("-", es, 1)
+			m.WriteHorizon(eu, 1)
+			m.WriteHorizon(es, 1)
 		}
 	}
 	return m
@@ -167,7 +167,8 @@ func (m *MarkDown) CreateMark(mark string, content string, repeat int) string {
 	return strings.Repeat(mark, repeat) + " " + content
 }
 
-func (m *MarkDown) WriteHorizon(markh string, content string, repeat int) *MarkDown {
+func (m *MarkDown) WriteHorizon(content string, repeat int) *MarkDown {
+	markh := "-"
 	mark := m.CreateMark(markh, content, repeat)
 	m.page = append(m.page, mark)
 	return m
