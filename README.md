@@ -6,6 +6,14 @@
 
 - 7月20日(水) 19:00 ~
 
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
+
 ## ラクス
 
 ### 【LT残5枠！】エンジニアの失敗学 LT会 - vol.2
@@ -54,6 +62,22 @@
 
 - 7月27日(水) 19:00 ~
 
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
+
+- https://asciistartup.connpass.com/event/246677/
+
+- 8月27日(土) 10:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hands-on 01
+
+- https://asciistartup.connpass.com/event/252343/
+
+- 8月5日(金) 19:00 ~
+
 ## ラクス
 
 ### スタイルガイドのススメ
@@ -93,6 +117,14 @@
 - https://linedevelopercommunity.connpass.com/event/254317/
 
 - 7月28日(木) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU AWARD 2022説明会
+
+- https://asciistartup.connpass.com/event/251623/
+
+- 7月20日(水) 19:00 ~
 
 ## ラクス
 
@@ -141,3 +173,11 @@
 - https://linedevelopercommunity.connpass.com/event/253064/
 
 - 7月21日(木) 20:00 ~
+
+## ASCII STARTUP
+
+### 3D都市モデル PLATEAU LT 02
+
+- https://asciistartup.connpass.com/event/251886/
+
+- 8月6日(土) 19:00 ~
