@@ -44,7 +44,7 @@ func main() {
 	initres := initRequestConnpass()
 
 	qd := make(map[string]string)
-	// 所属知るグループId取得
+	// 所属してるグループId取得
 	gs := initres.GetGroups()
 	// groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
 	seriesId := ""
@@ -52,8 +52,10 @@ func main() {
 		v := strconv.Itoa(v)
 		seriesId += v + ","
 	}
+	sm := GetForThreeMonthsEvent()
 	qd["series_id"] = seriesId
 	qd["count"] = "100"
+	qd["ym"] = sm
 
 	q := CreateQuery(qd)
 	u := CreateUrl(q)
@@ -73,6 +75,34 @@ func main() {
 	m := CreateMd(mn, response)
 	s := m.CompleteMdFile(2)
 	file.Write([]byte(s))
+
+}
+
+// 今月を含めた３月分のイベントを取得
+func GetForThreeMonthsEvent() string {
+	now := time.Now()
+	yearmonthsja := strings.NewReplacer(
+		"January", "01",
+		"February", "02",
+		"March", "03",
+		"April", "04",
+		"May", "05",
+		"June", "06",
+		"July", "07",
+		"August", "08",
+		"September", "09",
+		"October", "10",
+		"November", "11",
+		"December", "12",
+	)
+	// 13月をなくすために12で割った余を入れる
+	nm := now.Month()
+	sm := (nm + 1) % 12
+	tm := (nm + 2) % 12
+	f := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), nm.String()))
+	s := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), sm.String()))
+	t := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), tm.String()))
+	return f + "," + s + "," + t
 }
 
 // 時刻を見やすいように変更
@@ -116,16 +146,14 @@ func ConvertStartAtTime(startedAt string) string {
 // mdファイルの全体像を作るメソッド
 func CreateMd(m *MarkDown, response *ConnpassResponse) *MarkDown {
 	for _, v := range response.Events {
-		if CompareEventTime(v) == true {
-			owner := v.Series.Title
-			et := v.Title
-			eu := v.EventUrl
-			es := ConvertStartAtTime(v.StartedAt)
-			m.WriteTitle(owner, 2)
-			m.WriteTitle(et, 3)
-			m.WriteHorizon(eu, 1)
-			m.WriteHorizon(es, 1)
-		}
+		owner := v.Series.Title
+		et := v.Title
+		eu := v.EventUrl
+		es := ConvertStartAtTime(v.StartedAt)
+		m.WriteTitle(owner, 2)
+		m.WriteTitle(et, 3)
+		m.WriteHorizon(eu, 1)
+		m.WriteHorizon(es, 1)
 	}
 	return m
 }

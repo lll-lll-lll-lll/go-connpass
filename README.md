@@ -48,6 +48,14 @@
 
 ## ラクス
 
+### 【LT満員御礼！】おすすめの技術書 LT会 - vol.4 #itbookslt
+
+- https://rakus.connpass.com/event/249140/
+
+- 7月14日(木) 19:00 ~
+
+## ラクス
+
 ### 【LT残6枠！】データエンジニア集合！〜データ収集についてゆるく語りたい！〜
 
 - https://rakus.connpass.com/event/251361/
@@ -69,6 +77,14 @@
 - https://asciistartup.connpass.com/event/246677/
 
 - 8月27日(土) 10:00 ~
+
+## ラクス
+
+### 【LT満員御礼！】エンジニアの勉強法ハックLT- vol.9 #studyhacklt
+
+- https://rakus.connpass.com/event/249139/
+
+- 7月13日(水) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -101,6 +117,14 @@
 - https://rakus.connpass.com/event/250577/
 
 - 7月27日(水) 19:00 ~
+
+## DDD-Community-Jp
+
+### スクラム再入門
+
+- https://ddd-community-jp.connpass.com/event/253271/
+
+- 7月13日(水) 20:00 ~
 
 ## ラクス
 
@@ -142,6 +166,30 @@
 
 - 7月23日(土) 20:00 ~
 
+## DDD-Community-Jp
+
+### セキュア・バイ・デザイン 読書会 9章「クラウド的考え方によるメリット」後半
+
+- https://ddd-community-jp.connpass.com/event/252560/
+
+- 7月9日(土) 20:00 ~
+
+## Gopher道場
+
+### Gopher道場 自習室 OpenDay #3
+
+- https://gopherdojo.connpass.com/event/251574/
+
+- 7月9日(土) 9:00 ~
+
+## LINE Developer Community
+
+### Microsoft Build Catchup for LINE API Developers!!
+
+- https://linedevelopercommunity.connpass.com/event/251427/
+
+- 7月7日(木) 19:00 ~
+
 ## ラクス
 
 ### PdM Tips LT会 - vol.2 #pdmtipslt
@@ -152,11 +200,27 @@
 
 ## ラクス
 
+### 【LT登壇6名決定！】デザイナーの勉強法ハックLT
+
+- https://rakus.connpass.com/event/248477/
+
+- 7月7日(木) 19:00 ~
+
+## ラクス
+
 ### 【LT残5枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
 
 - https://rakus.connpass.com/event/250579/
 
 - 7月28日(木) 19:00 ~
+
+## ラクス
+
+### 【ラクスMeetup】SaaSプロダクト開発をリードするデザインとフロントエンド
+
+- https://rakus.connpass.com/event/248411/
+
+- 7月6日(水) 19:00 ~
 
 ## Gophers Japan
 
