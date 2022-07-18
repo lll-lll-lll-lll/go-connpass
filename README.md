@@ -1,3 +1,11 @@
+## LINE Developer Community
+
+### LINEDC MonthlyLT #4 -【人気記事著者が語るLINE APIとアウトプットの勧め】
+
+- https://linedevelopercommunity.connpass.com/event/254345/
+
+- 7月27日(水) 19:00 ~
+
 ## ラクス
 
 ### 【LT残1枠！】開発×テスト LT会 - vol.3 #devtestlt
@@ -53,14 +61,6 @@
 - https://rakus.connpass.com/event/253650/
 
 - 8月24日(水) 19:00 ~
-
-## LINE Developer Community
-
-### LINEDC MonthlyLT #4 -【人気記事著者が語るLINE APIとアウトプットの勧め】
-
-- https://linedevelopercommunity.connpass.com/event/254345/
-
-- 7月27日(水) 19:00 ~
 
 ## ASCII STARTUP
 
