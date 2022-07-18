@@ -97,12 +97,26 @@ func GetForThreeMonthsEvent() string {
 	)
 	// 13月をなくすために12で割った余を入れる
 	nm := now.Month()
+	sm, tm := CheckMonthFormat(nm)
+	// a := yearmonthsja.Replace(fmt.Sprintf("%s", tm.String()))
+
+	f := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), nm.String()))
+	s := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), sm))
+	t := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), tm))
+	return f + "," + s + "," + t
+}
+
+// 12で割るときに12月だけ0が返ってくるので、その時だけ"12"文字列を返す
+func CheckMonthFormat(nm time.Month) (string, string) {
+	ze := "%!Month(0)"
 	sm := (nm + 1) % 12
 	tm := (nm + 2) % 12
-	f := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), nm.String()))
-	s := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), sm.String()))
-	t := yearmonthsja.Replace(fmt.Sprintf("%d%s", now.Year(), tm.String()))
-	return f + "," + s + "," + t
+	if sm.String() == ze {
+		return "12", tm.String()
+	} else if tm.String() == ze {
+		return sm.String(), "12"
+	}
+	return sm.String(), tm.String()
 }
 
 // 時刻を見やすいように変更
