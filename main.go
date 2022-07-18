@@ -167,14 +167,6 @@ func CreateQuery(values map[string]string) url.Values {
 	return q
 }
 
-// 現時点の時刻より後のイベントかどうかチェックするメソッド
-func CompareEventTime(e Event) bool {
-	now := time.Now()
-	et := e.StartedAt
-	t, _ := time.Parse(time.RFC3339, et)
-	return t.After(now)
-}
-
 // CreateUrl Urlにクエリーを設定してurlを返す
 func CreateUrl(q url.Values) string {
 	u, err := url.Parse(CONNPASSAPI)
