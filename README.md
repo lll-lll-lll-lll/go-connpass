@@ -1,3 +1,19 @@
+## ラクス
+
+### 保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
+
+## ラクス
+
+### 【LT満員御礼！】開発×テスト LT会 - vol.3 #devtestlt
+
+- https://rakus.connpass.com/event/249194/
+
+- 7月20日(水) 19:00 ~
+
 ## LINE Developer Community
 
 ### LINEDC MonthlyLT #4 -【人気記事著者が語るLINE APIとアウトプットの勧め】
@@ -5,14 +21,6 @@
 - https://linedevelopercommunity.connpass.com/event/254345/
 
 - 7月27日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残1枠！】開発×テスト LT会 - vol.3 #devtestlt
-
-- https://rakus.connpass.com/event/249194/
-
-- 7月20日(水) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -24,7 +32,7 @@
 
 ## ラクス
 
-### 【LT残5枠！】エンジニアの失敗学 LT会 - vol.2
+### 【LT残4枠！】エンジニアの失敗学 LT会 - vol.2
 
 - https://rakus.connpass.com/event/252055/
 
@@ -104,14 +112,6 @@
 
 ## ラクス
 
-### 保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
-
-## ラクス
-
 ### 【LT満員御礼！】UI/UXデザイナーLT会 - vol.8 #uiuxdesignerslt
 
 - https://rakus.connpass.com/event/250577/
@@ -128,7 +128,7 @@
 
 ## ラクス
 
-### 【LT残5枠！】エンジニアリング組織あれこれLT
+### 【LT残4枠！】エンジニアリング組織あれこれLT
 
 - https://rakus.connpass.com/event/249908/
 
