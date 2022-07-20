@@ -1,18 +1,10 @@
-## ラクス
+## LINE Developer Community
 
-### 保守はつらいよ
+### PHP Laravel x React !！ LINEで動く会員証ハンズオン解説会 vol.2
 
-- https://rakus.connpass.com/event/253656/
+- https://linedevelopercommunity.connpass.com/event/253064/
 
-- 8月25日(木) 19:00 ~
-
-## ラクス
-
-### 【LT満員御礼！】開発×テスト LT会 - vol.3 #devtestlt
-
-- https://rakus.connpass.com/event/249194/
-
-- 7月20日(水) 19:00 ~
+- 7月21日(木) 20:00 ~
 
 ## LINE Developer Community
 
@@ -22,13 +14,53 @@
 
 - 7月27日(水) 19:00 ~
 
-## ASCII STARTUP
+## ラクス
 
-### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+### 【ラクスMeetup】SaaSプロダクト開発をリードするデザインとフロントエンド
 
-- https://asciistartup.connpass.com/event/253998/
+- https://rakus.connpass.com/event/248411/
 
-- 9月17日(土) 10:00 ~
+- 7月6日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】エンジニアリング組織あれこれLT
+
+- https://rakus.connpass.com/event/249908/
+
+- 7月21日(木) 19:00 ~
+
+## ラクス
+
+### リーダブルコード LT会 - vol.4 #readablelt
+
+- https://rakus.connpass.com/event/253650/
+
+- 8月24日(水) 19:00 ~
+
+## ラクス
+
+### 【初心者・やっていきも大歓迎！】PdM Tips LT会 - vol.2 #pdmtipslt
+
+- https://rakus.connpass.com/event/252053/
+
+- 8月10日(水) 19:00 ~
+
+## ラクス
+
+### 【LT満員御礼！】開発×テスト LT会 - vol.3 #devtestlt
+
+- https://rakus.connpass.com/event/249194/
+
+- 7月20日(水) 19:00 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
 
 ## ラクス
 
@@ -37,6 +69,22 @@
 - https://rakus.connpass.com/event/252055/
 
 - 8月17日(水) 19:00 ~
+
+## ラクス
+
+### 保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
 
 ## ラクス
 
@@ -69,14 +117,6 @@
 - https://rakus.connpass.com/event/251361/
 
 - 8月4日(木) 19:00 ~
-
-## ラクス
-
-### リーダブルコード LT会 - vol.4 #readablelt
-
-- https://rakus.connpass.com/event/253650/
-
-- 8月24日(水) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -125,14 +165,6 @@
 - https://ddd-community-jp.connpass.com/event/253271/
 
 - 7月13日(水) 20:00 ~
-
-## ラクス
-
-### 【LT残4枠！】エンジニアリング組織あれこれLT
-
-- https://rakus.connpass.com/event/249908/
-
-- 7月21日(木) 19:00 ~
 
 ## LINE Developer Community
 
@@ -192,14 +224,6 @@
 
 ## ラクス
 
-### PdM Tips LT会 - vol.2 #pdmtipslt
-
-- https://rakus.connpass.com/event/252053/
-
-- 8月10日(水) 19:00 ~
-
-## ラクス
-
 ### 【LT登壇6名決定！】デザイナーの勉強法ハックLT
 
 - https://rakus.connpass.com/event/248477/
@@ -214,14 +238,6 @@
 
 - 7月28日(木) 19:00 ~
 
-## ラクス
-
-### 【ラクスMeetup】SaaSプロダクト開発をリードするデザインとフロントエンド
-
-- https://rakus.connpass.com/event/248411/
-
-- 7月6日(水) 19:00 ~
-
 ## Gophers Japan
 
 ### Go 1.19 リリースパーティ
@@ -229,14 +245,6 @@
 - https://gocon.connpass.com/event/253355/
 
 - 8月15日(月) 19:00 ~
-
-## LINE Developer Community
-
-### PHP Laravel x React !！ LINEで動く会員証ハンズオン解説会 vol.2
-
-- https://linedevelopercommunity.connpass.com/event/253064/
-
-- 7月21日(木) 20:00 ~
 
 ## ASCII STARTUP
 
