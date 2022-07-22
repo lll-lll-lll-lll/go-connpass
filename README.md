@@ -1,10 +1,50 @@
 ## ラクス
 
-### 【LT満員御礼！】開発×テスト LT会 - vol.3 #devtestlt
+### 【LT登壇7名決定！】エンジニアリング組織あれこれLT
 
-- https://rakus.connpass.com/event/249194/
+- https://rakus.connpass.com/event/249908/
 
-- 7月20日(水) 19:00 ~
+- 7月21日(木) 19:00 ~
+
+## LINE Developer Community
+
+### 最新アップデート対応！LIFF×AWSでLINEミニアプリを作ろう！ハンズオン
+
+- https://linedevelopercommunity.connpass.com/event/254317/
+
+- 7月28日(木) 19:00 ~
+
+## LINE Developer Community
+
+### PHP Laravel x React !！ LINEで動く会員証ハンズオン解説会 vol.2
+
+- https://linedevelopercommunity.connpass.com/event/253064/
+
+- 7月21日(木) 20:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
+
+- https://asciistartup.connpass.com/event/246677/
+
+- 8月27日(土) 10:00 ~
+
+## ラクス
+
+### 【LT残5枠！】リーダブルコード LT会 - vol.4 #readablelt
+
+- https://rakus.connpass.com/event/253650/
+
+- 8月24日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残5枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
+
+- https://rakus.connpass.com/event/250579/
+
+- 7月28日(木) 19:00 ~
 
 ## LINE Developer Community
 
@@ -13,6 +53,14 @@
 - https://linedevelopercommunity.connpass.com/event/254345/
 
 - 7月27日(水) 19:00 ~
+
+## ラクス
+
+### 【LT満員御礼！】開発×テスト LT会 - vol.3 #devtestlt
+
+- https://rakus.connpass.com/event/249194/
+
+- 7月20日(水) 19:00 ~
 
 ## ラクス
 
@@ -29,14 +77,6 @@
 - https://rakus.connpass.com/event/253941/
 
 - 8月31日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残3枠！】エンジニアリング組織あれこれLT
-
-- https://rakus.connpass.com/event/249908/
-
-- 7月21日(木) 19:00 ~
 
 ## ラクス
 
@@ -64,35 +104,11 @@
 
 ## ラクス
 
-### 【LT残5枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
-
-- https://rakus.connpass.com/event/250579/
-
-- 7月28日(木) 19:00 ~
-
-## LINE Developer Community
-
-### PHP Laravel x React !！ LINEで動く会員証ハンズオン解説会 vol.2
-
-- https://linedevelopercommunity.connpass.com/event/253064/
-
-- 7月21日(木) 20:00 ~
-
-## ラクス
-
 ### 【ラクスMeetup】SaaSプロダクト開発をリードするデザインとフロントエンド
 
 - https://rakus.connpass.com/event/248411/
 
 - 7月6日(水) 19:00 ~
-
-## ラクス
-
-### リーダブルコード LT会 - vol.4 #readablelt
-
-- https://rakus.connpass.com/event/253650/
-
-- 8月24日(水) 19:00 ~
 
 ## ラクス
 
@@ -142,14 +158,6 @@
 
 - 8月4日(木) 19:00 ~
 
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
-
-- https://asciistartup.connpass.com/event/246677/
-
-- 8月27日(土) 10:00 ~
-
 ## ラクス
 
 ### 【LT満員御礼！】エンジニアの勉強法ハックLT- vol.9 #studyhacklt
@@ -181,14 +189,6 @@
 - https://ddd-community-jp.connpass.com/event/253271/
 
 - 7月13日(水) 20:00 ~
-
-## LINE Developer Community
-
-### 最新アップデート対応！LIFF×AWSでLINEミニアプリを作ろう！ハンズオン
-
-- https://linedevelopercommunity.connpass.com/event/254317/
-
-- 7月28日(木) 19:00 ~
 
 ## ラクス
 
