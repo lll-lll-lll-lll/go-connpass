@@ -1,5 +1,69 @@
 ## ラクス
 
+### 【LT満員御礼！】UI/UXデザイナーLT会 - vol.8 #uiuxdesignerslt
+
+- https://rakus.connpass.com/event/250577/
+
+- 7月27日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残6枠！】データエンジニア集合！〜データ収集についてゆるく語りたい！〜
+
+- https://rakus.connpass.com/event/251361/
+
+- 8月4日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残5枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
+
+- https://rakus.connpass.com/event/251357/
+
+- 8月3日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残5枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
+
+- https://rakus.connpass.com/event/250579/
+
+- 7月28日(木) 19:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### Ambassadors Meetup 2022
+
+- https://mspjp.connpass.com/event/249961/
+
+- 7月24日(日) 15:00 ~
+
+## CARTA HOLDINGS
+
+### Engineers in CARTA vol.4 #CTO継承 ～これからのエンジニア組織と文化～
+
+- https://cartaholdings.connpass.com/event/252875/
+
+- 8月4日(木) 17:00 ~
+
+## ラクス
+
+### 保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残5枠！】リーダブルコード LT会 - vol.4 #readablelt
+
+- https://rakus.connpass.com/event/253650/
+
+- 8月24日(水) 19:00 ~
+
+## ラクス
+
 ### 【LT登壇7名決定！】エンジニアリング組織あれこれLT
 
 - https://rakus.connpass.com/event/249908/
@@ -30,22 +94,6 @@
 
 - 8月27日(土) 10:00 ~
 
-## ラクス
-
-### 【LT残5枠！】リーダブルコード LT会 - vol.4 #readablelt
-
-- https://rakus.connpass.com/event/253650/
-
-- 8月24日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
-
-- https://rakus.connpass.com/event/250579/
-
-- 7月28日(木) 19:00 ~
-
 ## LINE Developer Community
 
 ### LINE Bot開発で暮らしと仕事と自分を変えてみた！LINE APIでアウトプットしてみようLT！
@@ -61,14 +109,6 @@
 - https://rakus.connpass.com/event/249194/
 
 - 7月20日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
-
-- https://rakus.connpass.com/event/251357/
-
-- 8月3日(水) 19:00 ~
 
 ## ラクス
 
@@ -118,14 +158,6 @@
 
 - 8月10日(水) 19:00 ~
 
-## ラクス
-
-### 保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
-
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
@@ -134,14 +166,6 @@
 
 - 9月17日(土) 10:00 ~
 
-## Microsoft Learn Student Ambassadors
-
-### Ambassadors Meetup 2022
-
-- https://mspjp.connpass.com/event/249961/
-
-- 7月24日(日) 15:00 ~
-
 ## ラクス
 
 ### 【LT満員御礼！】おすすめの技術書 LT会 - vol.4 #itbookslt
@@ -149,14 +173,6 @@
 - https://rakus.connpass.com/event/249140/
 
 - 7月14日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残6枠！】データエンジニア集合！〜データ収集についてゆるく語りたい！〜
-
-- https://rakus.connpass.com/event/251361/
-
-- 8月4日(木) 19:00 ~
 
 ## ラクス
 
@@ -173,14 +189,6 @@
 - https://asciistartup.connpass.com/event/252343/
 
 - 8月5日(金) 19:00 ~
-
-## ラクス
-
-### 【LT満員御礼！】UI/UXデザイナーLT会 - vol.8 #uiuxdesignerslt
-
-- https://rakus.connpass.com/event/250577/
-
-- 7月27日(水) 19:00 ~
 
 ## DDD-Community-Jp
 
