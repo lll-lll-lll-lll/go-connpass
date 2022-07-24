@@ -1,3 +1,11 @@
+## Microsoft Learn Student Ambassadors
+
+### Ambassadors Meetup 2022
+
+- https://mspjp.connpass.com/event/249961/
+
+- 7月24日(日) 15:00 ~
+
 ## ラクス
 
 ### 【LT満員御礼！】UI/UXデザイナーLT会 - vol.8 #uiuxdesignerslt
@@ -29,14 +37,6 @@
 - https://rakus.connpass.com/event/250579/
 
 - 7月28日(木) 19:00 ~
-
-## Microsoft Learn Student Ambassadors
-
-### Ambassadors Meetup 2022
-
-- https://mspjp.connpass.com/event/249961/
-
-- 7月24日(日) 15:00 ~
 
 ## CARTA HOLDINGS
 
