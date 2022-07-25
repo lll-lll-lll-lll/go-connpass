@@ -1,11 +1,3 @@
-## Microsoft Learn Student Ambassadors
-
-### Ambassadors Meetup 2022
-
-- https://mspjp.connpass.com/event/249961/
-
-- 7月24日(日) 15:00 ~
-
 ## ラクス
 
 ### 【LT満員御礼！】UI/UXデザイナーLT会 - vol.8 #uiuxdesignerslt
@@ -13,6 +5,46 @@
 - https://rakus.connpass.com/event/250577/
 
 - 7月27日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残5枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
+
+- https://rakus.connpass.com/event/250579/
+
+- 7月28日(木) 19:00 ~
+
+## Gophers Japan
+
+### Go 1.19 リリースパーティ
+
+- https://gocon.connpass.com/event/253355/
+
+- 8月15日(月) 19:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #17 後夜祭！～マイクラ花火師入門～
+
+- https://mspjp.connpass.com/event/249975/
+
+- 8月21日(日) 21:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### C# で Minecraft プログラミングをはじめよう！
+
+- https://mspjp.connpass.com/event/249964/
+
+- 8月21日(日) 15:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### Ambassadors Meetup 2022
+
+- https://mspjp.connpass.com/event/249961/
+
+- 7月24日(日) 15:00 ~
 
 ## ラクス
 
@@ -29,14 +61,6 @@
 - https://rakus.connpass.com/event/251357/
 
 - 8月3日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
-
-- https://rakus.connpass.com/event/250579/
-
-- 7月28日(木) 19:00 ~
 
 ## CARTA HOLDINGS
 
@@ -245,14 +269,6 @@
 - https://rakus.connpass.com/event/248477/
 
 - 7月7日(木) 19:00 ~
-
-## Gophers Japan
-
-### Go 1.19 リリースパーティ
-
-- https://gocon.connpass.com/event/253355/
-
-- 8月15日(月) 19:00 ~
 
 ## ASCII STARTUP
 
