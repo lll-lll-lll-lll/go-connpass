@@ -1,10 +1,34 @@
 ## ラクス
 
+### 【LT残5枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
+
+- https://rakus.connpass.com/event/251357/
+
+- 8月3日(水) 19:00 ~
+
+## ラクス
+
 ### 【LT満員御礼！】UI/UXデザイナーLT会 - vol.8 #uiuxdesignerslt
 
 - https://rakus.connpass.com/event/250577/
 
 - 7月27日(水) 19:00 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
+
+## ラクス
+
+### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
+
+- https://rakus.connpass.com/event/255053/
+
+- 9月7日(水) 19:00 ~
 
 ## ラクス
 
@@ -53,14 +77,6 @@
 - https://rakus.connpass.com/event/251361/
 
 - 8月4日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
-
-- https://rakus.connpass.com/event/251357/
-
-- 8月3日(水) 19:00 ~
 
 ## CARTA HOLDINGS
 
@@ -133,14 +149,6 @@
 - https://rakus.connpass.com/event/249194/
 
 - 7月20日(水) 19:00 ~
-
-## ラクス
-
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
 
 ## ラクス
 
