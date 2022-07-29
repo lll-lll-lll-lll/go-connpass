@@ -8,6 +8,54 @@
 
 ## ラクス
 
+### 【LT残2枠！】フロントエンドLT会 - vol.8 #frontendlt
+
+- https://rakus.connpass.com/event/255095/
+
+- 9月8日(木) 19:00 ~
+
+## ラクス
+
+### 【LT登壇6名決定！】カイゼン Tips LT会 - vol.2 #kaizenlt
+
+- https://rakus.connpass.com/event/251357/
+
+- 8月3日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残3枠！】エンジニアの失敗学 LT会 - vol.2
+
+- https://rakus.connpass.com/event/252055/
+
+- 8月17日(水) 19:00 ~
+
+## ラクス
+
+### 【LT登壇4名決定！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
+
+- https://rakus.connpass.com/event/250579/
+
+- 7月28日(木) 19:00 ~
+
+## LINE Developer Community
+
+### 最新アップデート対応！LIFF×AWSでLINEミニアプリを作ろう！ハンズオン
+
+- https://linedevelopercommunity.connpass.com/event/254317/
+
+- 7月28日(木) 19:00 ~
+
+## CARTA HOLDINGS
+
+### Engineers in CARTA vol.4 #CTO継承 ～これからのエンジニア組織と文化～
+
+- https://cartaholdings.connpass.com/event/252875/
+
+- 8月4日(木) 17:00 ~
+
+## ラクス
+
 ### 【LT残5枠！】リーダブルコード LT会 - vol.4 #readablelt
 
 - https://rakus.connpass.com/event/253650/
@@ -54,22 +102,6 @@
 
 - 7月27日(水) 19:00 ~
 
-## LINE Developer Community
-
-### 最新アップデート対応！LIFF×AWSでLINEミニアプリを作ろう！ハンズオン
-
-- https://linedevelopercommunity.connpass.com/event/254317/
-
-- 7月28日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残4枠！】フロントエンドLT会 - vol.8 #frontendlt
-
-- https://rakus.connpass.com/event/255095/
-
-- 9月8日(木) 19:00 ~
-
 ## ラクス
 
 ### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
@@ -88,35 +120,11 @@
 
 ## ラクス
 
-### 【LT残6枠！】リファクタリングLT 〜毎日こつこつちょっとずつ〜
-
-- https://rakus.connpass.com/event/250579/
-
-- 7月28日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残2枠！】エンジニアの失敗学 LT会 - vol.2
-
-- https://rakus.connpass.com/event/252055/
-
-- 8月17日(水) 19:00 ~
-
-## ラクス
-
 ### 【LT登壇7名決定！】エンジニアリング組織あれこれLT
 
 - https://rakus.connpass.com/event/249908/
 
 - 7月21日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
-
-- https://rakus.connpass.com/event/251357/
-
-- 8月3日(水) 19:00 ~
 
 ## ラクス
 
@@ -165,14 +173,6 @@
 - https://rakus.connpass.com/event/251361/
 
 - 8月4日(木) 19:00 ~
-
-## CARTA HOLDINGS
-
-### Engineers in CARTA vol.4 #CTO継承 ～これからのエンジニア組織と文化～
-
-- https://cartaholdings.connpass.com/event/252875/
-
-- 8月4日(木) 17:00 ~
 
 ## LINE Developer Community
 
