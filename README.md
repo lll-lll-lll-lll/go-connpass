@@ -1,14 +1,30 @@
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
+
+- https://asciistartup.connpass.com/event/246677/
+
+- 8月27日(土) 10:00 ~
+
 ## ラクス
 
-### 保守はつらいよ
+### 【初心者・やっていきも大歓迎！】PdM Tips LT会 - vol.2 #pdmtipslt
 
-- https://rakus.connpass.com/event/253656/
+- https://rakus.connpass.com/event/252053/
 
-- 8月25日(木) 19:00 ~
+- 8月10日(水) 19:00 ~
 
 ## ラクス
 
-### 【LT残2枠！】フロントエンドLT会 - vol.8 #frontendlt
+### 【LT残1枠！】フロントエンドLT会 - vol.8 #frontendlt
 
 - https://rakus.connpass.com/event/255095/
 
@@ -16,11 +32,35 @@
 
 ## ラクス
 
-### 【LT登壇6名決定！】カイゼン Tips LT会 - vol.2 #kaizenlt
+### PHPerのための「PHPDoc相談会」PHP TechCafe
+
+- https://rakus.connpass.com/event/252172/
+
+- 7月29日(金) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
 
 - https://rakus.connpass.com/event/251357/
 
 - 8月3日(水) 19:00 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
+
+## ラクス
+
+### 保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
 
 ## ラクス
 
@@ -70,30 +110,6 @@
 
 - 7月27日(水) 19:00 ~
 
-## ラクス
-
-### PHPerのための「PHPDoc相談会」PHP TechCafe
-
-- https://rakus.connpass.com/event/252172/
-
-- 7月29日(金) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
-
-- https://asciistartup.connpass.com/event/246677/
-
-- 8月27日(土) 10:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
-
-- https://asciistartup.connpass.com/event/253998/
-
-- 9月17日(土) 10:00 ~
-
 ## LINE Developer Community
 
 ### LINE Bot開発で暮らしと仕事と自分を変えてみた！LINE APIでアウトプットしてみようLT！
@@ -101,14 +117,6 @@
 - https://linedevelopercommunity.connpass.com/event/254345/
 
 - 7月27日(水) 19:00 ~
-
-## ラクス
-
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
 
 ## ラクス
 
@@ -213,14 +221,6 @@
 - https://rakus.connpass.com/event/248411/
 
 - 7月6日(水) 19:00 ~
-
-## ラクス
-
-### 【初心者・やっていきも大歓迎！】PdM Tips LT会 - vol.2 #pdmtipslt
-
-- https://rakus.connpass.com/event/252053/
-
-- 8月10日(水) 19:00 ~
 
 ## ラクス
 
