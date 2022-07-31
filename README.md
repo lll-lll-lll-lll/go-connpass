@@ -1,5 +1,13 @@
 ## ASCII STARTUP
 
+### PLATEAU Hands-on 01
+
+- https://asciistartup.connpass.com/event/252343/
+
+- 8月5日(金) 19:00 ~
+
+## ASCII STARTUP
+
 ### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
 
 - https://asciistartup.connpass.com/event/253998/
@@ -237,14 +245,6 @@
 - https://rakus.connpass.com/event/249139/
 
 - 7月13日(水) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hands-on 01
-
-- https://asciistartup.connpass.com/event/252343/
-
-- 8月5日(金) 19:00 ~
 
 ## DDD-Community-Jp
 
