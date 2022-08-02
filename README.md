@@ -1,5 +1,45 @@
 ## ラクス
 
+### 自動化大好きエンジニアLT会 - vol.8
+
+- https://rakus.connpass.com/event/255781/
+
+- 9月14日(水) 19:00 ~
+
+## ラクス
+
+### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
+
+- https://rakus.connpass.com/event/255095/
+
+- 9月8日(木) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hands-on 01
+
+- https://asciistartup.connpass.com/event/252343/
+
+- 8月5日(金) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】エンジニアの失敗学 LT会 - vol.2
+
+- https://rakus.connpass.com/event/252055/
+
+- 8月17日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
+
+- https://rakus.connpass.com/event/251357/
+
+- 8月3日(水) 19:00 ~
+
+## ラクス
+
 ### 【LT残6枠！】データエンジニア集合！〜データ収集についてゆるく語りたい！〜
 
 - https://rakus.connpass.com/event/251361/
@@ -16,11 +56,11 @@
 
 ## ラクス
 
-### 【LT残1枠！】フロントエンドLT会 - vol.8 #frontendlt
+### 【LT残6枠！】保守はつらいよ
 
-- https://rakus.connpass.com/event/255095/
+- https://rakus.connpass.com/event/253656/
 
-- 9月8日(木) 19:00 ~
+- 8月25日(木) 19:00 ~
 
 ## ラクス
 
@@ -54,14 +94,6 @@
 
 - 8月27日(土) 10:00 ~
 
-## ASCII STARTUP
-
-### PLATEAU Hands-on 01
-
-- https://asciistartup.connpass.com/event/252343/
-
-- 8月5日(金) 19:00 ~
-
 ## ラクス
 
 ### 【初心者・やっていきも大歓迎！】PdM Tips LT会 - vol.2 #pdmtipslt
@@ -69,30 +101,6 @@
 - https://rakus.connpass.com/event/252053/
 
 - 8月10日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残4枠！】カイゼン Tips LT会 - vol.2 #kaizenlt
-
-- https://rakus.connpass.com/event/251357/
-
-- 8月3日(水) 19:00 ~
-
-## ラクス
-
-### 保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残3枠！】エンジニアの失敗学 LT会 - vol.2
-
-- https://rakus.connpass.com/event/252055/
-
-- 8月17日(水) 19:00 ~
 
 ## CARTA HOLDINGS
 
