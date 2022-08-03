@@ -1,3 +1,19 @@
+## ASCII STARTUP
+
+### 3D都市モデル PLATEAU LT 02
+
+- https://asciistartup.connpass.com/event/251886/
+
+- 8月6日(土) 19:00 ~
+
+## ラクス
+
+### 設計モデリングLT会 - vol.4 #modelinglt
+
+- https://rakus.connpass.com/event/255782/
+
+- 9月15日(木) 19:00 ~
+
 ## ラクス
 
 ### 自動化大好きエンジニアLT会 - vol.8
@@ -149,11 +165,3 @@
 - https://mspjp.connpass.com/event/249964/
 
 - 8月21日(日) 15:00 ~
-
-## ASCII STARTUP
-
-### 3D都市モデル PLATEAU LT 02
-
-- https://asciistartup.connpass.com/event/251886/
-
-- 8月6日(土) 19:00 ~
