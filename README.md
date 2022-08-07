@@ -1,3 +1,19 @@
+## DDD-Community-Jp
+
+### セキュア・バイ・デザイン 読書会 12章「レガシー・コードへの適用」前半
+
+- https://ddd-community-jp.connpass.com/event/256930/
+
+- 8月20日(土) 20:00 ~
+
+## DDD-Community-Jp
+
+### セキュア・バイ・デザイン 読書会 10章「クラウド的考え方によるメリット」後半
+
+- https://ddd-community-jp.connpass.com/event/256915/
+
+- 8月6日(土) 20:00 ~
+
 ## ASCII STARTUP
 
 ### 3D都市モデル PLATEAU LT 02
