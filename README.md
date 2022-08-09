@@ -1,3 +1,51 @@
+## ラクス
+
+### エンジニアの勉強法ハックLT- vol.10 #studyhacklt
+
+- https://rakus.connpass.com/event/256456/
+
+- 9月21日(水) 19:00 ~
+
+## ラクス
+
+### 【初心者・やっていきも大歓迎！】スタイルガイドのススメ
+
+- https://rakus.connpass.com/event/252825/
+
+- 8月18日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残3枠！】エンジニアの失敗学 LT会 - vol.2
+
+- https://rakus.connpass.com/event/252055/
+
+- 8月17日(水) 19:00 ~
+
+## ラクス
+
+### 自動化大好きエンジニアLT会 - vol.8
+
+- https://rakus.connpass.com/event/255781/
+
+- 9月14日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残6枠！】設計モデリングLT会 - vol.4 #modelinglt
+
+- https://rakus.connpass.com/event/255782/
+
+- 9月15日(木) 19:00 ~
+
+## ラクス
+
+### 【初心者・やっていきも大歓迎！】PdM Tips LT会 - vol.2 #pdmtipslt
+
+- https://rakus.connpass.com/event/252053/
+
+- 8月10日(水) 19:00 ~
+
 ## DDD-Community-Jp
 
 ### セキュア・バイ・デザイン 読書会 12章「レガシー・コードへの適用」前半
@@ -45,22 +93,6 @@
 - https://asciistartup.connpass.com/event/256171/
 
 - 9月2日(金) 19:00 ~
-
-## ラクス
-
-### スタイルガイドのススメ
-
-- https://rakus.connpass.com/event/252825/
-
-- 8月18日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残3枠！】エンジニアの失敗学 LT会 - vol.2
-
-- https://rakus.connpass.com/event/252055/
-
-- 8月17日(水) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -136,22 +168,6 @@
 
 ## ラクス
 
-### 設計モデリングLT会 - vol.4 #modelinglt
-
-- https://rakus.connpass.com/event/255782/
-
-- 9月15日(木) 19:00 ~
-
-## ラクス
-
-### 自動化大好きエンジニアLT会 - vol.8
-
-- https://rakus.connpass.com/event/255781/
-
-- 9月14日(水) 19:00 ~
-
-## ラクス
-
 ### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
 
 - https://rakus.connpass.com/event/255095/
@@ -173,14 +189,6 @@
 - https://asciistartup.connpass.com/event/246677/
 
 - 8月27日(土) 10:00 ~
-
-## ラクス
-
-### 【初心者・やっていきも大歓迎！】PdM Tips LT会 - vol.2 #pdmtipslt
-
-- https://rakus.connpass.com/event/252053/
-
-- 8月10日(水) 19:00 ~
 
 ## CARTA HOLDINGS
 
