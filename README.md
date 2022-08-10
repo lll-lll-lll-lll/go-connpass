@@ -8,6 +8,22 @@
 
 ## ラクス
 
+### エンジニアのためのDX
+
+- https://rakus.connpass.com/event/256501/
+
+- 9月22日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残5枠！】設計モデリングLT会 - vol.4 #modelinglt
+
+- https://rakus.connpass.com/event/255782/
+
+- 9月15日(木) 19:00 ~
+
+## ラクス
+
 ### 【初心者・やっていきも大歓迎！】スタイルガイドのススメ
 
 - https://rakus.connpass.com/event/252825/
@@ -29,14 +45,6 @@
 - https://rakus.connpass.com/event/255781/
 
 - 9月14日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残6枠！】設計モデリングLT会 - vol.4 #modelinglt
-
-- https://rakus.connpass.com/event/255782/
-
-- 9月15日(木) 19:00 ~
 
 ## ラクス
 
