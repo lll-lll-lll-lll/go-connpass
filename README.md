@@ -1,10 +1,10 @@
 ## ラクス
 
-### エンジニアの勉強法ハックLT- vol.10 #studyhacklt
+### 【LT登壇3名決定！】PdM Tips LT会 - vol.2 #pdmtipslt
 
-- https://rakus.connpass.com/event/256456/
+- https://rakus.connpass.com/event/252053/
 
-- 9月21日(水) 19:00 ~
+- 8月10日(水) 19:00 ~
 
 ## ラクス
 
@@ -13,6 +13,30 @@
 - https://rakus.connpass.com/event/256501/
 
 - 9月22日(木) 19:00 ~
+
+## Gophers Japan
+
+### Go 1.19 リリースパーティ
+
+- https://gocon.connpass.com/event/253355/
+
+- 8月15日(月) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
+
+## ラクス
+
+### エンジニアの勉強法ハックLT- vol.10 #studyhacklt
+
+- https://rakus.connpass.com/event/256456/
+
+- 9月21日(水) 19:00 ~
 
 ## ラクス
 
@@ -45,14 +69,6 @@
 - https://rakus.connpass.com/event/255781/
 
 - 9月14日(水) 19:00 ~
-
-## ラクス
-
-### 【初心者・やっていきも大歓迎！】PdM Tips LT会 - vol.2 #pdmtipslt
-
-- https://rakus.connpass.com/event/252053/
-
-- 8月10日(水) 19:00 ~
 
 ## DDD-Community-Jp
 
@@ -126,14 +142,6 @@
 
 - 8月3日(水) 19:00 ~
 
-## Gophers Japan
-
-### Go 1.19 リリースパーティ
-
-- https://gocon.connpass.com/event/253355/
-
-- 8月15日(月) 19:00 ~
-
 ## カウシェ
 
 ### 【CxO対談】急成長する開発組織のつらみ〜22億円調達後のスペシャル企画〜
@@ -149,14 +157,6 @@
 - https://rakus.connpass.com/event/255053/
 
 - 9月7日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
 
 ## ラクス
 
