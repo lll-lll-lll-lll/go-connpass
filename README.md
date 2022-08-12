@@ -1,5 +1,29 @@
 ## ラクス
 
+### 【LT残3枠！】エンジニアの失敗学 LT会 - vol.2
+
+- https://rakus.connpass.com/event/252055/
+
+- 8月17日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残3枠！】リーダブルコード LT会 - vol.4 #readablelt
+
+- https://rakus.connpass.com/event/253650/
+
+- 8月24日(水) 19:00 ~
+
+## ラクス
+
+### 【初心者・やっていきも大歓迎！】スタイルガイドのススメ
+
+- https://rakus.connpass.com/event/252825/
+
+- 8月18日(木) 19:00 ~
+
+## ラクス
+
 ### 【LT登壇3名決定！】PdM Tips LT会 - vol.2 #pdmtipslt
 
 - https://rakus.connpass.com/event/252053/
@@ -45,22 +69,6 @@
 - https://rakus.connpass.com/event/255782/
 
 - 9月15日(木) 19:00 ~
-
-## ラクス
-
-### 【初心者・やっていきも大歓迎！】スタイルガイドのススメ
-
-- https://rakus.connpass.com/event/252825/
-
-- 8月18日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残3枠！】エンジニアの失敗学 LT会 - vol.2
-
-- https://rakus.connpass.com/event/252055/
-
-- 8月17日(水) 19:00 ~
 
 ## ラクス
 
@@ -157,14 +165,6 @@
 - https://rakus.connpass.com/event/255053/
 
 - 9月7日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残4枠！】リーダブルコード LT会 - vol.4 #readablelt
-
-- https://rakus.connpass.com/event/253650/
-
-- 8月24日(水) 19:00 ~
 
 ## LINE Developer Community
 
