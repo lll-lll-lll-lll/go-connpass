@@ -1,10 +1,42 @@
+## CARTA HOLDINGS
+
+### ISUCON12 大反省会　～ 今年はどうでした？ ～
+
+- https://cartaholdings.connpass.com/event/257064/
+
+- 8月29日(月) 18:30 ~
+
 ## ラクス
 
-### 【LT残3枠！】エンジニアの失敗学 LT会 - vol.2
+### 【LT残2枠！】エンジニアの失敗学 LT会 - vol.2
 
 - https://rakus.connpass.com/event/252055/
 
 - 8月17日(水) 19:00 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
+
+## ラクス
+
+### 【LT大募集中！】スタイルガイドのススメ
+
+- https://rakus.connpass.com/event/252825/
+
+- 8月18日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
 
 ## ラクス
 
@@ -14,13 +46,13 @@
 
 - 8月24日(水) 19:00 ~
 
-## ラクス
+## LINE Developer Community
 
-### 【初心者・やっていきも大歓迎！】スタイルガイドのススメ
+### LINEミニアプリ×kintoneで接客アプリを作ろう!単価UP/リピーター増まで総DX化!
 
-- https://rakus.connpass.com/event/252825/
+- https://linedevelopercommunity.connpass.com/event/256381/
 
-- 8月18日(木) 19:00 ~
+- 8月25日(木) 19:00 ~
 
 ## ラクス
 
@@ -45,14 +77,6 @@
 - https://gocon.connpass.com/event/253355/
 
 - 8月15日(月) 19:00 ~
-
-## ラクス
-
-### 【LT残4枠！】保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
 
 ## ラクス
 
@@ -166,14 +190,6 @@
 
 - 9月7日(水) 19:00 ~
 
-## LINE Developer Community
-
-### LINEミニアプリ×kintoneで接客アプリを作ろう!単価UP/リピーター増まで総DX化!
-
-- https://linedevelopercommunity.connpass.com/event/256381/
-
-- 8月17日(水) 19:00 ~
-
 ## ラクス
 
 ### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
@@ -181,14 +197,6 @@
 - https://rakus.connpass.com/event/255095/
 
 - 9月8日(木) 19:00 ~
-
-## ラクス
-
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
 
 ## ASCII STARTUP
 
