@@ -88,7 +88,7 @@
 
 ## ラクス
 
-### 【LT残5枠！】設計モデリングLT会 - vol.4 #modelinglt
+### 【LT残4枠！】設計モデリングLT会 - vol.4 #modelinglt
 
 - https://rakus.connpass.com/event/255782/
 
