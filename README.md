@@ -1,10 +1,10 @@
-## CARTA HOLDINGS
+## Gophers Japan
 
-### ISUCON12 大反省会　～ 今年はどうでした？ ～
+### Go 1.19 リリースパーティ
 
-- https://cartaholdings.connpass.com/event/257064/
+- https://gocon.connpass.com/event/253355/
 
-- 8月29日(月) 18:30 ~
+- 8月15日(月) 19:00 ~
 
 ## ラクス
 
@@ -16,19 +16,51 @@
 
 ## ラクス
 
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
-
-## ラクス
-
 ### 【LT大募集中！】スタイルガイドのススメ
 
 - https://rakus.connpass.com/event/252825/
 
 - 8月18日(木) 19:00 ~
+
+## ラクス
+
+### エンジニアのためのDX
+
+- https://rakus.connpass.com/event/256501/
+
+- 9月22日(木) 19:00 ~
+
+## ラクス
+
+### 「k8s」を語るCloud Native TechCafe #2（ゲスト：bells17様）
+
+- https://rakus.connpass.com/event/257135/
+
+- 9月28日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】設計モデリングLT会 - vol.4 #modelinglt
+
+- https://rakus.connpass.com/event/255782/
+
+- 9月15日(木) 19:00 ~
+
+## CARTA HOLDINGS
+
+### ISUCON12 大反省会　～ 今年はどうでした？ ～
+
+- https://cartaholdings.connpass.com/event/257064/
+
+- 8月29日(月) 18:30 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
 
 ## ラクス
 
@@ -64,35 +96,11 @@
 
 ## ラクス
 
-### エンジニアのためのDX
-
-- https://rakus.connpass.com/event/256501/
-
-- 9月22日(木) 19:00 ~
-
-## Gophers Japan
-
-### Go 1.19 リリースパーティ
-
-- https://gocon.connpass.com/event/253355/
-
-- 8月15日(月) 19:00 ~
-
-## ラクス
-
 ### エンジニアの勉強法ハックLT- vol.10 #studyhacklt
 
 - https://rakus.connpass.com/event/256456/
 
 - 9月21日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残4枠！】設計モデリングLT会 - vol.4 #modelinglt
-
-- https://rakus.connpass.com/event/255782/
-
-- 9月15日(木) 19:00 ~
 
 ## ラクス
 
