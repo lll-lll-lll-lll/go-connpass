@@ -16,11 +16,42 @@ import (
 const CONNPASSAPI string = "https://connpass.com/api/v1/event/?"
 const USER string = "Shun_Pei"
 
-// group idを取得するのが目的
-func initRequestConnpass() *ConnpassResponse {
-	qm := map[string]string{"nickname": USER}
-	q := CreateQuery(qm)
-	u := CreateUrl(q)
+type Connpass struct {
+	User             string `json:"user"`
+	ConnpassResponse *ConnpassResponse
+}
+
+func NewConnpass(user string) *Connpass {
+	c := &Connpass{
+		User: user,
+	}
+	c.ConnpassResponse = c.InitResponse()
+	return c
+}
+
+func (c *Connpass) CreateQuery(values map[string]string) url.Values {
+	q := url.Values{}
+	for k, v := range values {
+		q.Add(k, v)
+	}
+	return q
+}
+
+func (c *Connpass) CreateUrl(q url.Values) string {
+	u, err := url.Parse(CONNPASSAPI)
+	if err != nil {
+		log.Fatal(err)
+	}
+	u.Scheme = "https"
+	u.Host = "connpass.com"
+	u.RawQuery = q.Encode()
+	return u.String()
+}
+
+func (c *Connpass) InitResponse() *ConnpassResponse {
+	qm := map[string]string{"nickname": c.User}
+	q := c.CreateQuery(qm)
+	u := c.CreateUrl(q)
 	res, err := http.Get(u)
 	if err != nil {
 		log.Fatal(err)
@@ -41,11 +72,11 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
-	initres := initRequestConnpass()
+	connpass := NewConnpass(USER)
 
 	qd := make(map[string]string)
 	// 所属してるグループId取得
-	gs := initres.GetGroups()
+	gs := connpass.ConnpassResponse.GetGroups()
 	// groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
 	seriesId := ""
 	for _, v := range gs {
@@ -57,8 +88,8 @@ func main() {
 	qd["count"] = "100"
 	qd["ym"] = sm
 
-	q := CreateQuery(qd)
-	u := CreateUrl(q)
+	q := connpass.CreateQuery(qd)
+	u := connpass.CreateUrl(q)
 	res, err := http.Get(u)
 	if err != nil {
 		log.Fatal(err)
@@ -170,15 +201,6 @@ func CreateMd(m *MarkDown, response *ConnpassResponse) *MarkDown {
 		m.WriteHorizon(es, 1)
 	}
 	return m
-}
-
-// クエリを作成
-func CreateQuery(values map[string]string) url.Values {
-	q := url.Values{}
-	for k, v := range values {
-		q.Add(k, v)
-	}
-	return q
 }
 
 // CreateUrl Urlにクエリーを設定してurlを返す
