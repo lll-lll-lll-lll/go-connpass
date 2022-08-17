@@ -1,10 +1,42 @@
-## Gophers Japan
+## カウシェ
 
-### Go 1.19 リリースパーティ
+### 【CxO対談】急成長する開発組織のつらみ〜22億円調達後のスペシャル企画〜
 
-- https://gocon.connpass.com/event/253355/
+- https://kauche.connpass.com/event/254396/
 
-- 8月15日(月) 19:00 ~
+- 8月17日(水) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
+
+- https://asciistartup.connpass.com/event/246677/
+
+- 8月27日(土) 10:00 ~
+
+## LINE Developer Community
+
+### LINEミニアプリ× kintone × AWSで接客アプリを作ろう!単価/リピーター増まで総DX化
+
+- https://linedevelopercommunity.connpass.com/event/256381/
+
+- 8月25日(木) 19:00 ~
+
+## ラクス
+
+### アーキテクチャカイゼンで課題解決に挑む、エンジニア達
+
+- https://rakus.connpass.com/event/257122/
+
+- 10月5日(水) 19:00 ~
+
+## ラクス
+
+### 【開催中止】スタイルガイドのススメ
+
+- https://rakus.connpass.com/event/252825/
+
+- 8月18日(木) 19:00 ~
 
 ## ラクス
 
@@ -14,13 +46,13 @@
 
 - 8月17日(水) 19:00 ~
 
-## ラクス
+## Gophers Japan
 
-### 【LT大募集中！】スタイルガイドのススメ
+### Go 1.19 リリースパーティ
 
-- https://rakus.connpass.com/event/252825/
+- https://gocon.connpass.com/event/253355/
 
-- 8月18日(木) 19:00 ~
+- 8月15日(月) 19:00 ~
 
 ## ラクス
 
@@ -77,14 +109,6 @@
 - https://rakus.connpass.com/event/253650/
 
 - 8月24日(水) 19:00 ~
-
-## LINE Developer Community
-
-### LINEミニアプリ×kintoneで接客アプリを作ろう!単価UP/リピーター増まで総DX化!
-
-- https://linedevelopercommunity.connpass.com/event/256381/
-
-- 8月25日(木) 19:00 ~
 
 ## ラクス
 
@@ -182,14 +206,6 @@
 
 - 8月3日(水) 19:00 ~
 
-## カウシェ
-
-### 【CxO対談】急成長する開発組織のつらみ〜22億円調達後のスペシャル企画〜
-
-- https://kauche.connpass.com/event/254396/
-
-- 8月17日(水) 19:00 ~
-
 ## ラクス
 
 ### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
@@ -205,14 +221,6 @@
 - https://rakus.connpass.com/event/255095/
 
 - 9月8日(木) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
-
-- https://asciistartup.connpass.com/event/246677/
-
-- 8月27日(土) 10:00 ~
 
 ## CARTA HOLDINGS
 
