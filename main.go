@@ -17,8 +17,8 @@ const CONNPASSAPI string = "https://connpass.com/api/v1/event/?"
 const USER string = "Shun_Pei"
 
 type Connpass struct {
-	User             string `json:"user"`
-	ConnpassResponse *ConnpassResponse
+	User             string            `json:"user"`
+	ConnpassResponse *ConnpassResponse `json:"connpass"`
 }
 
 func NewConnpass(user string) *Connpass {
@@ -66,6 +66,23 @@ func (c *Connpass) InitResponse() *ConnpassResponse {
 	return response
 }
 
+func (c *Connpass) Request(url string) *http.Response {
+	res, err := http.Get(url)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return res
+}
+
+func (c *Connpass) SetResponseBody(res *http.Response) error {
+	body, _ := io.ReadAll(res.Body)
+	err := json.Unmarshal(body, &c.ConnpassResponse)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
 func main() {
 	file, err := os.Create("README.md")
 	if err != nil {
@@ -90,20 +107,17 @@ func main() {
 
 	q := connpass.CreateQuery(qd)
 	u := connpass.CreateUrl(q)
-	res, err := http.Get(u)
-	if err != nil {
-		log.Fatal(err)
-	}
+	res := connpass.Request(u)
 	defer res.Body.Close()
 
-	body, _ := io.ReadAll(res.Body)
-	response := NewConnpassResponse()
-	if err := json.Unmarshal(body, &response); err != nil {
+	err = connpass.SetResponseBody(res)
+	if err != nil {
 		log.Fatal(err)
+		return
 	}
 
 	mn := new(MarkDown)
-	m := CreateMd(mn, response)
+	m := CreateMd(mn, connpass.ConnpassResponse)
 	s := m.CompleteMdFile(2)
 	file.Write([]byte(s))
 

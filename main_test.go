@@ -8,6 +8,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCreateMDFile(t *testing.T) {
@@ -109,4 +111,10 @@ func TestForThreeMonthEvents(t *testing.T) {
 	s := yearmonthsja.Replace(fmt.Sprintf("%d%s", p.Year(), p.Month().String()))
 	fmt.Println(s)
 	fmt.Println(GetForThreeMonthsEvent())
+}
+
+func TestConnpassAPI(t *testing.T) {
+	connpass := NewConnpass(USER)
+	fmt.Println(connpass.User)
+	assert.Equal(t, connpass.User, "Shun_Pei")
 }
