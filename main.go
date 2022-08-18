@@ -19,22 +19,27 @@ const USER string = "Shun_Pei"
 type Connpass struct {
 	User             string            `json:"user"`
 	ConnpassResponse *ConnpassResponse `json:"connpass"`
+	Query            url.Values        `json:"query"`
 }
 
-func NewConnpass(user string) *Connpass {
+func NewConnpass(user string) (*Connpass, error) {
+	var err error
 	c := &Connpass{
 		User: user,
 	}
-	c.ConnpassResponse = c.InitResponse()
-	return c
+	c.ConnpassResponse, err = c.InitResponse()
+	if err != nil {
+		return nil, err
+	}
+	return c, nil
 }
 
-func (c *Connpass) CreateQuery(values map[string]string) url.Values {
+func (c *Connpass) SetQuery(values map[string]string) {
 	q := url.Values{}
 	for k, v := range values {
 		q.Add(k, v)
 	}
-	return q
+	c.Query = q
 }
 
 func (c *Connpass) CreateUrl(q url.Values) string {
@@ -48,22 +53,20 @@ func (c *Connpass) CreateUrl(q url.Values) string {
 	return u.String()
 }
 
-func (c *Connpass) InitResponse() *ConnpassResponse {
+func (c *Connpass) InitResponse() (*ConnpassResponse, error) {
 	qm := map[string]string{"nickname": c.User}
-	q := c.CreateQuery(qm)
-	u := c.CreateUrl(q)
-	res, err := http.Get(u)
-	if err != nil {
-		log.Fatal(err)
-	}
+	c.SetQuery(qm)
+	u := c.CreateUrl(c.Query)
+	res := c.Request(u)
 	defer res.Body.Close()
 
-	body, _ := io.ReadAll(res.Body)
-	response := NewConnpassResponse()
-	if err := json.Unmarshal(body, &response); err != nil {
+	err := c.SetResponseBody(res)
+	if err != nil {
 		log.Fatal(err)
+		return nil, err
 	}
-	return response
+
+	return c.ConnpassResponse, nil
 }
 
 func (c *Connpass) Request(url string) *http.Response {
@@ -89,7 +92,11 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
-	connpass := NewConnpass(USER)
+	connpass, err := NewConnpass(USER)
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
 
 	qd := make(map[string]string)
 	// 所属してるグループId取得
@@ -105,8 +112,8 @@ func main() {
 	qd["count"] = "100"
 	qd["ym"] = sm
 
-	q := connpass.CreateQuery(qd)
-	u := connpass.CreateUrl(q)
+	connpass.SetQuery(qd)
+	u := connpass.CreateUrl(connpass.Query)
 	res := connpass.Request(u)
 	defer res.Body.Close()
 
