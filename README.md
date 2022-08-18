@@ -1,10 +1,50 @@
-## カウシェ
+## ラクス
 
-### 【CxO対談】急成長する開発組織のつらみ〜22億円調達後のスペシャル企画〜
+### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
 
-- https://kauche.connpass.com/event/254396/
+- https://rakus.connpass.com/event/256456/
+
+- 9月21日(水) 19:00 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
+
+## ラクス
+
+### 【LT登壇8名決定！】エンジニアの失敗学 LT会 - vol.2
+
+- https://rakus.connpass.com/event/252055/
 
 - 8月17日(水) 19:00 ~
+
+## ちゅらデータ
+
+### データモデリングとデータ基盤の構築・運用
+
+- https://churadata.connpass.com/event/254417/
+
+- 8月19日(金) 19:00 ~
+
+## ラクス
+
+### 自動化大好きエンジニアLT会 - vol.8
+
+- https://rakus.connpass.com/event/255781/
+
+- 9月14日(水) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -37,14 +77,6 @@
 - https://rakus.connpass.com/event/252825/
 
 - 8月18日(木) 19:00 ~
-
-## ラクス
-
-### 【LT残2枠！】エンジニアの失敗学 LT会 - vol.2
-
-- https://rakus.connpass.com/event/252055/
-
-- 8月17日(水) 19:00 ~
 
 ## Gophers Japan
 
@@ -88,22 +120,6 @@
 
 ## ラクス
 
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残4枠！】保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
-
-## ラクス
-
 ### 【LT残3枠！】リーダブルコード LT会 - vol.4 #readablelt
 
 - https://rakus.connpass.com/event/253650/
@@ -118,37 +134,13 @@
 
 - 8月10日(水) 19:00 ~
 
-## ラクス
+## GDG Shikoku
 
-### エンジニアの勉強法ハックLT- vol.10 #studyhacklt
+### 【AI技術活用入門】はじめての物体検出 〜 YOLOに触れてみよう 〜 #4
 
-- https://rakus.connpass.com/event/256456/
+- https://gdgshikoku.connpass.com/event/257265/
 
-- 9月21日(水) 19:00 ~
-
-## ラクス
-
-### 自動化大好きエンジニアLT会 - vol.8
-
-- https://rakus.connpass.com/event/255781/
-
-- 9月14日(水) 19:00 ~
-
-## DDD-Community-Jp
-
-### セキュア・バイ・デザイン 読書会 12章「レガシー・コードへの適用」前半
-
-- https://ddd-community-jp.connpass.com/event/256930/
-
-- 8月20日(土) 20:00 ~
-
-## DDD-Community-Jp
-
-### セキュア・バイ・デザイン 読書会 10章「クラウド的考え方によるメリット」後半
-
-- https://ddd-community-jp.connpass.com/event/256915/
-
-- 8月6日(土) 20:00 ~
+- 8月27日(土) 14:00 ~
 
 ## ASCII STARTUP
 
@@ -189,6 +181,22 @@
 - https://asciistartup.connpass.com/event/252343/
 
 - 8月5日(金) 19:00 ~
+
+## GDG Shikoku
+
+### はじめてのGo言語教室 オンライン(10月)
+
+- https://gdgshikoku.connpass.com/event/256419/
+
+- 10月1日(土) 13:00 ~
+
+## GDG Shikoku
+
+### Flutter Codelabs ハンズオン＆ LT 会
+
+- https://gdgshikoku.connpass.com/event/255778/
+
+- 8月20日(土) 11:00 ~
 
 ## ラクス
 
@@ -253,3 +261,11 @@
 - https://mspjp.connpass.com/event/249964/
 
 - 8月21日(日) 15:00 ~
+
+## GDG Shikoku
+
+### Android Study Jam
+
+- https://gdgshikoku.connpass.com/event/254878/
+
+- 8月6日(土) 13:00 ~
