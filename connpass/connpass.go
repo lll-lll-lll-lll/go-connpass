@@ -22,7 +22,7 @@ func NewConnpass(user string) (*Connpass, error) {
 	c := &Connpass{
 		ConnpassUSER: user,
 	}
-	c.ConnpassResponse, err = c.InitResponse()
+	err = c.InitResponse()
 	if err != nil {
 		return nil, err
 	}
@@ -48,7 +48,7 @@ func (c *Connpass) CreateUrl(q url.Values) string {
 	return u.String()
 }
 
-func (c *Connpass) InitResponse() (*ConnpassResponse, error) {
+func (c *Connpass) InitResponse() error {
 	qm := map[string]string{"nickname": c.ConnpassUSER}
 	c.SetQuery(qm)
 	u := c.CreateUrl(c.Query)
@@ -58,10 +58,9 @@ func (c *Connpass) InitResponse() (*ConnpassResponse, error) {
 	err := c.SetResponseBody(res)
 	if err != nil {
 		log.Fatal(err)
-		return nil, err
+		return err
 	}
-
-	return c.ConnpassResponse, nil
+	return nil
 }
 
 func (c *Connpass) Request(url string) *http.Response {
