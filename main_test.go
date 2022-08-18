@@ -9,6 +9,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/info-api/connpass"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -114,9 +115,9 @@ func TestForThreeMonthEvents(t *testing.T) {
 }
 
 func TestConnpassAPI(t *testing.T) {
-	connpass, _ := NewConnpass(USER)
-	fmt.Println(connpass.User)
-	assert.Equal(t, connpass.User, "Shun_Pei")
+	connpass, _ := connpass.NewConnpass(connpass.USER)
+	fmt.Println(connpass.ConnpassUSER)
+	assert.Equal(t, connpass.ConnpassUSER, "Shun_Pei")
 }
 
 func TestSetQuery(t *testing.T) {}
