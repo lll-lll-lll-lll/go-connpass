@@ -15,34 +15,34 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
-	connpass, err := connpass.NewConnpass(connpass.USER)
+	con, err := connpass.NewConnpass(connpass.USER)
 	if err != nil {
 		log.Fatal(err)
 		return
 	}
-	initq := map[string]string{"nickname": connpass.ConnpassUSER}
+	initq := map[string]string{"nickname": con.ConnpassUSER}
 
-	connpass.InitResponse(initq)
+	con.InitResponse(initq)
 
-	seriesId := connpass.JoinGroupIdsByComma()
+	seriesId := con.JoinGroupIdsByComma()
 	sm := format.GetForThreeMonthsEvent()
 	qd := make(map[string]string)
 	qd["series_id"] = seriesId
 	qd["count"] = "100"
 	qd["ym"] = sm
 
-	connpass.SetQuery(qd)
-	u := connpass.CreateUrl(connpass.Query)
-	res := connpass.Request(u)
+	con.SetQuery(qd)
+	u := con.CreateUrl(con.Query)
+	res := con.Request(u)
 	defer res.Body.Close()
 
-	err = connpass.SetResponseBody(res)
+	err = con.SetResponseBody(res)
 	if err != nil {
 		log.Fatal(err)
 		return
 	}
 	m := markdown.NewMarkDown()
-	m.CreateMd(connpass.ConnpassResponse)
+	m.CreateMd(con.ConnpassResponse)
 	s := m.CompleteMdFile(2)
 	file.Write([]byte(s))
 }
