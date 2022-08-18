@@ -3,16 +3,17 @@ package main
 import (
 	"fmt"
 	"log"
-	"net/url"
 	"os"
 	"strconv"
 	"strings"
 	"time"
 
 	"github.com/info-api/connpass"
+	"github.com/info-api/markdown"
 )
 
 func main() {
+
 	file, err := os.Create("README.md")
 	if err != nil {
 		log.Fatal(err)
@@ -23,10 +24,13 @@ func main() {
 		log.Fatal(err)
 		return
 	}
+	initq := map[string]string{"nickname": connpass.ConnpassUSER}
 
-	qd := make(map[string]string)
+	connpass.InitResponse(initq)
+
 	seriesId := connpass.JoinGroupIdsByComma()
 	sm := GetForThreeMonthsEvent()
+	qd := make(map[string]string)
 	qd["series_id"] = seriesId
 	qd["count"] = "100"
 	qd["ym"] = sm
@@ -41,12 +45,10 @@ func main() {
 		log.Fatal(err)
 		return
 	}
-
-	mn := new(MarkDown)
-	m := CreateMd(mn, connpass.ConnpassResponse)
+	m := markdown.NewMarkDown()
+	m.CreateMd(connpass.ConnpassResponse)
 	s := m.CompleteMdFile(2)
 	file.Write([]byte(s))
-
 }
 
 // 今月を含めた３月分のイベントを取得
@@ -126,65 +128,4 @@ func ConvertStartAtTime(startedAt string) string {
 	}
 	str := fmt.Sprintf("%s%d日(%s) %d:%s ~", p.Month().String(), p.Day(), p.Weekday(), p.Hour(), f(p))
 	return weekdaymonthja.Replace(str)
-}
-
-// mdファイルの全体像を作るメソッド
-func CreateMd(m *MarkDown, response *connpass.ConnpassResponse) *MarkDown {
-	for _, v := range response.Events {
-		owner := v.Series.Title
-		et := v.Title
-		eu := v.EventUrl
-		es := ConvertStartAtTime(v.StartedAt)
-		m.WriteTitle(owner, 2)
-		m.WriteTitle(et, 3)
-		m.WriteHorizon(eu, 1)
-		m.WriteHorizon(es, 1)
-	}
-	return m
-}
-
-// CreateUrl Urlにクエリーを設定してurlを返す
-func CreateUrl(q url.Values) string {
-	u, err := url.Parse(connpass.CONNPASSAPI)
-	if err != nil {
-		log.Fatal(err)
-	}
-	u.Scheme = "https"
-	u.Host = "connpass.com"
-	u.RawQuery = q.Encode()
-	return u.String()
-}
-
-type MarkDown struct {
-	page []string
-}
-
-func NewMarkDown() *MarkDown {
-	m := new(MarkDown)
-	return m
-}
-
-// mdのmarkを作成
-func (m *MarkDown) CreateMark(mark string, content string, repeat int) string {
-	return strings.Repeat(mark, repeat) + " " + content
-}
-
-func (m *MarkDown) WriteHorizon(content string, repeat int) *MarkDown {
-	markh := "-"
-	mark := m.CreateMark(markh, content, repeat)
-	m.page = append(m.page, mark)
-	return m
-}
-
-func (m *MarkDown) WriteTitle(content string, repeat int) *MarkDown {
-	markt := "#"
-	mark := m.CreateMark(markt, content, repeat)
-	m.page = append(m.page, mark)
-	return m
-}
-
-// 設定した文字列をつなげて返す
-func (m *MarkDown) CompleteMdFile(brNum int) string {
-	brs := strings.Repeat("\n", brNum)
-	return strings.Join(m.page, brs)
 }

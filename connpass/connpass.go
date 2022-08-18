@@ -19,13 +19,8 @@ type Connpass struct {
 }
 
 func NewConnpass(user string) (*Connpass, error) {
-	var err error
 	c := &Connpass{
 		ConnpassUSER: user,
-	}
-	err = c.InitResponse()
-	if err != nil {
-		return nil, err
 	}
 	return c, nil
 }
@@ -49,9 +44,8 @@ func (c *Connpass) CreateUrl(q url.Values) string {
 	return u.String()
 }
 
-func (c *Connpass) InitResponse() error {
-	qm := map[string]string{"nickname": c.ConnpassUSER}
-	c.SetQuery(qm)
+func (c *Connpass) InitResponse(query map[string]string) error {
+	c.SetQuery(query)
 	u := c.CreateUrl(c.Query)
 	res := c.Request(u)
 	defer res.Body.Close()
