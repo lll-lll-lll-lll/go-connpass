@@ -1,3 +1,6 @@
+<details><summary>すごく長い文章とかプログラムとか</summary><div>
+
+　
 ## ラクス
 
 ### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
@@ -269,3 +272,6 @@
 - https://gdgshikoku.connpass.com/event/254878/
 
 - 8月6日(土) 13:00 ~
+
+
+</div></details>
