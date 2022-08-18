@@ -120,5 +120,3 @@ func TestConnpassAPI(t *testing.T) {
 	fmt.Println(connpass.ConnpassUSER)
 	assert.Equal(t, connpass.ConnpassUSER, "Shun_Pei")
 }
-
-func TestSetQuery(t *testing.T) {}

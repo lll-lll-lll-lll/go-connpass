@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-
 	file, err := os.Create("README.md")
 	if err != nil {
 		log.Fatal(err)
