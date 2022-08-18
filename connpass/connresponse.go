@@ -4,6 +4,7 @@ func NewConnpassResponse() *ConnpassResponse {
 	return &ConnpassResponse{}
 }
 
+// 所属してるグループIDを取得
 func (c *ConnpassResponse) GetGroups() []int {
 	var g []int
 	for _, v := range c.Events {

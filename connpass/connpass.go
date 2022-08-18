@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"strconv"
 )
 
 const CONNPASSAPI string = "https://connpass.com/api/v1/event/?"
@@ -78,4 +79,15 @@ func (c *Connpass) SetResponseBody(res *http.Response) error {
 		return err
 	}
 	return nil
+}
+
+// groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
+func (c *Connpass) JoinGroupIdsByComma() string {
+	seriesId := ""
+	gs := c.ConnpassResponse.GetGroups()
+	for _, v := range gs {
+		v := strconv.Itoa(v)
+		seriesId += v + ","
+	}
+	return seriesId
 }

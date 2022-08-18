@@ -25,14 +25,7 @@ func main() {
 	}
 
 	qd := make(map[string]string)
-	// 所属してるグループId取得
-	gs := connpass.ConnpassResponse.GetGroups()
-	// groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
-	seriesId := ""
-	for _, v := range gs {
-		v := strconv.Itoa(v)
-		seriesId += v + ","
-	}
+	seriesId := connpass.JoinGroupIdsByComma()
 	sm := GetForThreeMonthsEvent()
 	qd["series_id"] = seriesId
 	qd["count"] = "100"
