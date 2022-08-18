@@ -1,5 +1,7 @@
 package markdown
 
+// net/httpを参考にした. https://pkg.go.dev/net/http
+
 type Write interface{}
 
 type WriteHandlerFunc func(content interface{}, repeat int, write *Write)
