@@ -36,18 +36,16 @@ func (m *MarkDown) CreateMark(mark string, content string, repeat int) string {
 	return strings.Repeat(mark, repeat) + " " + content
 }
 
-func (m *MarkDown) WriteHorizon(content string, repeat int) *MarkDown {
+func (m *MarkDown) WriteHorizon(content string, repeat int) {
 	markh := "-"
 	mark := m.CreateMark(markh, content, repeat)
 	m.page = append(m.page, mark)
-	return m
 }
 
-func (m *MarkDown) WriteTitle(content string, repeat int) *MarkDown {
+func (m *MarkDown) WriteTitle(content string, repeat int) {
 	markt := "#"
 	mark := m.CreateMark(markt, content, repeat)
 	m.page = append(m.page, mark)
-	return m
 }
 
 // 設定した文字列をつなげて返す
