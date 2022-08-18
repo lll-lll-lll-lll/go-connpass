@@ -22,10 +22,6 @@ func (m *MarkDown) CreateMd(response *connpass.ConnpassResponse) *MarkDown {
 	return m
 }
 
-type MDElement struct {
-	handler WriteHandler
-}
-
 // MarkDown structに Write(content string, repeat int, method)
 type MarkDown struct {
 	page     []string
@@ -64,22 +60,4 @@ func (m *MarkDown) WriteTitle(content string, repeat int) {
 func (m *MarkDown) CompleteMdFile(brNum int) string {
 	brs := strings.Repeat("\n", brNum)
 	return strings.Join(m.page, brs)
-}
-
-type Write interface{}
-
-type WriteHandlerFunc func(content string, repeat int, write *Write)
-
-type WriteHandler interface {
-	WriteFunc(content string, repeat int, write *Write)
-}
-
-func (md *MarkDown) WriteHandle(content string, repeat int, write WriteHandler)
-
-func (md *MarkDown) WriteHandleFunc(content string, repeat int, write func(content string, repeat int, write *Write)) {
-	md.WriteHandle(content, repeat, WriteHandlerFunc(write))
-}
-
-func (w WriteHandlerFunc) WriteFunc(content string, repeat int, write *Write) {
-	w(content, repeat, write)
 }
