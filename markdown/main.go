@@ -4,6 +4,7 @@ import (
 	"strings"
 
 	"github.com/info-api/connpass"
+	"github.com/info-api/format"
 )
 
 // mdファイルの全体像を作るメソッド
@@ -12,7 +13,7 @@ func (m *MarkDown) CreateMd(response *connpass.ConnpassResponse) *MarkDown {
 		owner := v.Series.Title
 		et := v.Title
 		eu := v.EventUrl
-		es := ConvertStartAtTime(v.StartedAt)
+		es := format.ConvertStartAtTime(v.StartedAt)
 		m.WriteTitle(owner, 2)
 		m.WriteTitle(et, 3)
 		m.WriteHorizon(eu, 1)

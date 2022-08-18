@@ -10,6 +10,7 @@ import (
 	"time"
 
 	"github.com/info-api/connpass"
+	"github.com/info-api/format"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -111,7 +112,7 @@ func TestForThreeMonthEvents(t *testing.T) {
 	)
 	s := yearmonthsja.Replace(fmt.Sprintf("%d%s", p.Year(), p.Month().String()))
 	fmt.Println(s)
-	fmt.Println(GetForThreeMonthsEvent())
+	fmt.Println(format.GetForThreeMonthsEvent())
 }
 
 func TestConnpassAPI(t *testing.T) {
