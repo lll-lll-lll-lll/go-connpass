@@ -24,10 +24,10 @@ func (md *MarkDown) WriteHandleFunc(content interface{}, repeat int, write func(
 
 // var DefaultMarkDown = &defaultMarkDown
 
-// func WriteHandleFunc(content interface{}, repeat int, write func(content interface{}, repeat int)) {
+// func WriteHandleFunc(content interface{}, repeat int, write func(md *MarkDown, content interface{}, repeat int)) {
 // 	DefaultMarkDown.WriteHandleFunc(content, repeat, write)
 // }
 
-// func Handle(content interface{}, repeat int, write WriteHandler) {
+// func WriteHandle(content interface{}, repeat int, write WriteHandler) {
 // 	defaultMarkDown.WriteHandle(content, repeat, write)
 // }
