@@ -25,20 +25,23 @@ func (m *MarkDown) CreateMark(mark string, content interface{}, repeat int) stri
 	return strings.Repeat(mark, repeat) + " " + n
 }
 
+func (m *MarkDown) AddToPage(mark string, content interface{}, repeat int) {
+	melement := m.CreateMark(mark, content, repeat)
+	m.page = append(m.page, melement)
+}
+
 func (m *MarkDown) WriteHorizon(content interface{}, repeat int) {
 	markh := "-"
-	mark := m.CreateMark(markh, content, repeat)
-	m.page = append(m.page, mark)
+	m.AddToPage(markh, content, repeat)
 }
 
 func (m *MarkDown) WriteTitle(content interface{}, repeat int) {
 	markt := "#"
-	mark := m.CreateMark(markt, content, repeat)
-	m.page = append(m.page, mark)
+	m.AddToPage(markt, content, repeat)
 }
 
 // 設定した文字列をつなげて返す
-func (m *MarkDown) CompleteMDFile(brNum int) string {
-	brs := strings.Repeat("\n", brNum)
+func (m *MarkDown) CompleteMDFile(branknum int) string {
+	brs := strings.Repeat("\n", branknum)
 	return strings.Join(m.page, brs)
 }
