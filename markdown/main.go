@@ -1,8 +1,13 @@
 package markdown
 
 import (
+	"errors"
 	"log"
 	"strings"
+)
+
+var (
+	ErrMarkNotFound = errors.New("mark not found")
 )
 
 // MarkDown structに Write(content string, repeat int, method)
