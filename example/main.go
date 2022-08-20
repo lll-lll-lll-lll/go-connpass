@@ -45,6 +45,6 @@ func main() {
 	m := markdown.NewMarkDown()
 	m.WriteHandleFunc("", 2, m.WriteTitle)
 	m.CreateMd(con.ConnpassResponse)
-	s := m.CompleteMdFile(2)
+	s := m.CompleteMDFile(2)
 	file.Write([]byte(s))
 }

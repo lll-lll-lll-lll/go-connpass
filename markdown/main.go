@@ -63,7 +63,7 @@ func (m *MarkDown) WriteTitle(content interface{}, repeat int) {
 }
 
 // 設定した文字列をつなげて返す
-func (m *MarkDown) CompleteMdFile(brNum int) string {
+func (m *MarkDown) CompleteMDFile(brNum int) string {
 	brs := strings.Repeat("\n", brNum)
 	return strings.Join(m.page, brs)
 }
