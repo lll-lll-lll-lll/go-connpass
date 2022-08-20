@@ -10,6 +10,36 @@ import (
 )
 
 func main() {
+	connpassfunc()
+}
+
+func WriteHorizon(m *markdown.MarkDown, content interface{}, repeat int) {
+	markh := "-"
+	m.AddToPage(markh, content, repeat)
+}
+
+func WriteTitle(m *markdown.MarkDown, content interface{}, repeat int) {
+	markt := "#"
+	m.AddToPage(markt, content, repeat)
+}
+
+// mdファイルの全体像を作るメソッド
+func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string {
+	for _, v := range response.Events {
+		owner := v.Series.Title
+		et := v.Title
+		eu := v.EventUrl
+		es := format.ConvertStartAtTime(v.StartedAt)
+		m.MDHandleFunc(owner, 2, WriteTitle)
+		m.MDHandleFunc(et, 3, WriteTitle)
+		m.MDHandleFunc(eu, 3, WriteHorizon)
+		m.MDHandleFunc(es, 3, WriteHorizon)
+	}
+	s := m.CompleteMDFile(2)
+	return s
+}
+
+func connpassfunc() {
 	file, err := os.Create("README.md")
 	if err != nil {
 		log.Fatal(err)
@@ -48,28 +78,16 @@ func main() {
 	file.Write([]byte(s))
 }
 
-func WriteHorizon(m *markdown.MarkDown, content interface{}, repeat int) {
-	markh := "-"
-	m.AddToPage(markh, content, repeat)
-}
-
-func WriteTitle(m *markdown.MarkDown, content interface{}, repeat int) {
-	markt := "#"
-	m.AddToPage(markt, content, repeat)
-}
-
-// mdファイルの全体像を作るメソッド
-func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string {
-	for _, v := range response.Events {
-		owner := v.Series.Title
-		et := v.Title
-		eu := v.EventUrl
-		es := format.ConvertStartAtTime(v.StartedAt)
-		m.MDHandleFunc(owner, 2, WriteTitle)
-		m.MDHandleFunc(et, 3, WriteTitle)
-		m.MDHandleFunc(eu, 3, WriteHorizon)
-		m.MDHandleFunc(es, 3, WriteHorizon)
+func defaultfunc() {
+	file, err := os.Create("default.md")
+	if err != nil {
+		log.Fatal(err)
 	}
+	defer file.Close()
+	defer os.Remove("default.md")
+	m := markdown.NewMarkDown()
+	m.MDHandleFunc("Test Write Title", 2, WriteTitle)
+	m.MDHandleFunc("Test Write Horizon", 3, WriteHorizon)
 	s := m.CompleteMDFile(2)
-	return s
+	file.Write([]byte(s))
 }
