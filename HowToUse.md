@@ -31,8 +31,8 @@ func main() {
 	}
 	defer file.Close()
 	m := markdown.NewMarkDown()
-	m.WriteHandleFunc("Test Write Title", 2, WriteTitle)
-	m.WriteHandleFunc("Test Write Horizon", 3, WriteHorizon)
+	m.MDHandleFunc("Test Write Title", 2, WriteTitle)
+	m.MDHandleFunc("Test Write Horizon", 3, WriteHorizon)
 	s := m.CompleteMDFile(2)
 	file.Write([]byte(s))
 }
