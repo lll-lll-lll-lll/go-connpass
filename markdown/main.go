@@ -15,24 +15,17 @@ func (m *MarkDown) CreateMd(response *connpass.ConnpassResponse) *MarkDown {
 		et := v.Title
 		eu := v.EventUrl
 		es := format.ConvertStartAtTime(v.StartedAt)
-		m.WriteTitle(owner, 2)
-		m.WriteTitle(et, 3)
-		m.WriteHorizon(eu, 1)
-		m.WriteHorizon(es, 1)
+		m.WriteHandleFunc(owner, 2, m.WriteTitle)
+		m.WriteHandleFunc(et, 3, m.WriteTitle)
+		m.WriteHandleFunc(eu, 3, m.WriteHorizon)
+		m.WriteHandleFunc(es, 3, m.WriteHorizon)
 	}
 	return m
 }
 
 // MarkDown structに Write(content string, repeat int, method)
 type MarkDown struct {
-	page     []string
-	markdown []*MDElement
-}
-
-func (md *MarkDown) NewMDElement() *MDElement {
-	mdelement := &MDElement{}
-	md.markdown = append(md.markdown, mdelement)
-	return mdelement
+	page []string
 }
 
 func NewMarkDown() *MarkDown {
