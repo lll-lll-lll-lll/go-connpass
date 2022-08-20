@@ -16,7 +16,7 @@ func main() {
 	}
 	defer file.Close()
 
-	con, err := connpass.NewConnpass(connpass.USER)
+	con, err := connpass.NewConnpass("Shun_Pei")
 	if err != nil {
 		log.Fatal(err)
 		return

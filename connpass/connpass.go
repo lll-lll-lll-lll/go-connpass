@@ -10,7 +10,6 @@ import (
 )
 
 const CONNPASSAPI string = "https://connpass.com/api/v1/event/?"
-const USER string = "Shun_Pei"
 
 type Connpass struct {
 	ConnpassUSER     string            `json:"user"`
