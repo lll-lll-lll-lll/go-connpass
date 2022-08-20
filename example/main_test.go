@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/info-api/connpass"
-	"github.com/info-api/format"
+	"github.com/conread/connpass"
+	"github.com/conread/format"
 	"github.com/stretchr/testify/assert"
 )
 

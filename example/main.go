@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/info-api/connpass"
-	"github.com/info-api/format"
-	"github.com/info-api/markdown"
+	"github.com/conread/connpass"
+	"github.com/conread/format"
+	"github.com/conread/markdown"
 )
 
 func main() {

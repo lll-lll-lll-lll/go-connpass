@@ -1,4 +1,4 @@
-module github.com/info-api
+module github.com/conread
 
 go 1.18
 
