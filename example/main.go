@@ -42,8 +42,23 @@ func main() {
 		log.Fatal(err)
 		return
 	}
+
 	m := markdown.NewMarkDown()
-	m.CreateMd(con.ConnpassResponse)
+	CreateMd(con.ConnpassResponse, m)
 	s := m.CompleteMDFile(2)
 	file.Write([]byte(s))
+}
+
+// mdファイルの全体像を作るメソッド
+func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) {
+	for _, v := range response.Events {
+		owner := v.Series.Title
+		et := v.Title
+		eu := v.EventUrl
+		es := format.ConvertStartAtTime(v.StartedAt)
+		m.WriteHandleFunc(owner, 2, m.WriteTitle)
+		m.WriteHandleFunc(et, 3, m.WriteTitle)
+		m.WriteHandleFunc(eu, 3, m.WriteHorizon)
+		m.WriteHandleFunc(es, 3, m.WriteHorizon)
+	}
 }

@@ -3,25 +3,7 @@ package markdown
 import (
 	"log"
 	"strings"
-
-	"github.com/info-api/connpass"
-	"github.com/info-api/format"
 )
-
-// mdファイルの全体像を作るメソッド
-func (m *MarkDown) CreateMd(response *connpass.ConnpassResponse) *MarkDown {
-	for _, v := range response.Events {
-		owner := v.Series.Title
-		et := v.Title
-		eu := v.EventUrl
-		es := format.ConvertStartAtTime(v.StartedAt)
-		m.WriteHandleFunc(owner, 2, m.WriteTitle)
-		m.WriteHandleFunc(et, 3, m.WriteTitle)
-		m.WriteHandleFunc(eu, 3, m.WriteHorizon)
-		m.WriteHandleFunc(es, 3, m.WriteHorizon)
-	}
-	return m
-}
 
 // MarkDown structに Write(content string, repeat int, method)
 type MarkDown struct {
