@@ -14,6 +14,16 @@ import (
 	"github.com/conread/markdown"
 )
 
+func WriteHorizon(m *markdown.MarkDown, content interface{}, repeat int) {
+	markh := "-"
+	m.AddToPage(markh, content, repeat)
+}
+
+func WriteTitle(m *markdown.MarkDown, content interface{}, repeat int) {
+	markt := "#"
+	m.AddToPage(markt, content, repeat)
+}
+
 func main() {
 	file, err := os.Create("README.md")
 	if err != nil {
@@ -21,8 +31,8 @@ func main() {
 	}
 	defer file.Close()
 	m := markdown.NewMarkDown()
-	m.WriteHandleFunc("Test Write Title", 2, m.WriteTitle)
-	m.WriteHandleFunc("Test Write Horizon", 3, m.WriteHorizon)
+	m.WriteHandleFunc("Test Write Title", 2, WriteTitle)
+	m.WriteHandleFunc("Test Write Horizon", 3, WriteHorizon)
 	s := m.CompleteMDFile(2)
 	file.Write([]byte(s))
 }
