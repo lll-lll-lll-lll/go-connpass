@@ -48,6 +48,16 @@ func main() {
 	file.Write([]byte(s))
 }
 
+func WriteHorizon(m *markdown.MarkDown, content interface{}, repeat int) {
+	markh := "-"
+	m.AddToPage(markh, content, repeat)
+}
+
+func WriteTitle(m *markdown.MarkDown, content interface{}, repeat int) {
+	markt := "#"
+	m.AddToPage(markt, content, repeat)
+}
+
 // mdファイルの全体像を作るメソッド
 func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string {
 	for _, v := range response.Events {
@@ -55,10 +65,10 @@ func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string 
 		et := v.Title
 		eu := v.EventUrl
 		es := format.ConvertStartAtTime(v.StartedAt)
-		m.WriteHandleFunc(owner, 2, m.WriteTitle)
-		m.WriteHandleFunc(et, 3, m.WriteTitle)
-		m.WriteHandleFunc(eu, 3, m.WriteHorizon)
-		m.WriteHandleFunc(es, 3, m.WriteHorizon)
+		m.WriteHandleFunc(owner, 2, WriteTitle)
+		m.WriteHandleFunc(et, 3, WriteTitle)
+		m.WriteHandleFunc(eu, 3, WriteHorizon)
+		m.WriteHandleFunc(es, 3, WriteHorizon)
 	}
 	s := m.CompleteMDFile(2)
 	return s

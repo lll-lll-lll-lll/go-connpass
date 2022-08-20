@@ -35,16 +35,6 @@ func (m *MarkDown) AddToPage(mark string, content interface{}, repeat int) {
 	m.page = append(m.page, melement)
 }
 
-func (m *MarkDown) WriteHorizon(content interface{}, repeat int) {
-	markh := "-"
-	m.AddToPage(markh, content, repeat)
-}
-
-func (m *MarkDown) WriteTitle(content interface{}, repeat int) {
-	markt := "#"
-	m.AddToPage(markt, content, repeat)
-}
-
 // 設定した文字列をつなげて返す
 func (m *MarkDown) CompleteMDFile(branknum int) string {
 	brs := strings.Repeat("\n", branknum)
