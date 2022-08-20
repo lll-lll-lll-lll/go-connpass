@@ -15,6 +15,7 @@ func main() {
 		log.Fatal(err)
 	}
 	defer file.Close()
+
 	con, err := connpass.NewConnpass(connpass.USER)
 	if err != nil {
 		log.Fatal(err)
@@ -42,6 +43,7 @@ func main() {
 		return
 	}
 	m := markdown.NewMarkDown()
+	m.WriteHandleFunc("", 2, m.WriteTitle)
 	m.CreateMd(con.ConnpassResponse)
 	s := m.CompleteMdFile(2)
 	file.Write([]byte(s))
