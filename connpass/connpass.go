@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-const CONNPASSAPI string = "https://connpass.com/api/v1/event/?"
+const CONNPASSAPI = "https://connpass.com/api/v1/event/?"
 
 type Connpass struct {
 	ConnpassUSER     string            `json:"user"`
