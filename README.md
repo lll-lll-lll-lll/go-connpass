@@ -1,6 +1,59 @@
-<details><summary>すごく長い文章とかプログラムとか</summary><div>
+## ちゅらデータ
 
-　
+### データモデリングとデータ基盤の構築・運用
+
+- https://churadata.connpass.com/event/254417/
+
+- 8月19日(金) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
+
+- https://asciistartup.connpass.com/event/246677/
+
+- 8月27日(土) 10:00 ~
+
+## ちゅらデータ
+
+### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
+
+- https://churadata.connpass.com/event/256485/
+
+- 9月16日(金) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
+
+## ラクス
+
+### 【LT残3枠！】リーダブルコード LT会 - vol.4 #readablelt
+
+- https://rakus.connpass.com/event/253650/
+
+- 8月24日(水) 19:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #17 後夜祭！～マイクラ花火師入門～
+
+- https://mspjp.connpass.com/event/249975/
+
+- 8月21日(日) 21:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hands-on 02
+
+- https://asciistartup.connpass.com/event/256171/
+
+- 9月2日(金) 19:00 ~
+
 ## ラクス
 
 ### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
@@ -33,14 +86,6 @@
 
 - 8月17日(水) 19:00 ~
 
-## ちゅらデータ
-
-### データモデリングとデータ基盤の構築・運用
-
-- https://churadata.connpass.com/event/254417/
-
-- 8月19日(金) 19:00 ~
-
 ## ラクス
 
 ### 自動化大好きエンジニアLT会 - vol.8
@@ -48,14 +93,6 @@
 - https://rakus.connpass.com/event/255781/
 
 - 9月14日(水) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
-
-- https://asciistartup.connpass.com/event/246677/
-
-- 8月27日(土) 10:00 ~
 
 ## LINE Developer Community
 
@@ -123,14 +160,6 @@
 
 ## ラクス
 
-### 【LT残3枠！】リーダブルコード LT会 - vol.4 #readablelt
-
-- https://rakus.connpass.com/event/253650/
-
-- 8月24日(水) 19:00 ~
-
-## ラクス
-
 ### 【LT登壇3名決定！】PdM Tips LT会 - vol.2 #pdmtipslt
 
 - https://rakus.connpass.com/event/252053/
@@ -160,22 +189,6 @@
 - https://asciistartup.connpass.com/event/256169/
 
 - 10月21日(金) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
-
-- https://asciistartup.connpass.com/event/253998/
-
-- 9月17日(土) 10:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hands-on 02
-
-- https://asciistartup.connpass.com/event/256171/
-
-- 9月2日(金) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -251,14 +264,6 @@
 
 ## Microsoft Learn Student Ambassadors
 
-### MS Tech Camp #17 後夜祭！～マイクラ花火師入門～
-
-- https://mspjp.connpass.com/event/249975/
-
-- 8月21日(日) 21:00 ~
-
-## Microsoft Learn Student Ambassadors
-
 ### C# で Minecraft プログラミングをはじめよう！
 
 - https://mspjp.connpass.com/event/249964/
@@ -272,6 +277,3 @@
 - https://gdgshikoku.connpass.com/event/254878/
 
 - 8月6日(土) 13:00 ~
-
-
-</div></details>
