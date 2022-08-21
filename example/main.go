@@ -32,8 +32,8 @@ func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string 
 		es := format.ConvertStartAtTime(v.StartedAt)
 		m.MDHandleFunc(owner, 2, WriteTitle)
 		m.MDHandleFunc(et, 3, WriteTitle)
-		m.MDHandleFunc(eu, 3, WriteHorizon)
-		m.MDHandleFunc(es, 3, WriteHorizon)
+		m.MDHandleFunc(eu, 1, WriteHorizon)
+		m.MDHandleFunc(es, 1, WriteHorizon)
 	}
 	s := m.CompleteMDFile(2)
 	return s
