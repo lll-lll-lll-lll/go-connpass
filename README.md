@@ -1,10 +1,34 @@
 ## ラクス
 
+### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
+
+- https://rakus.connpass.com/event/256456/
+
+- 9月21日(水) 19:00 ~
+
+## ラクス
+
 ### 【LT残3枠！】リーダブルコード LT会 - vol.4 #readablelt
 
 - https://rakus.connpass.com/event/253650/
 
 - 8月24日(水) 19:00 ~
+
+## ラクス
+
+### コードレビュー LT会 - vol.3 #codereviewlt
+
+- https://rakus.connpass.com/event/257623/
+
+- 10月12日(水) 19:00 ~
+
+## ラクス
+
+### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
+
+- https://rakus.connpass.com/event/255095/
+
+- 9月8日(木) 19:00 ~
 
 ## ラクス
 
@@ -77,14 +101,6 @@
 - https://asciistartup.connpass.com/event/256171/
 
 - 9月2日(金) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
-
-- https://rakus.connpass.com/event/256456/
-
-- 9月21日(水) 19:00 ~
 
 ## ラクス
 
@@ -245,14 +261,6 @@
 - https://rakus.connpass.com/event/255053/
 
 - 9月7日(水) 19:00 ~
-
-## ラクス
-
-### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
-
-- https://rakus.connpass.com/event/255095/
-
-- 9月8日(木) 19:00 ~
 
 ## CARTA HOLDINGS
 
