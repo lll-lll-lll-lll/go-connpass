@@ -1,4 +1,4 @@
-module github.com/conread
+module github.com/lll-lll-lll-lll/conread
 
 go 1.18
 
