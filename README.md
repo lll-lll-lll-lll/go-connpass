@@ -1,3 +1,27 @@
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
+
+- https://asciistartup.connpass.com/event/246677/
+
+- 8月27日(土) 10:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
+
+## ラクス
+
+### コードレビュー LT会 - vol.3 #codereviewlt
+
+- https://rakus.connpass.com/event/257623/
+
+- 10月12日(水) 19:00 ~
+
 ## ラクス
 
 ### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
@@ -13,14 +37,6 @@
 - https://rakus.connpass.com/event/253650/
 
 - 8月24日(水) 19:00 ~
-
-## ラクス
-
-### コードレビュー LT会 - vol.3 #codereviewlt
-
-- https://rakus.connpass.com/event/257623/
-
-- 10月12日(水) 19:00 ~
 
 ## ラクス
 
@@ -70,14 +86,6 @@
 
 - 8月19日(金) 19:00 ~
 
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
-
-- https://asciistartup.connpass.com/event/246677/
-
-- 8月27日(土) 10:00 ~
-
 ## ちゅらデータ
 
 ### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
@@ -85,14 +93,6 @@
 - https://churadata.connpass.com/event/256485/
 
 - 9月16日(金) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
-
-- https://asciistartup.connpass.com/event/253998/
-
-- 9月17日(土) 10:00 ~
 
 ## ASCII STARTUP
 
