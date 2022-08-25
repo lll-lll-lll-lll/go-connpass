@@ -1,18 +1,66 @@
 ## ASCII STARTUP
 
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
+
+## ASCII STARTUP
+
 ### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
 
 - https://asciistartup.connpass.com/event/246677/
 
 - 8月27日(土) 10:00 ~
 
-## ASCII STARTUP
+## ラクス
 
-### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+### PHPerのための「PHP8.2の新機能を語り合う」PHP TechCafe
 
-- https://asciistartup.connpass.com/event/253998/
+- https://rakus.connpass.com/event/255626/
 
-- 9月17日(土) 10:00 ~
+- 8月30日(Tuesday) 19:00 ~
+
+## ラクス
+
+### 【LT登壇7名決定！】リーダブルコード LT会 - vol.4 #readablelt
+
+- https://rakus.connpass.com/event/253650/
+
+- 8月24日(水) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
+
+## ラクス
+
+### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
+
+- https://rakus.connpass.com/event/255053/
+
+- 9月7日(水) 19:00 ~
+
+## ラクス
+
+### 「k8s」を語るCloud Native TechCafe #2（ゲスト：bells17様）
+
+- https://rakus.connpass.com/event/257135/
+
+- 9月28日(水) 19:00 ~
 
 ## ラクス
 
@@ -29,14 +77,6 @@
 - https://rakus.connpass.com/event/256456/
 
 - 9月21日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残3枠！】リーダブルコード LT会 - vol.4 #readablelt
-
-- https://rakus.connpass.com/event/253650/
-
-- 8月24日(水) 19:00 ~
 
 ## ラクス
 
@@ -104,22 +144,6 @@
 
 ## ラクス
 
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残4枠！】保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
-
-## ラクス
-
 ### 【LT登壇8名決定！】エンジニアの失敗学 LT会 - vol.2
 
 - https://rakus.connpass.com/event/252055/
@@ -165,14 +189,6 @@
 - https://rakus.connpass.com/event/256501/
 
 - 9月22日(木) 19:00 ~
-
-## ラクス
-
-### 「k8s」を語るCloud Native TechCafe #2（ゲスト：bells17様）
-
-- https://rakus.connpass.com/event/257135/
-
-- 9月28日(水) 19:00 ~
 
 ## ラクス
 
@@ -254,14 +270,6 @@
 
 - 8月3日(水) 19:00 ~
 
-## ラクス
-
-### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
-
-- https://rakus.connpass.com/event/255053/
-
-- 9月7日(水) 19:00 ~
-
 ## CARTA HOLDINGS
 
 ### Engineers in CARTA vol.4 #CTO継承 ～これからのエンジニア組織と文化～
@@ -269,14 +277,6 @@
 - https://cartaholdings.connpass.com/event/252875/
 
 - 8月4日(木) 17:00 ~
-
-## ラクス
-
-### PHPerのための「PHP8.2の新機能を語り合う」PHP TechCafe
-
-- https://rakus.connpass.com/event/255626/
-
-- 8月30日(Tuesday) 19:00 ~
 
 ## GDG Shikoku
 
