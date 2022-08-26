@@ -1,3 +1,35 @@
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
+
+## ラクス
+
+### 自動化大好きエンジニアLT会 - vol.8
+
+- https://rakus.connpass.com/event/255781/
+
+- 9月14日(水) 19:00 ~
+
+## ラクス
+
+### 【LT登壇6名決定！】保守はつらいよ
+
+- https://rakus.connpass.com/event/253656/
+
+- 8月25日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残6枠！】コードレビュー LT会 - vol.3 #codereviewlt
+
+- https://rakus.connpass.com/event/257623/
+
+- 10月12日(水) 19:00 ~
+
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
@@ -32,22 +64,6 @@
 
 ## ラクス
 
-### 【LT残4枠！】保守はつらいよ
-
-- https://rakus.connpass.com/event/253656/
-
-- 8月25日(木) 19:00 ~
-
-## ラクス
-
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
-
-## ラクス
-
 ### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
 
 - https://rakus.connpass.com/event/255053/
@@ -64,14 +80,6 @@
 
 ## ラクス
 
-### コードレビュー LT会 - vol.3 #codereviewlt
-
-- https://rakus.connpass.com/event/257623/
-
-- 10月12日(水) 19:00 ~
-
-## ラクス
-
 ### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
 
 - https://rakus.connpass.com/event/256456/
@@ -85,14 +93,6 @@
 - https://rakus.connpass.com/event/255095/
 
 - 9月8日(木) 19:00 ~
-
-## ラクス
-
-### 自動化大好きエンジニアLT会 - vol.8
-
-- https://rakus.connpass.com/event/255781/
-
-- 9月14日(水) 19:00 ~
 
 ## Microsoft Learn Student Ambassadors
 
