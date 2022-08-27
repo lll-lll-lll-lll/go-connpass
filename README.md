@@ -1,3 +1,11 @@
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
+
+- https://asciistartup.connpass.com/event/246677/
+
+- 8月27日(土) 10:00 ~
+
 ## ラクス
 
 ### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
@@ -37,14 +45,6 @@
 - https://asciistartup.connpass.com/event/253998/
 
 - 9月17日(土) 10:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
-
-- https://asciistartup.connpass.com/event/246677/
-
-- 8月27日(土) 10:00 ~
 
 ## ラクス
 
