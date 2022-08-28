@@ -22,6 +22,10 @@ func WriteTitle(m *markdown.MarkDown, content interface{}, repeat int) {
 	markt := "#"
 	m.AddToPage(markt, content, repeat)
 }
+func WriteBlank(m *markdown.MarkDown, content interface{}, repeat int) {
+	mark := "<br>"
+	m.AddToPage(mark, content, repeat)
+}
 
 // mdファイルの全体像を作るメソッド
 func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string {
@@ -35,6 +39,7 @@ func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string 
 		m.MDHandleFunc(eu, 1, WriteHorizon)
 		m.MDHandleFunc(es, 1, WriteHorizon)
 	}
+	m.MDHandleFunc("", 1, WriteBlank)
 	s := m.CompleteMDFile(2)
 	return s
 }
