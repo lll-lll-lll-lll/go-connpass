@@ -1,3 +1,19 @@
+## ラクス
+
+### 【LT残3枠！】設計モデリングLT会 - vol.4 #modelinglt
+
+- https://rakus.connpass.com/event/255782/
+
+- 9月15日(木) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
+
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ
@@ -37,14 +53,6 @@
 - https://rakus.connpass.com/event/257623/
 
 - 10月12日(水) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
-
-- https://asciistartup.connpass.com/event/253998/
-
-- 9月17日(土) 10:00 ~
 
 ## ラクス
 
@@ -190,14 +198,6 @@
 
 - 9月22日(木) 19:00 ~
 
-## ラクス
-
-### 【LT残4枠！】設計モデリングLT会 - vol.4 #modelinglt
-
-- https://rakus.connpass.com/event/255782/
-
-- 9月15日(木) 19:00 ~
-
 ## CARTA HOLDINGS
 
 ### ISUCON12 大反省会　～ 今年はどうでした？ ～
@@ -285,3 +285,5 @@
 - https://gdgshikoku.connpass.com/event/254878/
 
 - 8月6日(土) 13:00 ~
+
+<br> 
