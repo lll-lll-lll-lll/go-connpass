@@ -1,5 +1,61 @@
 ## ラクス
 
+### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
+
+- https://rakus.connpass.com/event/255095/
+
+- 9月8日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残4枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
+
+- https://rakus.connpass.com/event/256456/
+
+- 9月21日(水) 19:00 ~
+
+## ラクス
+
+### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
+
+- https://rakus.connpass.com/event/255053/
+
+- 9月7日(水) 19:00 ~
+
+## ラクス
+
+### PHPerのための「PHPカンファレンス2022」を語り合うPHP TechCafe
+
+- https://rakus.connpass.com/event/258493/
+
+- 9月27日(Tuesday) 19:00 ~
+
+## ラクス
+
+### プロジェクトマネジメント Tips LT会 vol.5
+
+- https://rakus.connpass.com/event/258398/
+
+- 10月19日(水) 19:00 ~
+
+## CARTA HOLDINGS
+
+### ISUCON12 大反省会　～ 今年はどうでした？ ～
+
+- https://cartaholdings.connpass.com/event/257064/
+
+- 8月29日(月) 18:30 ~
+
+## ラクス
+
+### PHPerのための「PHP8.2の新機能を語り合う」PHP TechCafe
+
+- https://rakus.connpass.com/event/255626/
+
+- 8月30日(Tuesday) 19:00 ~
+
+## ラクス
+
 ### 【LT残3枠！】設計モデリングLT会 - vol.4 #modelinglt
 
 - https://rakus.connpass.com/event/255782/
@@ -56,14 +112,6 @@
 
 ## ラクス
 
-### PHPerのための「PHP8.2の新機能を語り合う」PHP TechCafe
-
-- https://rakus.connpass.com/event/255626/
-
-- 8月30日(Tuesday) 19:00 ~
-
-## ラクス
-
 ### 【LT登壇7名決定！】リーダブルコード LT会 - vol.4 #readablelt
 
 - https://rakus.connpass.com/event/253650/
@@ -72,35 +120,11 @@
 
 ## ラクス
 
-### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
-
-- https://rakus.connpass.com/event/255053/
-
-- 9月7日(水) 19:00 ~
-
-## ラクス
-
 ### 「k8s」を語るCloud Native TechCafe #2（ゲスト：bells17様）
 
 - https://rakus.connpass.com/event/257135/
 
 - 9月28日(水) 19:00 ~
-
-## ラクス
-
-### 【LT残5枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
-
-- https://rakus.connpass.com/event/256456/
-
-- 9月21日(水) 19:00 ~
-
-## ラクス
-
-### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
-
-- https://rakus.connpass.com/event/255095/
-
-- 9月8日(木) 19:00 ~
 
 ## Microsoft Learn Student Ambassadors
 
@@ -197,14 +221,6 @@
 - https://rakus.connpass.com/event/256501/
 
 - 9月22日(木) 19:00 ~
-
-## CARTA HOLDINGS
-
-### ISUCON12 大反省会　～ 今年はどうでした？ ～
-
-- https://cartaholdings.connpass.com/event/257064/
-
-- 8月29日(月) 18:30 ~
 
 ## ラクス
 
