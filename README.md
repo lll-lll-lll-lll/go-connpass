@@ -1,10 +1,42 @@
+## ASCII STARTUP
+
+### PLATEAU Hands-on 02
+
+- https://asciistartup.connpass.com/event/256171/
+
+- 9月2日(金) 19:00 ~
+
 ## ラクス
 
-### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
+### PHPerのための「PHP8.2の新機能」を語り合うPHP TechCafe
 
-- https://rakus.connpass.com/event/255095/
+- https://rakus.connpass.com/event/255626/
 
-- 9月8日(木) 19:00 ~
+- 8月30日(Tuesday) 19:00 ~
+
+## ちゅらデータ
+
+### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
+
+- https://churadata.connpass.com/event/256485/
+
+- 9月16日(金) 19:00 ~
+
+## ラクス
+
+### QA Tips LT会 - vol.2 #QATipslt
+
+- https://rakus.connpass.com/event/258396/
+
+- 10月20日(木) 19:00 ~
+
+## ラクス
+
+### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
+
+- https://rakus.connpass.com/event/253941/
+
+- 8月31日(水) 19:00 ~
 
 ## ラクス
 
@@ -13,6 +45,14 @@
 - https://rakus.connpass.com/event/256456/
 
 - 9月21日(水) 19:00 ~
+
+## ラクス
+
+### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
+
+- https://rakus.connpass.com/event/255095/
+
+- 9月8日(木) 19:00 ~
 
 ## ラクス
 
@@ -48,14 +88,6 @@
 
 ## ラクス
 
-### PHPerのための「PHP8.2の新機能を語り合う」PHP TechCafe
-
-- https://rakus.connpass.com/event/255626/
-
-- 8月30日(Tuesday) 19:00 ~
-
-## ラクス
-
 ### 【LT残3枠！】設計モデリングLT会 - vol.4 #modelinglt
 
 - https://rakus.connpass.com/event/255782/
@@ -77,14 +109,6 @@
 - https://asciistartup.connpass.com/event/246677/
 
 - 8月27日(土) 10:00 ~
-
-## ラクス
-
-### 「2022年度上半期トレンド」を語るフロントエンドTechCafe
-
-- https://rakus.connpass.com/event/253941/
-
-- 8月31日(水) 19:00 ~
 
 ## ラクス
 
@@ -157,22 +181,6 @@
 - https://churadata.connpass.com/event/254417/
 
 - 8月19日(金) 19:00 ~
-
-## ちゅらデータ
-
-### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
-
-- https://churadata.connpass.com/event/256485/
-
-- 9月16日(金) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hands-on 02
-
-- https://asciistartup.connpass.com/event/256171/
-
-- 9月2日(金) 19:00 ~
 
 ## ラクス
 
