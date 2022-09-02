@@ -1,3 +1,19 @@
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in 大和ミュージアム
+
+- https://asciistartup.connpass.com/event/256613/
+
+- 11月5日(土) 10:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hands-on 02
+
+- https://asciistartup.connpass.com/event/256171/
+
+- 9月2日(金) 19:00 ~
+
 ## ラクス
 
 ### 【LT満員御礼！】フロントエンドLT会 - vol.8 #frontendlt
@@ -5,6 +21,14 @@
 - https://rakus.connpass.com/event/255095/
 
 - 9月8日(木) 19:00 ~
+
+## ラクス
+
+### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
+
+- https://rakus.connpass.com/event/255053/
+
+- 9月7日(水) 19:00 ~
 
 ## ラクス
 
@@ -22,14 +46,6 @@
 
 - 9月21日(水) 19:00 ~
 
-## ASCII STARTUP
-
-### PLATEAU Hands-on 02
-
-- https://asciistartup.connpass.com/event/256171/
-
-- 9月2日(金) 19:00 ~
-
 ## ちゅらデータ
 
 ### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
@@ -45,14 +61,6 @@
 - https://rakus.connpass.com/event/258396/
 
 - 10月20日(木) 19:00 ~
-
-## ラクス
-
-### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
-
-- https://rakus.connpass.com/event/255053/
-
-- 9月7日(水) 19:00 ~
 
 ## ラクス
 
