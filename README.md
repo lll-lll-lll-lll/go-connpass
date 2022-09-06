@@ -1,3 +1,19 @@
+## ラクス
+
+### エンジニアのためのDX
+
+- https://rakus.connpass.com/event/256501/
+
+- 9月22日(木) 19:00 ~
+
+## ラクス
+
+### 【LT残5枠！】UI/UXデザイナーLT会 - vol.9 #uiuxdesignerslt
+
+- https://rakus.connpass.com/event/258977/
+
+- 10月26日(水) 19:00 ~
+
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
@@ -6,13 +22,13 @@
 
 - 9月17日(土) 10:00 ~
 
-## ラクス
+## ちゅらデータ
 
-### プロジェクトマネジメント Tips LT会 vol.5
+### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
 
-- https://rakus.connpass.com/event/258398/
+- https://churadata.connpass.com/event/256485/
 
-- 10月19日(水) 19:00 ~
+- 9月16日(金) 19:00 ~
 
 ## ラクス
 
@@ -24,19 +40,27 @@
 
 ## ラクス
 
+### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
+
+- https://rakus.connpass.com/event/255053/
+
+- 9月7日(水) 19:00 ~
+
+## ラクス
+
+### プロジェクトマネジメント Tips LT会 vol.5
+
+- https://rakus.connpass.com/event/258398/
+
+- 10月19日(水) 19:00 ~
+
+## ラクス
+
 ### 【LT残4枠！】エンジニアの勉強法ハックLT- vol.10 #studyhacklt
 
 - https://rakus.connpass.com/event/256456/
 
 - 9月21日(水) 19:00 ~
-
-## ラクス
-
-### エンジニアのためのDX
-
-- https://rakus.connpass.com/event/256501/
-
-- 9月22日(木) 19:00 ~
 
 ## ラクス
 
@@ -69,22 +93,6 @@
 - https://asciistartup.connpass.com/event/256171/
 
 - 9月2日(金) 19:00 ~
-
-## ラクス
-
-### 開発速度向上のためのリファクタリング術 〜負債をきっちり返済しよう〜
-
-- https://rakus.connpass.com/event/255053/
-
-- 9月7日(水) 19:00 ~
-
-## ちゅらデータ
-
-### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
-
-- https://churadata.connpass.com/event/256485/
-
-- 9月16日(金) 19:00 ~
 
 ## ラクス
 
