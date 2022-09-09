@@ -4,8 +4,8 @@ func NewConnpassResponse() *ConnpassResponse {
 	return &ConnpassResponse{}
 }
 
-// 所属してるグループIDを取得
-func (c *ConnpassResponse) GetGroups() []int {
+//GetGroups 所属してるグループIDを取得
+func (c *ConnpassResponse) GetGroupIds() []int {
 	var g []int
 	for _, v := range c.Events {
 		g = append(g, v.Series.Id)

@@ -56,9 +56,9 @@ func connpassfunc() {
 		log.Fatal(err)
 		return
 	}
-	initq := map[string]string{"nickname": con.ConnpassUSER}
+	q := map[string]string{"nickname": con.ConnpassUSER}
 
-	con.InitResponse(initq)
+	con.InitRequest(q)
 
 	seriesId := con.JoinGroupIdsByComma()
 	sm := format.GetForThreeMonthsEvent()
@@ -72,7 +72,7 @@ func connpassfunc() {
 	res := con.Request(u)
 	defer res.Body.Close()
 
-	err = con.SetResponseBody(res)
+	err = con.SetResponse(res)
 	if err != nil {
 		log.Fatal(err)
 		return
