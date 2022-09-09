@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-const CONNPASSAPI = "https://connpass.com/api/v1/event/?"
+const CONNPASSAPIV1 = "https://connpass.com/api/v1/event/?"
 
 type Connpass struct {
 	ConnpassUSER     string            `json:"user"`
@@ -33,7 +33,7 @@ func (c *Connpass) SetQuery(values map[string]string) {
 }
 
 func (c *Connpass) CreateUrl(q url.Values) string {
-	u, err := url.Parse(CONNPASSAPI)
+	u, err := url.Parse(CONNPASSAPIV1)
 	if err != nil {
 		log.Fatal(err)
 	}
