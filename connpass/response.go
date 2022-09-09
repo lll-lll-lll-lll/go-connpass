@@ -1,7 +1,35 @@
 package connpass
 
+import (
+	"encoding/json"
+	"io"
+	"net/http"
+	"strconv"
+)
+
 func NewConnpassResponse() *ConnpassResponse {
 	return &ConnpassResponse{}
+}
+
+//SetResponse Requestメソッド後のレスポンスをConnpassResponseプロパティにセットする
+func (c *Connpass) SetResponse(res *http.Response) error {
+	body, _ := io.ReadAll(res.Body)
+	err := json.Unmarshal(body, &c.ConnpassResponse)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+//JoinGroupIdsByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
+func (c *Connpass) JoinGroupIdsByComma() string {
+	var seriesId string
+	gs := c.ConnpassResponse.GetGroupIds()
+	for _, v := range gs {
+		v := strconv.Itoa(v)
+		seriesId += v + ","
+	}
+	return seriesId
 }
 
 //GetGroups 所属してるグループIDを取得
