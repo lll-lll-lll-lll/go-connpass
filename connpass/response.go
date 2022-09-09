@@ -66,7 +66,7 @@ type Event struct {
 
 // ConnpassResponse コンパスapiのレスを持つ
 type ConnpassResponse struct {
-	// 含まれる検索結果の件数
+	// レスポンスに含まれる検索結果の件数
 	ResultsReturned int `json:"results_returned"`
 	// 検索結果の総件数
 	ResultsAvailable int `json:"results_available"`
