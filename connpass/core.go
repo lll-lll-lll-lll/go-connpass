@@ -10,9 +10,6 @@ type Connpass struct {
 	Query            url.Values        `json:"query"`
 }
 
-func NewConnpass(user string) (*Connpass, error) {
-	c := &Connpass{
-		ConnpassUSER: user,
-	}
-	return c, nil
+func NewConnpass() *Connpass {
+	return &Connpass{}
 }

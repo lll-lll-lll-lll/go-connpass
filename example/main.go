@@ -51,11 +51,8 @@ func connpassfunc() {
 	}
 	defer file.Close()
 
-	con, err := connpass.NewConnpass("Shun_Pei")
-	if err != nil {
-		log.Fatal(err)
-		return
-	}
+	con := connpass.NewConnpass()
+	con.ConnpassUSER = "Shun_Pei"
 	q := map[string]string{"nickname": con.ConnpassUSER}
 
 	con.InitRequest(q)
