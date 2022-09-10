@@ -1,3 +1,11 @@
+## メルカリ／Mercari
+
+### Women’s Career Talk 6 〜キャリアや人生を語り合う！交流会あり！
+
+- https://mercari.connpass.com/event/259549/
+
+- 9月29日(木) 19:30 ~
+
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
@@ -21,14 +29,6 @@
 - https://alterbooth.connpass.com/event/257745/
 
 - 9月8日(木) 17:00 ~
-
-## メルカリ／Mercari
-
-### Women’s Career Talk 6 〜キャリアや人生を語り合う！交流会あり！
-
-- https://mercari.connpass.com/event/259549/
-
-- 9月29日(木) 19:30 ~
 
 ## オルターブース
 
