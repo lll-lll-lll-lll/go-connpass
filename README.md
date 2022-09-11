@@ -1,5 +1,13 @@
 ## メルカリ／Mercari
 
+### 【学生・第二新卒向け／オンライン実施】Step up Go 4-5
+
+- https://mercari.connpass.com/event/258251/
+
+- 9月10日(土) 13:00 ~
+
+## メルカリ／Mercari
+
 ### Women’s Career Talk 6 〜キャリアや人生を語り合う！交流会あり！
 
 - https://mercari.connpass.com/event/259549/
@@ -37,14 +45,6 @@
 - https://alterbooth.connpass.com/event/257826/
 
 - 9月8日(木) 13:00 ~
-
-## メルカリ／Mercari
-
-### 【学生・第二新卒向け／オンライン実施】Step up Go 4-5
-
-- https://mercari.connpass.com/event/258251/
-
-- 9月10日(土) 13:00 ~
 
 ## メルカリ／Mercari
 
