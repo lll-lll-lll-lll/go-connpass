@@ -5,12 +5,12 @@ import (
 	"net/url"
 )
 
-func (c *Connpass) SetQuery(values map[string]string) {
+func CreateQuery(values map[string]string) url.Values {
 	q := url.Values{}
 	for k, v := range values {
 		q.Add(k, v)
 	}
-	c.Query = q
+	return q
 }
 
 func (c *Connpass) CreateUrl(q url.Values) string {

@@ -55,7 +55,10 @@ func connpassfunc() {
 	con.ConnpassUSER = "Shun_Pei"
 	q := map[string]string{"nickname": con.ConnpassUSER}
 
-	con.InitRequest(q)
+	if err := initRequest(con, q); err != nil {
+		log.Println(err)
+		return
+	}
 
 	seriesId := con.JoinGroupIdsByComma()
 	sm := format.GetForThreeMonthsEvent()
@@ -64,7 +67,8 @@ func connpassfunc() {
 	qd["count"] = "100"
 	qd["ym"] = sm
 
-	con.SetQuery(qd)
+	createdQuery := connpass.CreateQuery(qd)
+	con.Query = createdQuery
 	u := con.CreateUrl(con.Query)
 	res := con.Request(u)
 	defer res.Body.Close()
@@ -92,4 +96,19 @@ func defaultfunc() {
 	m.MDHandleFunc("Test Write Horizon", 3, WriteHorizon)
 	s := m.CompleteMDFile(2)
 	file.Write([]byte(s))
+}
+
+func initRequest(c *connpass.Connpass, query map[string]string) error {
+	q := connpass.CreateQuery(query)
+	c.Query = q
+	u := c.CreateUrl(c.Query)
+	res := c.Request(u)
+	defer res.Body.Close()
+
+	if err := c.SetResponse(res); err != nil {
+		log.Println(err)
+		return err
+	}
+
+	return nil
 }
