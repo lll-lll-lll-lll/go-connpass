@@ -11,11 +11,11 @@ func (c *Connpass) InitRequest(query map[string]string) error {
 	res := c.Request(u)
 	defer res.Body.Close()
 
-	err := c.SetResponse(res)
-	if err != nil {
+	if err := c.SetResponse(res); err != nil {
 		log.Println(err)
 		return err
 	}
+
 	return nil
 }
 
