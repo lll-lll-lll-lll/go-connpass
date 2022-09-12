@@ -19,15 +19,3 @@ func (md *MarkDown) MDHandle(content interface{}, repeat int, write MDHandler) {
 func (md *MarkDown) MDHandleFunc(content interface{}, repeat int, write func(md *MarkDown, content interface{}, repeat int)) {
 	md.MDHandle(content, repeat, MDHandlerFunc(write))
 }
-
-// var defaultMarkDown MarkDown
-
-// var DefaultMarkDown = &defaultMarkDown
-
-// func WriteHandleFunc(content interface{}, repeat int, write func(md *MarkDown, content interface{}, repeat int)) {
-// 	DefaultMarkDown.WriteHandleFunc(content, repeat, write)
-// }
-
-// func WriteHandle(content interface{}, repeat int, write WriteHandler) {
-// 	defaultMarkDown.WriteHandle(content, repeat, write)
-// }
