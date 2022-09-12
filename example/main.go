@@ -73,9 +73,8 @@ func connpassfunc() {
 	res := con.Request(u)
 	defer res.Body.Close()
 
-	err = con.SetResponse(res)
-	if err != nil {
-		log.Fatal(err)
+	if err := con.SetResponse(res); err != nil {
+		log.Println(err)
 		return
 	}
 
