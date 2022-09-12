@@ -13,7 +13,7 @@ func (c *Connpass) InitRequest(query map[string]string) error {
 
 	err := c.SetResponse(res)
 	if err != nil {
-		log.Fatal(err)
+		log.Println(err)
 		return err
 	}
 	return nil
@@ -22,7 +22,7 @@ func (c *Connpass) InitRequest(query map[string]string) error {
 func (c *Connpass) Request(url string) *http.Response {
 	res, err := http.Get(url)
 	if err != nil {
-		log.Fatal(err)
+		log.Println(err)
 	}
 	return res
 }
