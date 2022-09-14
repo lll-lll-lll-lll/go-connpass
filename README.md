@@ -1,3 +1,19 @@
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #18 Babylon.jsをはじめよう
+
+- https://mspjp.connpass.com/event/260397/
+
+- 9月18日(日) 15:00 ~
+
+## メルカリ／Mercari
+
+### Mercari Security & Privacy Office Meetup
+
+- https://mercari.connpass.com/event/257843/
+
+- 9月14日(水) 18:00 ~
+
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
@@ -85,14 +101,6 @@
 - https://mercari.connpass.com/event/259117/
 
 - 9月14日(水) 19:00 ~
-
-## メルカリ／Mercari
-
-### Mercari Security & Privacy Office Meetup
-
-- https://mercari.connpass.com/event/257843/
-
-- 9月14日(水) 18:00 ~
 
 ## ASCII STARTUP
 
