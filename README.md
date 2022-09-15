@@ -6,14 +6,6 @@
 
 - 9月18日(日) 15:00 ~
 
-## メルカリ／Mercari
-
-### Mercari Security & Privacy Office Meetup
-
-- https://mercari.connpass.com/event/257843/
-
-- 9月14日(水) 18:00 ~
-
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
@@ -21,6 +13,22 @@
 - https://asciistartup.connpass.com/event/253998/
 
 - 9月17日(土) 10:00 ~
+
+## LINE Developer Community
+
+### 現場から始める草の根DX with LINE API〜テクノロジーで現場を変えようLT
+
+- https://linedevelopercommunity.connpass.com/event/260366/
+
+- 9月29日(木) 19:00 ~
+
+## メルカリ／Mercari
+
+### Mercari Security & Privacy Office Meetup
+
+- https://mercari.connpass.com/event/257843/
+
+- 9月14日(水) 18:00 ~
 
 ## ASCII STARTUP
 
