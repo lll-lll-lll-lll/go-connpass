@@ -1,10 +1,10 @@
-## Microsoft Learn Student Ambassadors
+## ASCII STARTUP
 
-### MS Tech Camp #18 Babylon.jsをはじめよう
+### PLATEAU Hack Challenge 2022 in 大和ミュージアム
 
-- https://mspjp.connpass.com/event/260397/
+- https://asciistartup.connpass.com/event/256613/
 
-- 9月18日(日) 15:00 ~
+- 11月5日(土) 10:00 ~
 
 ## ASCII STARTUP
 
@@ -13,6 +13,14 @@
 - https://asciistartup.connpass.com/event/253998/
 
 - 9月17日(土) 10:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #18 Babylon.jsをはじめよう
+
+- https://mspjp.connpass.com/event/260397/
+
+- 9月18日(日) 15:00 ~
 
 ## LINE Developer Community
 
@@ -29,14 +37,6 @@
 - https://mercari.connpass.com/event/257843/
 
 - 9月14日(水) 18:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in 大和ミュージアム
-
-- https://asciistartup.connpass.com/event/256613/
-
-- 11月5日(土) 10:00 ~
 
 ## メルカリ／Mercari
 
