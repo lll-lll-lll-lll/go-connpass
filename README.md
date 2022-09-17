@@ -1,3 +1,51 @@
+## ちゅらデータ
+
+### Chura DATA Tech Conference 2022
+
+- https://churadata.connpass.com/event/259739/
+
+- 10月22日(土) 13:00 ~
+
+## ちゅらデータ
+
+### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
+
+- https://churadata.connpass.com/event/256485/
+
+- 9月16日(金) 19:00 ~
+
+## メルカリ／Mercari
+
+### LINE/メルペイ/一休 フロントエンドエンジニア採用説明会
+
+- https://mercari.connpass.com/event/260427/
+
+- 10月6日(木) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hands-on 03
+
+- https://asciistartup.connpass.com/event/256614/
+
+- 10月7日(金) 19:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in enspace（仙台）
+
+- https://asciistartup.connpass.com/event/256303/
+
+- 11月12日(土) 10:00 ~
+
+## メルカリ／Mercari
+
+### 鹿島アントラーズの裏側 -マーチャンダイジング：プロフットボールクラブにおけるMD-
+
+- https://mercari.connpass.com/event/260493/
+
+- 9月27日(Tuesday) 19:00 ~
+
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in 大和ミュージアム
@@ -85,14 +133,6 @@
 - https://mercari.connpass.com/event/259127/
 
 - 9月28日(水) 19:00 ~
-
-## ちゅらデータ
-
-### 夏の終わりだ！ LT大会 〜打ち上げろ技術の花火〜
-
-- https://churadata.connpass.com/event/256485/
-
-- 9月16日(金) 19:00 ~
 
 ## ASCII STARTUP
 
