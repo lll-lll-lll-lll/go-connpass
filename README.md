@@ -1,3 +1,19 @@
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
+
+- https://asciistartup.connpass.com/event/253998/
+
+- 9月17日(土) 10:00 ~
+
+## メルカリ／Mercari
+
+### LINE/メルペイ/一休 フロントエンドエンジニア採用説明会
+
+- https://mercari.connpass.com/event/260427/
+
+- 10月6日(木) 19:00 ~
+
 ## ちゅらデータ
 
 ### Chura DATA Tech Conference 2022
@@ -13,14 +29,6 @@
 - https://churadata.connpass.com/event/256485/
 
 - 9月16日(金) 19:00 ~
-
-## メルカリ／Mercari
-
-### LINE/メルペイ/一休 フロントエンドエンジニア採用説明会
-
-- https://mercari.connpass.com/event/260427/
-
-- 10月6日(木) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -53,14 +61,6 @@
 - https://asciistartup.connpass.com/event/256613/
 
 - 11月5日(土) 10:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in Engineer Cafe （福岡）
-
-- https://asciistartup.connpass.com/event/253998/
-
-- 9月17日(土) 10:00 ~
 
 ## Microsoft Learn Student Ambassadors
 
