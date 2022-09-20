@@ -1,3 +1,11 @@
+## LINE Developer Community
+
+### 現場から始める草の根DX with LINE API〜テクノロジーで現場を変えようLT
+
+- https://linedevelopercommunity.connpass.com/event/260366/
+
+- 9月29日(木) 19:00 ~
+
 ## Microsoft Learn Student Ambassadors
 
 ### MS Tech Camp #18 Babylon.jsをはじめよう
@@ -69,14 +77,6 @@
 - https://asciistartup.connpass.com/event/256613/
 
 - 11月5日(土) 10:00 ~
-
-## LINE Developer Community
-
-### 現場から始める草の根DX with LINE API〜テクノロジーで現場を変えようLT
-
-- https://linedevelopercommunity.connpass.com/event/260366/
-
-- 9月29日(木) 19:00 ~
 
 ## メルカリ／Mercari
 
