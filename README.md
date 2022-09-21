@@ -1,4 +1,12 @@
-## LINE Developer Community
+## LINEDC
+
+### LINE API開発者向けカンファレンス「REV UP 2022」
+
+- https://linedevelopercommunity.connpass.com/event/260460/
+
+- 10月22日(土) 13:00 ~
+
+## LINEDC
 
 ### 現場から始める草の根DX with LINE API〜テクノロジーで現場を変えようLT
 
