@@ -1,5 +1,13 @@
 ## LINEDC
 
+### 30分でできるか？！QRコードで呼び出しシステムをLINE Notifyで作るチャレンジ
+
+- https://linedevelopercommunity.connpass.com/event/260606/
+
+- 10月5日(水) 19:00 ~
+
+## LINEDC
+
 ### LINE API開発者向けカンファレンス「REV UP 2022」
 
 - https://linedevelopercommunity.connpass.com/event/260460/
