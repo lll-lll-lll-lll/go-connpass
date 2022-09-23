@@ -1,10 +1,50 @@
 ## LINEDC
 
+### プログラミング未経験者歓迎! Makeで作るノーコードLINE Bot入門
+
+- https://linedevelopercommunity.connpass.com/event/260801/
+
+- 10月7日(金) 19:00 ~
+
+## オルターブース
+
+### 学生向け！オルターブースAzure座談会
+
+- https://alterbooth.connpass.com/event/260580/
+
+- 10月1日(土) 13:00 ~
+
+## メルカリ／Mercari
+
+### 鹿島アントラーズの裏側 -マーチャンダイジング：プロフットボールクラブにおけるMD・商品企画-
+
+- https://mercari.connpass.com/event/260493/
+
+- 9月27日(Tuesday) 19:00 ~
+
+## LINEDC
+
 ### 30分でできるか？！QRコードで呼び出しシステムをLINE Notifyで作るチャレンジ
 
 - https://linedevelopercommunity.connpass.com/event/260606/
 
 - 10月5日(水) 19:00 ~
+
+## メルカリ／Mercari
+
+### Women’s Career Talk 6 〜キャリアや人生を語り合う！交流会あり！
+
+- https://mercari.connpass.com/event/259549/
+
+- 9月29日(木) 19:30 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hands-on 03
+
+- https://asciistartup.connpass.com/event/256614/
+
+- 10月7日(金) 19:00 ~
 
 ## LINEDC
 
@@ -64,27 +104,11 @@
 
 ## ASCII STARTUP
 
-### PLATEAU Hands-on 03
-
-- https://asciistartup.connpass.com/event/256614/
-
-- 10月7日(金) 19:00 ~
-
-## ASCII STARTUP
-
 ### PLATEAU Hack Challenge 2022 in enspace（仙台）
 
 - https://asciistartup.connpass.com/event/256303/
 
 - 11月12日(土) 10:00 ~
-
-## メルカリ／Mercari
-
-### 鹿島アントラーズの裏側 -マーチャンダイジング：プロフットボールクラブにおけるMD-
-
-- https://mercari.connpass.com/event/260493/
-
-- 9月27日(Tuesday) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -109,14 +133,6 @@
 - https://mercari.connpass.com/event/258251/
 
 - 9月10日(土) 13:00 ~
-
-## メルカリ／Mercari
-
-### Women’s Career Talk 6 〜キャリアや人生を語り合う！交流会あり！
-
-- https://mercari.connpass.com/event/259549/
-
-- 9月29日(木) 19:30 ~
 
 ## オルターブース
 
