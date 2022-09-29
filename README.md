@@ -1,3 +1,19 @@
+## メルカリ／Mercari
+
+### 【フォトシンス＆メルカリ】10年来の友人が語る、プロダクトマネージャーと経営・事業トップの理想の関係
+
+- https://mercari.connpass.com/event/259127/
+
+- 9月28日(水) 19:00 ~
+
+## オルターブース
+
+### 学生向け！オルターブースAzure座談会
+
+- https://alterbooth.connpass.com/event/260580/
+
+- 10月1日(土) 13:00 ~
+
 ## LINEDC
 
 ### 現場から始める草の根DX with LINE API〜テクノロジーで現場を変えようLT
@@ -13,14 +29,6 @@
 - https://linedevelopercommunity.connpass.com/event/260606/
 
 - 10月5日(水) 19:00 ~
-
-## オルターブース
-
-### 学生向け！オルターブースAzure座談会
-
-- https://alterbooth.connpass.com/event/260580/
-
-- 10月1日(土) 13:00 ~
 
 ## メルカリ／Mercari
 
@@ -165,14 +173,6 @@
 - https://mercari.connpass.com/event/258539/
 
 - 9月14日(水) 19:00 ~
-
-## メルカリ／Mercari
-
-### 【フォトシンス＆メルカリ】10年来の友人が語る、プロダクトマネージャーと経営・事業トップの理想の関係
-
-- https://mercari.connpass.com/event/259127/
-
-- 9月28日(水) 19:00 ~
 
 ## ASCII STARTUP
 
