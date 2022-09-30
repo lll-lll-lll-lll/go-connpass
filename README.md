@@ -1,11 +1,3 @@
-## メルカリ／Mercari
-
-### 【フォトシンス＆メルカリ】10年来の友人が語る、プロダクトマネージャーと経営・事業トップの理想の関係
-
-- https://mercari.connpass.com/event/259127/
-
-- 9月28日(水) 19:00 ~
-
 ## オルターブース
 
 ### 学生向け！オルターブースAzure座談会
@@ -16,19 +8,43 @@
 
 ## LINEDC
 
+### 30分でできるか？！QRコードで呼び出しシステムをLINE Notifyで作るチャレンジ
+
+- https://linedevelopercommunity.connpass.com/event/260606/
+
+- 10月5日(水) 19:00 ~
+
+## LINEDC
+
+### プログラミング未経験者歓迎! Makeで作るノーコードLINE Bot入門
+
+- https://linedevelopercommunity.connpass.com/event/260801/
+
+- 10月7日(金) 19:00 ~
+
+## LINEDC
+
 ### 現場から始める草の根DX with LINE API〜テクノロジーで現場を変えようLT
 
 - https://linedevelopercommunity.connpass.com/event/260366/
 
 - 9月29日(木) 19:00 ~
 
-## LINEDC
+## ASCII STARTUP
 
-### 30分でできるか？！QRコードで呼び出しシステムをLINE Notifyで作るチャレンジ
+### 3D都市モデル PLATEAU LT 03
 
-- https://linedevelopercommunity.connpass.com/event/260606/
+- https://asciistartup.connpass.com/event/256169/
 
-- 10月5日(水) 19:00 ~
+- 10月21日(金) 19:00 ~
+
+## メルカリ／Mercari
+
+### 【フォトシンス＆メルカリ】10年来の友人が語る、プロダクトマネージャーと経営・事業トップの理想の関係
+
+- https://mercari.connpass.com/event/259127/
+
+- 9月28日(水) 19:00 ~
 
 ## メルカリ／Mercari
 
@@ -61,14 +77,6 @@
 - https://linedevelopercommunity.connpass.com/event/260460/
 
 - 10月22日(土) 13:00 ~
-
-## LINEDC
-
-### プログラミング未経験者歓迎! Makeで作るノーコードLINE Bot入門
-
-- https://linedevelopercommunity.connpass.com/event/260801/
-
-- 10月7日(金) 19:00 ~
 
 ## メルカリ／Mercari
 
@@ -189,13 +197,5 @@
 - https://mercari.connpass.com/event/259117/
 
 - 9月14日(水) 19:00 ~
-
-## ASCII STARTUP
-
-### 3D都市モデル PLATEAU LT 03
-
-- https://asciistartup.connpass.com/event/256169/
-
-- 10月21日(金) 19:00 ~
 
 <br> 
