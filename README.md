@@ -1,10 +1,34 @@
-## Microsoft Learn Student Ambassadors
+## LINEDC
 
-### MS Tech Camp 2周年記念イベント@Microsoft Base 代官山＋Youtube
+### LINE API開発者向けカンファレンス「REV UP 2022」
 
-- https://mspjp.connpass.com/event/260855/
+- https://linedevelopercommunity.connpass.com/event/260460/
 
-- 10月29日(土) 14:00 ~
+- 10月22日(土) 13:00 ~
+
+## tenntenn
+
+### 【有料】Gopher塾 #1 - Testing - DAY1
+
+- https://tenntenn.connpass.com/event/261568/
+
+- 10月29日(土) 13:00 ~
+
+## ASCII STARTUP
+
+### PLATEAU Hack Challenge 2022 in 大和ミュージアム（呉）
+
+- https://asciistartup.connpass.com/event/256613/
+
+- 11月5日(土) 10:00 ~
+
+## カウシェ
+
+### 【MVPのアンチパターン大公開！】急成長プロダクトの絶対に避けたい3つの失敗談から学ぶMVPの作り方
+
+- https://kauche.connpass.com/event/258899/
+
+- 10月12日(水) 19:00 ~
 
 ## カウシェ
 
@@ -13,6 +37,14 @@
 - https://kauche.connpass.com/event/261716/
 
 - 10月26日(水) 19:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp 2周年記念イベント@Microsoft Base 代官山＋Youtube
+
+- https://mspjp.connpass.com/event/260855/
+
+- 10月29日(土) 14:00 ~
 
 ## ASCII STARTUP
 
@@ -46,14 +78,6 @@
 
 - 10月5日(水) 19:00 ~
 
-## LINEDC
-
-### LINE API開発者向けカンファレンス「REV UP 2022」
-
-- https://linedevelopercommunity.connpass.com/event/260460/
-
-- 10月22日(土) 13:00 ~
-
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in enspace（仙台）
@@ -70,22 +94,6 @@
 
 - 11月3日(木) 13:00 ~
 
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in 大和ミュージアム
-
-- https://asciistartup.connpass.com/event/256613/
-
-- 11月5日(土) 10:00 ~
-
-## tenntenn
-
-### 【有料】Gopher塾 #1 - Testing - DAY1
-
-- https://tenntenn.connpass.com/event/261568/
-
-- 10月29日(土) 13:00 ~
-
 ## メルカリ／Mercari
 
 ### LINE/メルペイ/一休 フロントエンドエンジニア採用説明会
@@ -101,14 +109,6 @@
 - https://alterbooth.connpass.com/event/260580/
 
 - 10月1日(土) 13:00 ~
-
-## カウシェ
-
-### 【MVPのアンチパターン大公開！】急成長プロダクトの絶対に避けたい3つの失敗談から学ぶMVPの作り方
-
-- https://kauche.connpass.com/event/258899/
-
-- 10月12日(水) 19:00 ~
 
 ## ASCII STARTUP
 
