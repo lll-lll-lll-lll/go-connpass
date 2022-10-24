@@ -1,3 +1,11 @@
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp 2周年記念イベント@Microsoft Base 代官山＋Youtube
+
+- https://mspjp.connpass.com/event/260855/
+
+- 10月29日(土) 14:00 ~
+
 ## LINEDC
 
 ### LINE API開発者向けカンファレンス「REV UP 2022」
@@ -6,6 +14,22 @@
 
 - 10月22日(土) 13:00 ~
 
+## LINEDC
+
+### 福山ハッカソン（仮称）
+
+- https://linedevelopercommunity.connpass.com/event/260606/
+
+- 10月5日(水) 10:00 ~
+
+## tenntenn
+
+### 【有料】Gopher塾 #1 - Testing - DAY 2
+
+- https://tenntenn.connpass.com/event/262106/
+
+- 11月3日(木) 13:00 ~
+
 ## tenntenn
 
 ### 【有料】Gopher塾 #1 - Testing - DAY1
@@ -13,6 +37,38 @@
 - https://tenntenn.connpass.com/event/261568/
 
 - 10月29日(土) 13:00 ~
+
+## メルカリ／Mercari
+
+### LINE/メルカリ/DeNA/CyberAgent サーバーサイドエンジニア新卒採用説明会
+
+- https://mercari.connpass.com/event/263671/
+
+- 11月9日(水) 18:00 ~
+
+## メルカリ／Mercari
+
+### LINE/メルカリ/DeNA/CyberAgent Mobile Appエンジニア 新卒採用説明会
+
+- https://mercari.connpass.com/event/263668/
+
+- 11月1日(Tuesday) 18:00 ~
+
+## メルカリ／Mercari
+
+### LINE/メルカリ/クックパッド/DeNA/CyberAgent 新卒エンジニア合同採用説明会
+
+- https://mercari.connpass.com/event/262182/
+
+- 10月29日(土) 13:00 ~
+
+## ASCII STARTUP
+
+### 3D都市モデル PLATEAU LT 03
+
+- https://asciistartup.connpass.com/event/256169/
+
+- 10月21日(金) 19:00 ~
 
 ## ASCII STARTUP
 
@@ -38,14 +94,6 @@
 
 - 10月26日(水) 19:00 ~
 
-## Microsoft Learn Student Ambassadors
-
-### MS Tech Camp 2周年記念イベント@Microsoft Base 代官山＋Youtube
-
-- https://mspjp.connpass.com/event/260855/
-
-- 10月29日(土) 14:00 ~
-
 ## ASCII STARTUP
 
 ### PLATEAU Hands-on 03
@@ -62,22 +110,6 @@
 
 - 10月7日(金) 19:00 ~
 
-## メルカリ／Mercari
-
-### LINE/メルカリ/クックパッド/DeNA/CyberAgent 新卒エンジニア合同採用説明会
-
-- https://mercari.connpass.com/event/262182/
-
-- 10月29日(土) 13:00 ~
-
-## LINEDC
-
-### 30分でできるか？！QRコードで呼び出しシステムをLINE Notifyで作るチャレンジ
-
-- https://linedevelopercommunity.connpass.com/event/260606/
-
-- 10月5日(水) 19:00 ~
-
 ## ASCII STARTUP
 
 ### PLATEAU Hack Challenge 2022 in enspace（仙台）
@@ -85,14 +117,6 @@
 - https://asciistartup.connpass.com/event/256303/
 
 - 11月12日(土) 10:00 ~
-
-## tenntenn
-
-### 【有料】Gopher塾 #1 - Testing - DAY 2
-
-- https://tenntenn.connpass.com/event/262106/
-
-- 11月3日(木) 13:00 ~
 
 ## メルカリ／Mercari
 
@@ -109,14 +133,6 @@
 - https://alterbooth.connpass.com/event/260580/
 
 - 10月1日(土) 13:00 ~
-
-## ASCII STARTUP
-
-### 3D都市モデル PLATEAU LT 03
-
-- https://asciistartup.connpass.com/event/256169/
-
-- 10月21日(金) 19:00 ~
 
 ## メルカリ／Mercari
 
