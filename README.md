@@ -1,18 +1,74 @@
 ## ASCII STARTUP
 
+### PLATEAU Hack Challenge 2022 in enspace（仙台）
+
+- https://asciistartup.connpass.com/event/256303/
+
+- 11月12日(土) 10:00 ~
+
+## tenntenn
+
+### tenntenn.go #8 - Mastodonフォロワー限定 -
+
+- https://tenntenn.connpass.com/event/265706/
+
+- 11月14日(月) 19:30 ~
+
+## LINEDC
+
+### 【ハンズオン】Flutter Web X Google App ScriptでLIFFアプリを作ろう
+
+- https://linedevelopercommunity.connpass.com/event/265087/
+
+- 11月24日(木) 19:00 ~
+
+## ASCII STARTUP
+
 ### PLATEAU Hack Challenge 2022 in 大和ミュージアム（呉）
 
 - https://asciistartup.connpass.com/event/256613/
 
 - 11月5日(土) 10:00 ~
 
+## ちゅらデータ
+
+### マネジメント3.0: 今どきエンジニアリング × リーダーのチームづくりメソッド
+
+- https://churadata.connpass.com/event/263973/
+
+- 11月11日(金) 19:00 ~
+
+## LINEDC
+
+### 【好評企画！】Qiita/Zenn 人気記事執筆者が語るLINE APIの魅力【招待LT会】
+
+- https://linedevelopercommunity.connpass.com/event/235716/
+
+- 1月17日(月) 19:00 ~
+
+## LINEDC
+
+### LINEDCアドベントカレンダー2021 振り返り会
+
+- https://linedevelopercommunity.connpass.com/event/232024/
+
+- 1月12日(水) 19:00 ~
+
 ## tenntenn
 
-### 【有料】Gopher塾 #1 - Testing - DAY 2
+### 【有料】Gopher塾 #1 - Testing - DAY 3
 
-- https://tenntenn.connpass.com/event/262106/
+- https://tenntenn.connpass.com/event/265342/
 
-- 11月3日(木) 13:00 ~
+- 11月23日(水) 13:00 ~
+
+## メルカリ／Mercari
+
+### リモート？出社？それともハイブリッド？ メルカリエンジニアが語る、働き方の自由と責任
+
+- https://mercari.connpass.com/event/261254/
+
+- 11月29日(Tuesday) 12:00 ~
 
 ## Microsoft Learn Student Ambassadors
 
@@ -22,69 +78,13 @@
 
 - 12月5日(月) 19:00 ~
 
-## Microsoft Learn Student Ambassadors
-
-### MS Tech Camp 2周年記念イベント@Microsoft Base 代官山＋Youtube
-
-- https://mspjp.connpass.com/event/260855/
-
-- 10月29日(土) 14:00 ~
-
-## ちゅらデータ
-
-### BeCrazyな個の可能性を開放し続け「なべぶた型組織」で成長をめざすちゅらデータの挑戦ってなんだ？
-
-- https://churadata.connpass.com/event/263973/
-
-- 11月11日(金) 19:00 ~
-
 ## tenntenn
 
-### 【有料】Gopher塾 #1 - Testing - DAY1
+### 【有料】Gopher塾 #1 - Testing - DAY 2
 
-- https://tenntenn.connpass.com/event/261568/
+- https://tenntenn.connpass.com/event/262106/
 
-- 10月29日(土) 13:00 ~
-
-## ASCII STARTUP
-
-### 3D都市モデル PLATEAU LT 03
-
-- https://asciistartup.connpass.com/event/256169/
-
-- 10月21日(金) 19:00 ~
-
-## LINEDC
-
-### 30分でできるか？！QRコードで呼び出しシステムをLINE Notifyで作るチャレンジ
-
-- https://linedevelopercommunity.connpass.com/event/260606/
-
-- 10月5日(水) 10:00 ~
-
-## LINEDC
-
-### LINE API開発者向けカンファレンス「REV UP 2022」
-
-- https://linedevelopercommunity.connpass.com/event/260460/
-
-- 10月22日(土) 13:00 ~
-
-## カウシェ
-
-### 対談イベント｜「プログラミング言語Go」の翻訳者と語る、Goとソフトウェアアーキテクチャ
-
-- https://kauche.connpass.com/event/261716/
-
-- 10月26日(水) 19:00 ~
-
-## メルカリ／Mercari
-
-### 多様な働き方とバリュー発揮は共存できるのか？
-
-- https://mercari.connpass.com/event/260479/
-
-- 10月27日(木) 12:00 ~
+- 11月3日(木) 13:00 ~
 
 ## メルカリ／Mercari
 
@@ -102,68 +102,156 @@
 
 - 11月1日(Tuesday) 18:00 ~
 
-## メルカリ／Mercari
+## LINEDC
 
-### LINE/メルカリ/クックパッド/DeNA/CyberAgent 新卒エンジニア合同採用説明会
+### 【ハンズオン】LINE Bot×SORACOM Beamで画面の彼方のデバイスを遠隔操作してみよう！
 
-- https://mercari.connpass.com/event/262182/
+- https://linedevelopercommunity.connpass.com/event/235647/
 
-- 10月29日(土) 13:00 ~
-
-## カウシェ
-
-### 【MVPのアンチパターン大公開！】急成長プロダクトの絶対に避けたい3つの失敗談から学ぶMVPの作り方
-
-- https://kauche.connpass.com/event/258899/
-
-- 10月12日(水) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hands-on 03
-
-- https://asciistartup.connpass.com/event/256614/
-
-- 10月7日(金) 19:00 ~
+- 1月28日(金) 19:00 ~
 
 ## LINEDC
 
-### プログラミング未経験者歓迎! Makeで作るノーコードLINE Bot入門
+### IT活用・自動化に繋がる！LINEサービス × ローコード勉強会！
 
-- https://linedevelopercommunity.connpass.com/event/260801/
+- https://linedevelopercommunity.connpass.com/event/235917/
 
-- 10月7日(金) 19:00 ~
+- 1月24日(月) 19:30 ~
 
-## ASCII STARTUP
+## tenntenn
 
-### PLATEAU Hack Challenge 2022 in enspace（仙台）
+### tenntenn Conference 2022
 
-- https://asciistartup.connpass.com/event/256303/
+- https://tenntenn.connpass.com/event/226562/
 
-- 11月12日(土) 10:00 ~
+- 1月15日(土) 10:00 ~
 
 ## メルカリ／Mercari
 
-### LINE/メルペイ/一休 フロントエンドエンジニア採用説明会
+### merpay QA Talk 〜メルペイQAのリアル vol.3〜
 
-- https://mercari.connpass.com/event/260427/
+- https://mercari.connpass.com/event/233031/
 
-- 10月6日(木) 19:00 ~
+- 1月12日(水) 19:30 ~
 
 ## オルターブース
 
-### 学生向け！オルターブースAzure座談会
+### DXするなら知っておきたい！クラウドの基本～クラウドとは？～
 
-- https://alterbooth.connpass.com/event/260580/
+- https://alterbooth.connpass.com/event/232484/
 
-- 10月1日(土) 13:00 ~
+- 1月20日(木) 13:00 ~
+
+## メルカリ／Mercari
+
+### ソウゾウ/メルカリShops PR採用説明会
+
+- https://mercari.connpass.com/event/236284/
+
+- 1月27日(木) 19:00 ~
+
+## メルカリ／Mercari
+
+### Mercari ML&Search Talk #2 ~Customer Understanding~
+
+- https://mercari.connpass.com/event/233810/
+
+- 1月26日(水) 19:00 ~
+
+## メルカリ／Mercari
+
+### Mercari PR Session Vol.4
+
+- https://mercari.connpass.com/event/236196/
+
+- 1月26日(水) 19:00 ~
+
+## メルカリ／Mercari
+
+### Mobility Technologies ✕ メルカリ 新領域に染み出すプロダクトマネジメントとは
+
+- https://mercari.connpass.com/event/235414/
+
+- 1月26日(水) 18:30 ~
+
+## メルカリ／Mercari
+
+### 信用基盤が創り出す、メルペイの未来を語り尽くすMEET UP！3
+
+- https://mercari.connpass.com/event/236136/
+
+- 1月25日(Tuesday) 19:00 ~
+
+## メルカリ／Mercari
+
+### Trust and Safety  Meet up
+
+- https://mercari.connpass.com/event/236146/
+
+- 1月26日(水) 19:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #12
+
+- https://mspjp.connpass.com/event/235733/
+
+- 1月23日(日) 15:00 ~
+
+## メルカリ／Mercari
+
+### mercari.go #18 オンライン開催
+
+- https://mercari.connpass.com/event/235116/
+
+- 1月20日(木) 12:00 ~
+
+## メルカリ／Mercari
+
+### メルカリ PRメンバーが語るコーポレート・コミュニケーション施策の裏側
+
+- https://mercari.connpass.com/event/234126/
+
+- 1月20日(木) 20:00 ~
+
+## LINEDC
+
+### 【ハンズオン】認証を攻略！Rails×LIFFでセキュアなスタンプラリーアプリを作ろう！
+
+- https://linedevelopercommunity.connpass.com/event/234815/
+
+- 1月19日(水) 19:00 ~
+
+## メルカリ／Mercari
+
+### Mercari PR Session Vol.3
+
+- https://mercari.connpass.com/event/234152/
+
+- 1月13日(木) 19:00 ~
+
+## メルカリ／Mercari
+
+### ライフシフト＠メルカリ〜ワーキングペアレント編〜
+
+- https://mercari.connpass.com/event/235198/
+
+- 1月12日(水) 12:00 ~
 
 ## ちゅらデータ
 
-### Chura DATA Tech Conference 2022
+### ちゅらデータ新年会2022
 
-- https://churadata.connpass.com/event/259739/
+- https://churadata.connpass.com/event/232612/
 
-- 10月22日(土) 13:00 ~
+- 1月7日(金) 19:00 ~
+
+## メルカリ／Mercari
+
+### らめくでりさ Tech Meetup for Students Vol.7 - Mobile App
+
+- https://mercari.connpass.com/event/234136/
+
+- 1月13日(木) 18:00 ~
 
 <br> 
