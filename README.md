@@ -1,5 +1,45 @@
 ## メルカリ／Mercari
 
+### mercari.go #20 オンライン開催
+
+- https://mercari.connpass.com/event/266215/
+
+- 12月2日(金) 12:00 ~
+
+## LINEDC
+
+### 【約3年ぶりオフライン会場有り！】LINE Developer Community忘年LT大会
+
+- https://linedevelopercommunity.connpass.com/event/265942/
+
+- 12月2日(金) 19:00 ~
+
+## LINEDC
+
+### 【ハンズオン】Flutter Web X Google App ScriptでLIFFアプリを作ろう
+
+- https://linedevelopercommunity.connpass.com/event/265087/
+
+- 11月24日(木) 19:00 ~
+
+## LINEDC
+
+### たった30分でできる！？サンタから毎日メッセージが届くLINE Botを作るチャレンジ
+
+- https://linedevelopercommunity.connpass.com/event/265838/
+
+- 11月28日(月) 19:00 ~
+
+## tenntenn
+
+### 【有料】Gopher塾 #1 - Testing - DAY 3
+
+- https://tenntenn.connpass.com/event/265342/
+
+- 11月23日(水) 13:00 ~
+
+## メルカリ／Mercari
+
 ### Japan Cyber Security Meetup
 
 - https://mercari.connpass.com/event/266565/
@@ -30,22 +70,6 @@
 
 - 12月14日(水) 19:00 ~
 
-## LINEDC
-
-### 【約3年ぶりオフライン会場有り！】LINE Developer Community忘年LT大会
-
-- https://linedevelopercommunity.connpass.com/event/265942/
-
-- 12月2日(金) 19:00 ~
-
-## LINEDC
-
-### 【ハンズオン】Flutter Web X Google App ScriptでLIFFアプリを作ろう
-
-- https://linedevelopercommunity.connpass.com/event/265087/
-
-- 11月24日(木) 19:00 ~
-
 ## メルカリ／Mercari
 
 ### 鹿島アントラーズの裏側 -ツーリズム事業における「スポーツ×地方創生」と「DMO」-
@@ -61,14 +85,6 @@
 - https://churadata.connpass.com/event/263973/
 
 - 11月11日(金) 19:00 ~
-
-## tenntenn
-
-### 【有料】Gopher塾 #1 - Testing - DAY 3
-
-- https://tenntenn.connpass.com/event/265342/
-
-- 11月23日(水) 13:00 ~
 
 ## LINEDC
 
