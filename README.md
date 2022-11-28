@@ -1,12 +1,20 @@
-## メルカリ／Mercari
+## tenntenn
 
-### mercari.go #20 オンライン開催
+### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 1
 
-- https://mercari.connpass.com/event/266215/
+- https://tenntenn.connpass.com/event/267564/
 
-- 12月2日(金) 12:00 ~
+- 12月11日(日) 13:00 ~
 
-## LINEDC
+## tenntenn
+
+### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 2
+
+- https://tenntenn.connpass.com/event/268056/
+
+- 12月15日(木) 19:30 ~
+
+## LINE Developer Community
 
 ### 【約3年ぶりオフライン会場有り！】LINE Developer Community忘年LT大会
 
@@ -14,21 +22,29 @@
 
 - 12月2日(金) 19:00 ~
 
-## LINEDC
+## メルカリ／Mercari
 
-### 【ハンズオン】Flutter Web X Google App ScriptでLIFFアプリを作ろう
+### リモート？出社？それともハイブリッド？ メルカリエンジニアが語る、働き方の自由と責任
 
-- https://linedevelopercommunity.connpass.com/event/265087/
+- https://mercari.connpass.com/event/261254/
 
-- 11月24日(木) 19:00 ~
+- 11月29日(Tuesday) 12:00 ~
 
-## LINEDC
+## LINE Developer Community
 
 ### たった30分でできる！？サンタから毎日メッセージが届くLINE Botを作るチャレンジ
 
 - https://linedevelopercommunity.connpass.com/event/265838/
 
 - 11月28日(月) 19:00 ~
+
+## LINE Developer Community
+
+### 【ハンズオン】Flutter Web X Google App ScriptでLIFFアプリを作ろう
+
+- https://linedevelopercommunity.connpass.com/event/265087/
+
+- 11月24日(木) 19:00 ~
 
 ## tenntenn
 
@@ -37,6 +53,14 @@
 - https://tenntenn.connpass.com/event/265342/
 
 - 11月23日(水) 13:00 ~
+
+## メルカリ／Mercari
+
+### mercari.go #20 オンライン開催
+
+- https://mercari.connpass.com/event/266215/
+
+- 12月2日(金) 12:00 ~
 
 ## メルカリ／Mercari
 
@@ -86,7 +110,7 @@
 
 - 11月11日(金) 19:00 ~
 
-## LINEDC
+## LINE Developer Community
 
 ### 【ハンズオン】LINE Bot×SORACOM Beamで画面の彼方のデバイスを遠隔操作してみよう！
 
@@ -102,7 +126,7 @@
 
 - 11月5日(土) 10:00 ~
 
-## LINEDC
+## LINE Developer Community
 
 ### 【好評企画！】Qiita/Zenn 人気記事執筆者が語るLINE APIの魅力【招待LT会】
 
@@ -110,21 +134,13 @@
 
 - 1月17日(月) 19:00 ~
 
-## LINEDC
+## LINE Developer Community
 
 ### LINEDCアドベントカレンダー2021 振り返り会
 
 - https://linedevelopercommunity.connpass.com/event/232024/
 
 - 1月12日(水) 19:00 ~
-
-## メルカリ／Mercari
-
-### リモート？出社？それともハイブリッド？ メルカリエンジニアが語る、働き方の自由と責任
-
-- https://mercari.connpass.com/event/261254/
-
-- 11月29日(Tuesday) 12:00 ~
 
 ## Microsoft Learn Student Ambassadors
 
@@ -158,7 +174,7 @@
 
 - 11月1日(Tuesday) 18:00 ~
 
-## LINEDC
+## LINE Developer Community
 
 ### IT活用・自動化に繋がる！LINEサービス × ローコード勉強会！
 
@@ -262,7 +278,7 @@
 
 - 1月20日(木) 20:00 ~
 
-## LINEDC
+## LINE Developer Community
 
 ### 【ハンズオン】認証を攻略！Rails×LIFFでセキュアなスタンプラリーアプリを作ろう！
 
