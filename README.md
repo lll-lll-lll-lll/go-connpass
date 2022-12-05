@@ -1,3 +1,11 @@
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #19 ~Imagine Cup PreEvent~
+
+- https://mspjp.connpass.com/event/264784/
+
+- 12月5日(月) 19:00 ~
+
 ## tenntenn
 
 ### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 1
@@ -5,14 +13,6 @@
 - https://tenntenn.connpass.com/event/267564/
 
 - 12月11日(日) 13:00 ~
-
-## tenntenn
-
-### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 2
-
-- https://tenntenn.connpass.com/event/268056/
-
-- 12月15日(木) 19:30 ~
 
 ## LINE Developer Community
 
@@ -22,37 +22,13 @@
 
 - 12月2日(金) 19:00 ~
 
-## メルカリ／Mercari
+## CARTA HOLDINGS
 
-### リモート？出社？それともハイブリッド？ メルカリエンジニアが語る、働き方の自由と責任
+### 和田卓人さん＆ラムダノート鹿野さんと語る『事業をエンジニアリングする技術者たち』改訂・改題の裏側！
 
-- https://mercari.connpass.com/event/261254/
+- https://cartaholdings.connpass.com/event/267011/
 
-- 11月29日(Tuesday) 12:00 ~
-
-## LINE Developer Community
-
-### たった30分でできる！？サンタから毎日メッセージが届くLINE Botを作るチャレンジ
-
-- https://linedevelopercommunity.connpass.com/event/265838/
-
-- 11月28日(月) 19:00 ~
-
-## LINE Developer Community
-
-### 【ハンズオン】Flutter Web X Google App ScriptでLIFFアプリを作ろう
-
-- https://linedevelopercommunity.connpass.com/event/265087/
-
-- 11月24日(木) 19:00 ~
-
-## tenntenn
-
-### 【有料】Gopher塾 #1 - Testing - DAY 3
-
-- https://tenntenn.connpass.com/event/265342/
-
-- 11月23日(水) 13:00 ~
+- 12月14日(水) 19:00 ~
 
 ## メルカリ／Mercari
 
@@ -62,6 +38,14 @@
 
 - 12月2日(金) 12:00 ~
 
+## tenntenn
+
+### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 2
+
+- https://tenntenn.connpass.com/event/268056/
+
+- 12月15日(木) 19:30 ~
+
 ## メルカリ／Mercari
 
 ### Japan Cyber Security Meetup
@@ -69,22 +53,6 @@
 - https://mercari.connpass.com/event/266565/
 
 - 12月14日(水) 18:00 ~
-
-## tenntenn
-
-### tenntenn.go #8 - Mastodonフォロワー限定 -
-
-- https://tenntenn.connpass.com/event/265706/
-
-- 11月14日(月) 19:30 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in enspace（仙台）
-
-- https://asciistartup.connpass.com/event/256303/
-
-- 11月12日(土) 10:00 ~
 
 ## ちゅらデータ
 
@@ -94,22 +62,6 @@
 
 - 12月14日(水) 19:00 ~
 
-## メルカリ／Mercari
-
-### 鹿島アントラーズの裏側 -ツーリズム事業における「スポーツ×地方創生」と「DMO」-
-
-- https://mercari.connpass.com/event/266167/
-
-- 11月24日(木) 19:00 ~
-
-## ちゅらデータ
-
-### Management 3.0: 今どきエンジニアリング × リーダーのチームづくりメソッド
-
-- https://churadata.connpass.com/event/263973/
-
-- 11月11日(金) 19:00 ~
-
 ## LINE Developer Community
 
 ### 【ハンズオン】LINE Bot×SORACOM Beamで画面の彼方のデバイスを遠隔操作してみよう！
@@ -117,14 +69,6 @@
 - https://linedevelopercommunity.connpass.com/event/235647/
 
 - 1月28日(金) 19:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU Hack Challenge 2022 in 大和ミュージアム（呉）
-
-- https://asciistartup.connpass.com/event/256613/
-
-- 11月5日(土) 10:00 ~
 
 ## LINE Developer Community
 
@@ -142,37 +86,21 @@
 
 - 1月12日(水) 19:00 ~
 
-## Microsoft Learn Student Ambassadors
+## LINE Developer Community
 
-### MS Tech Camp #19 ~Imagine Cup PreEvent~
+### 【Amplify Studio×LIFF×Figma】ローコードで電子チケットアプリを作るハンズオン
 
-- https://mspjp.connpass.com/event/264784/
+- https://linedevelopercommunity.connpass.com/event/237286/
 
-- 12月5日(月) 19:00 ~
+- 2月18日(金) 19:00 ~
 
-## tenntenn
+## LINE Developer Community
 
-### 【有料】Gopher塾 #1 - Testing - DAY 2
+### AWS認定資格実力チェックLINEbotを作るハンズオン【Cloud Tech × LINEDC】
 
-- https://tenntenn.connpass.com/event/262106/
+- https://linedevelopercommunity.connpass.com/event/231939/
 
-- 11月3日(木) 13:00 ~
-
-## メルカリ／Mercari
-
-### LINE/メルカリ/DeNA/CyberAgent サーバーサイドエンジニア新卒採用説明会
-
-- https://mercari.connpass.com/event/263671/
-
-- 11月9日(水) 18:00 ~
-
-## メルカリ／Mercari
-
-### LINE/メルカリ/DeNA/CyberAgent Mobile Appエンジニア 新卒採用説明会
-
-- https://mercari.connpass.com/event/263668/
-
-- 11月1日(Tuesday) 18:00 ~
+- 2月4日(金) 19:00 ~
 
 ## LINE Developer Community
 
@@ -182,6 +110,86 @@
 
 - 1月24日(月) 19:30 ~
 
+## ちゅらデータ
+
+### 【初心者向け】Pythonで手軽に始める文章校正
+
+- https://churadata.connpass.com/event/234308/
+
+- 2月4日(金) 19:00 ~
+
+## メルカリ／Mercari
+
+### QA Talk〜QA積極募集企業紹介 & IT企業4社のパネルディスカッション〜
+
+- https://mercari.connpass.com/event/235795/
+
+- 2月16日(水) 19:30 ~
+
+## メルカリ／Mercari
+
+### 【withwork協賛】ライフシフト＠メルカリ〜働く場所を自分で選んだメルカリ社員の場合〜
+
+- https://mercari.connpass.com/event/239956/
+
+- 2月25日(金) 12:00 ~
+
+## メルカリ／Mercari
+
+### 【QAエンジニア向け】メルペイ・メルコインカジュアル面談Days
+
+- https://mercari.connpass.com/event/239890/
+
+- 2月16日(水) 12:00 ~
+
+## tenntenn
+
+### (再放送)tenntenn.go #3
+
+- https://tenntenn.connpass.com/event/240761/
+
+- 2月27日(日) 9:30 ~
+
+## tenntenn
+
+### tenntenn.go #3
+
+- https://tenntenn.connpass.com/event/239966/
+
+- 2月25日(金) 20:00 ~
+
+## メルカリ／Mercari
+
+### メルコイン経営陣が語るweb3の展望と事業組織 〜NFT/Crypto/Blockchain〜
+
+- https://mercari.connpass.com/event/240034/
+
+- 2月24日(木) 19:00 ~
+
+## メルカリ／Mercari
+
+### Souzoh・Merpay CS責任者が語る「CS/Operation組織の現在地とこれから」
+
+- https://mercari.connpass.com/event/239829/
+
+- 2月28日(月) 19:00 ~
+
+## メルカリ／Mercari
+
+### Analyst Meet -事業に向き合うアナリストとは？-
+
+- https://mercari.connpass.com/event/238375/
+
+- 2月21日(月) 19:00 ~
+
+## メルカリ／Mercari
+
+### Merpay Tech Talk〜信用領域におけるQAとBackendの協業〜
+
+- https://mercari.connpass.com/event/236901/
+
+- 2月9日(水) 19:30 ~
+
 ## tenntenn
 
 ### tenntenn Conference 2022
@@ -189,6 +197,62 @@
 - https://tenntenn.connpass.com/event/226562/
 
 - 1月15日(土) 10:00 ~
+
+## tenntenn
+
+### tenntenn.go #1
+
+- https://tenntenn.connpass.com/event/237376/
+
+- 2月5日(土) 10:00 ~
+
+## tenntenn
+
+### (再放送)tenntenn.go #1
+
+- https://tenntenn.connpass.com/event/239601/
+
+- 2月13日(日) 20:00 ~
+
+## tenntenn
+
+### tenntenn.go #2
+
+- https://tenntenn.connpass.com/event/238886/
+
+- 2月15日(Tuesday) 13:00 ~
+
+## tenntenn
+
+### (再放送)tenntenn.go #2
+
+- https://tenntenn.connpass.com/event/239636/
+
+- 2月16日(水) 20:00 ~
+
+## メルカリ／Mercari
+
+### Merpay & Mercoin Growth Session
+
+- https://mercari.connpass.com/event/238328/
+
+- 2月15日(Tuesday) 19:00 ~
+
+## メルカリ／Mercari
+
+### Mercoin Talk 〜NFT&ブロックチェーン最新トピックとメルカリグループの取り組み〜
+
+- https://mercari.connpass.com/event/237895/
+
+- 2月25日(金) 19:30 ~
+
+## メルカリ／Mercari
+
+### Kubernetes Casual Talk 〜Ubie、CA、メルペイのカスタムコントローラー〜
+
+- https://mercari.connpass.com/event/237615/
+
+- 2月24日(木) 19:30 ~
 
 ## メルカリ／Mercari
 
@@ -208,11 +272,35 @@
 
 ## メルカリ／Mercari
 
+### 【QAエンジニア向け】ソウゾウ採用説明会
+
+- https://mercari.connpass.com/event/239046/
+
+- 2月22日(Tuesday) 19:00 ~
+
+## メルカリ／Mercari
+
+### Android Office Hours〜2022年の技術トレンド大予想！〜
+
+- https://mercari.connpass.com/event/236909/
+
+- 2月3日(木) 19:30 ~
+
+## メルカリ／Mercari
+
 ### ソウゾウ/メルカリShops PR採用説明会
 
 - https://mercari.connpass.com/event/236284/
 
 - 1月27日(木) 19:00 ~
+
+## オルターブース
+
+### DXするなら知っておきたい！クラウドサービスの特徴
+
+- https://alterbooth.connpass.com/event/234589/
+
+- 2月17日(木) 13:00 ~
 
 ## メルカリ／Mercari
 
@@ -237,6 +325,22 @@
 - https://mercari.connpass.com/event/235414/
 
 - 1月26日(水) 18:30 ~
+
+## メルカリ／Mercari
+
+### メルカリグループのNFT事業挑戦〜最新のロードマップ公開〜※フロントエンド領域メインの回です※
+
+- https://mercari.connpass.com/event/237465/
+
+- 2月4日(金) 19:00 ~
+
+## メルカリ／Mercari
+
+### メルカリグループのNFT事業挑戦〜最新のロードマップ公開〜
+
+- https://mercari.connpass.com/event/237170/
+
+- 2月8日(Tuesday) 19:00 ~
 
 ## メルカリ／Mercari
 
