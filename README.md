@@ -1,10 +1,10 @@
-## Microsoft Learn Student Ambassadors
+## メルカリ／Mercari
 
-### MS Tech Camp #19 ~Imagine Cup PreEvent~
+### Women’s Career Talk 7 〜キャリアや人生を語り合おう〜
 
-- https://mspjp.connpass.com/event/264784/
+- https://mercari.connpass.com/event/269128/
 
-- 12月5日(月) 19:00 ~
+- 12月22日(木) 19:30 ~
 
 ## tenntenn
 
@@ -14,13 +14,13 @@
 
 - 12月11日(日) 13:00 ~
 
-## LINE Developer Community
+## メルカリ／Mercari
 
-### 【約3年ぶりオフライン会場有り！】LINE Developer Community忘年LT大会
+### mercari R4D 5th Anniv. Session：Pioneering the Path
 
-- https://linedevelopercommunity.connpass.com/event/265942/
+- https://mercari.connpass.com/event/268834/
 
-- 12月2日(金) 19:00 ~
+- 12月22日(木) 18:00 ~
 
 ## CARTA HOLDINGS
 
@@ -29,14 +29,6 @@
 - https://cartaholdings.connpass.com/event/267011/
 
 - 12月14日(水) 19:00 ~
-
-## メルカリ／Mercari
-
-### mercari.go #20 オンライン開催
-
-- https://mercari.connpass.com/event/266215/
-
-- 12月2日(金) 12:00 ~
 
 ## tenntenn
 
@@ -53,6 +45,30 @@
 - https://mercari.connpass.com/event/266565/
 
 - 12月14日(水) 18:00 ~
+
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #19 ~Imagine Cup PreEvent~
+
+- https://mspjp.connpass.com/event/264784/
+
+- 12月5日(月) 19:00 ~
+
+## LINE Developer Community
+
+### 【約3年ぶりオフライン会場有り！】LINE Developer Community忘年LT大会
+
+- https://linedevelopercommunity.connpass.com/event/265942/
+
+- 12月2日(金) 19:00 ~
+
+## メルカリ／Mercari
+
+### mercari.go #20 オンライン開催
+
+- https://mercari.connpass.com/event/266215/
+
+- 12月2日(金) 12:00 ~
 
 ## ちゅらデータ
 
