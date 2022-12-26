@@ -1,26 +1,10 @@
-## メルカリ／Mercari
-
-### mercari R4D 5th Anniv. Session：Pioneering the Path
-
-- https://mercari.connpass.com/event/268834/
-
-- 12月22日(木) 18:00 ~
-
 ## tenntenn
 
 ### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 2
 
 - https://tenntenn.connpass.com/event/268056/
 
-- 12月15日(木) 19:30 ~
-
-## CARTA HOLDINGS
-
-### 和田卓人さん＆ラムダノート鹿野さんと語る『事業をエンジニアリングする技術者たち』改訂・改題の裏側！
-
-- https://cartaholdings.connpass.com/event/267011/
-
-- 12月14日(水) 19:00 ~
+- 12月22日(木) 19:30 ~
 
 ## メルカリ／Mercari
 
@@ -29,6 +13,30 @@
 - https://mercari.connpass.com/event/269128/
 
 - 12月22日(木) 19:30 ~
+
+## オルターブース
+
+### Microsoft Base Festa2023 フォローアップ福岡
+
+- https://alterbooth.connpass.com/event/270342/
+
+- 12月22日(木) 0:00 ~
+
+## メルカリ／Mercari
+
+### mercari R4D 5th Anniv. Session：Pioneering the Path
+
+- https://mercari.connpass.com/event/268834/
+
+- 12月22日(木) 18:00 ~
+
+## CARTA HOLDINGS
+
+### 和田卓人さん＆ラムダノート鹿野さんと語る『事業をエンジニアリングする技術者たち』改訂・改題の裏側！
+
+- https://cartaholdings.connpass.com/event/267011/
+
+- 12月14日(水) 19:00 ~
 
 ## tenntenn
 
