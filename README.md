@@ -6,6 +6,14 @@
 
 - 1月9日(月) 14:00 ~
 
+## tenntenn
+
+### 【有料】Gopher塾 #3 - 静的解析を使ったGoの開発ツール制作 入門編 - DAY 1
+
+- https://tenntenn.connpass.com/event/271533/
+
+- 2月4日(土) 13:00 ~
+
 ## オルターブース
 
 ### 学生向け！オルターブースAzure座談会 vol.2
@@ -13,6 +21,14 @@
 - https://alterbooth.connpass.com/event/270650/
 
 - 1月28日(土) 13:00 ~
+
+## オルターブース
+
+### Microsoft Base Festa2023 フォローアップ福岡
+
+- https://alterbooth.connpass.com/event/270342/
+
+- 1月26日(木) 12:00 ~
 
 ## メルカリ／Mercari
 
