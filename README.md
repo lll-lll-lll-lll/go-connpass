@@ -1,3 +1,11 @@
+## Microsoft Learn Student Ambassadors
+
+### MS Tech Camp #20 C#でWebアプリ書初め～新年からBlazorに入門してみよう～
+
+- https://mspjp.connpass.com/event/272291/
+
+- 1月25日(水) 20:00 ~
+
 ## tenntenn
 
 ### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 3
