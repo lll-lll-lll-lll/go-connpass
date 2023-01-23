@@ -1,3 +1,19 @@
+## ASCII STARTUP
+
+### PLATEAU AWARD 2022 最終審査会・表彰式
+
+- https://asciistartup.connpass.com/event/267801/
+
+- 2月18日(土) 13:30 ~
+
+## tenntenn
+
+### 【有料】Gopher塾 #3 - 静的解析を使ったGoの開発ツール制作 入門編 - DAY 1
+
+- https://tenntenn.connpass.com/event/271533/
+
+- 2月4日(土) 13:00 ~
+
 ## Microsoft Learn Student Ambassadors
 
 ### MS Tech Camp #20 C#でWebアプリ書初め～新年からBlazorに入門してみよう～
@@ -13,14 +29,6 @@
 - https://tenntenn.connpass.com/event/269501/
 
 - 1月9日(月) 14:00 ~
-
-## tenntenn
-
-### 【有料】Gopher塾 #3 - 静的解析を使ったGoの開発ツール制作 入門編 - DAY 1
-
-- https://tenntenn.connpass.com/event/271533/
-
-- 2月4日(土) 13:00 ~
 
 ## オルターブース
 
@@ -45,13 +53,5 @@
 - https://mercari.connpass.com/event/238524/
 
 - 1月27日(金) 18:00 ~
-
-## ASCII STARTUP
-
-### PLATEAU AWARD 2022 最終審査会・表彰式
-
-- https://asciistartup.connpass.com/event/267801/
-
-- 2月18日(土) 13:30 ~
 
 <br> 
