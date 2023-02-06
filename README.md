@@ -1,26 +1,34 @@
-## Microsoft Learn Student Ambassadors
+## CARTA HOLDINGS
 
-### MS Tech Camp #20 C#でWebアプリ書初め～新年からBlazorに入門してみよう～
+### 【t_wada CARTA探訪】今話題の運用型テレビCM「テレシー」を支える技術
 
-- https://mspjp.connpass.com/event/272291/
+- https://cartaholdings.connpass.com/event/274100/
 
-- 1月25日(水) 20:00 ~
+- 2月22日(水) 18:00 ~
 
-## オルターブース
+## サイバーエージェント / CyberAgent
 
-### 学生向け！オルターブースAzure座談会 vol.2
+### メディアサービスにおけるデータ・AIの活用事例 #2
 
-- https://alterbooth.connpass.com/event/270650/
+- https://cyberagent.connpass.com/event/270224/
 
-- 1月28日(土) 13:00 ~
+- 2月16日(木) 19:00 ~
 
-## ASCII STARTUP
+## ちゅらデータ
 
-### PLATEAU AWARD 2022 最終審査会・表彰式
+### XR開発技術とビジネスの最新動向（初心者歓迎）
 
-- https://asciistartup.connpass.com/event/267801/
+- https://churadata.connpass.com/event/272515/
 
-- 2月18日(土) 13:30 ~
+- 2月17日(金) 19:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.go 〜ABEMAのGoを活用したFIFA ワールドカップ生中継の舞台裏〜
+
+- https://cyberagent.connpass.com/event/271708/
+
+- 3月10日(金) 18:00 ~
 
 ## tenntenn
 
@@ -30,28 +38,84 @@
 
 - 2月4日(土) 13:00 ~
 
+## サイバーエージェント / CyberAgent
+
+### 【オンライン開催】AI×DX最前線｜CyberAgentが仕掛ける新規事業 ※開発責任者登壇※
+
+- https://cyberagent.connpass.com/event/273268/
+
+- 2月20日(月) 19:30 ~
+
+## カウシェ
+
+### Cloud Run Casual Talk！
+
+- https://kauche.connpass.com/event/273291/
+
+- 2月15日(水) 19:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.infra #1 - Kubernetes as a Service
+
+- https://cyberagent.connpass.com/event/272843/
+
+- 3月2日(木) 19:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【福岡開催】サーバーサイド・SRE志望学生向け クラウドネイティブハンズオン【ECS/EKS】
+
+- https://cyberagent.connpass.com/event/271870/
+
+- 2月25日(土) 13:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### Web Speed Hackathon 2023 【一般向け】
+
+- https://cyberagent.connpass.com/event/270424/
+
+- 3月4日(土) 10:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【となりのゲームUIデザイナー】2/2（木） 19：30開催
+
+- https://cyberagent.connpass.com/event/272078/
+
+- 2月2日(木) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【となりのゲームUIデザイナー】2/2（木） 19：30開催
+
+- https://cyberagent.connpass.com/event/269147/
+
+- 2月2日(木) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### 1day技術ワークショップ ～パフォーマンスチューニングはここから始めよう～
+
+- https://cyberagent.connpass.com/event/270624/
+
+- 2月18日(土) 13:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.unity #6
+
+- https://cyberagent.connpass.com/event/269257/
+
+- 2月3日(金) 19:00 ~
+
 ## tenntenn
 
-### 【有料】Gopher塾 #2 - Goらしいコードの書き方 - DAY 3
+### tenntenn Conference 2023
 
-- https://tenntenn.connpass.com/event/269501/
+- https://tenntenn.connpass.com/event/261521/
 
-- 1月9日(月) 14:00 ~
-
-## オルターブース
-
-### Microsoft Base Festa2023 フォローアップ福岡
-
-- https://alterbooth.connpass.com/event/270342/
-
-- 1月26日(木) 12:00 ~
-
-## メルカリ／Mercari
-
-### ESG Talk vol.2 ユーザベース、マネーフォワード、メルカリのESG情報開示・発信戦略
-
-- https://mercari.connpass.com/event/238524/
-
-- 1月27日(金) 18:00 ~
+- 4月1日(土) 10:00 ~
 
 <br> 
