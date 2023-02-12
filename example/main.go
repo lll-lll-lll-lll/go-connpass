@@ -28,7 +28,7 @@ func WriteBlank(m *markdown.MarkDown, content interface{}, repeat int) {
 }
 
 // mdファイルの全体像を作るメソッド
-func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string {
+func CreateMd(response *connpass.Response, m *markdown.MarkDown) string {
 	for _, v := range response.Events {
 		owner := v.Series.Title
 		et := v.Title
@@ -40,7 +40,7 @@ func CreateMd(response *connpass.ConnpassResponse, m *markdown.MarkDown) string 
 		m.MDHandleFunc(es, 1, WriteHorizon)
 	}
 	m.MDHandleFunc("", 1, WriteBlank)
-	s := m.CompleteMDFile(2)
+	s := m.CompleteMarkDown(2)
 	return s
 }
 
@@ -51,35 +51,40 @@ func connpassfunc() {
 	}
 	defer file.Close()
 
-	con := connpass.NewConnpass()
-	con.ConnpassUSER = "Shun_Pei"
-	q := map[string]string{"nickname": con.ConnpassUSER}
+	client := connpass.New()
+	client.UserName = "Shun_Pei"
+	q := map[string]string{"nickname": client.UserName}
 
-	if err := initRequest(con, q); err != nil {
+	if err := initRequest(client, q); err != nil {
 		log.Println(err)
 		return
 	}
 
-	seriesId := con.JoinGroupIdsByComma()
+	seriesId := connpass.AggregateGroupIDByComma(client.Response)
 	sm := format.GetForThreeMonthsEvent()
 	qd := make(map[string]string)
 	qd["series_id"] = seriesId
 	qd["count"] = "100"
 	qd["ym"] = sm
 
-	createdQuery := connpass.CreateQuery(qd)
-	con.Query = createdQuery
-	u := con.CreateUrl(con.Query)
-	res := con.Request(u)
+	client.SetQuery(qd)
+	err = client.SetURL(client.Query)
+	if err != nil {
+		log.Fatal(err)
+	}
+	res, err := client.Do()
+	if err != nil {
+		log.Fatal(err)
+	}
 	defer res.Body.Close()
 
-	if err := con.SetResponse(res); err != nil {
+	if err := client.SetResponse(res); err != nil {
 		log.Println(err)
 		return
 	}
 
 	m := markdown.NewMarkDown()
-	s := CreateMd(con.ConnpassResponse, m)
+	s := CreateMd(client.Response, m)
 	file.Write([]byte(s))
 }
 
@@ -93,15 +98,17 @@ func defaultfunc() {
 	m := markdown.NewMarkDown()
 	m.MDHandleFunc("Test Write Title", 2, WriteTitle)
 	m.MDHandleFunc("Test Write Horizon", 3, WriteHorizon)
-	s := m.CompleteMDFile(2)
+	s := m.CompleteMarkDown(2)
 	file.Write([]byte(s))
 }
 
-func initRequest(c *connpass.Connpass, query map[string]string) error {
-	q := connpass.CreateQuery(query)
-	c.Query = q
-	u := c.CreateUrl(c.Query)
-	res := c.Request(u)
+func initRequest(c *connpass.Client, query map[string]string) error {
+	c.SetQuery(query)
+	err := c.SetURL(c.Query)
+	if err != nil {
+		return err
+	}
+	res, _ := c.Do()
 	defer res.Body.Close()
 
 	if err := c.SetResponse(res); err != nil {

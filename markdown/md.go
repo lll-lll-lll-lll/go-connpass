@@ -1,13 +1,8 @@
 package markdown
 
 import (
-	"errors"
-	"log"
+	"fmt"
 	"strings"
-)
-
-var (
-	ErrMarkNotFound = errors.New("mark not found")
 )
 
 // MarkDown structに Write(content string, repeat int, method)
@@ -21,22 +16,26 @@ func NewMarkDown() *MarkDown {
 }
 
 // mdのmarkを作成
-func (m *MarkDown) CreateMark(mark string, content interface{}, repeat int) string {
+func (m *MarkDown) CreateMark(mark string, content interface{}, repeat int) (string, error) {
 	i := interface{}(content)
 	n, ok := i.(string)
 	if !ok {
-		log.Fatal("入力を文字列に変換できませんでした")
+		return "", fmt.Errorf("入力を文字列に変換するのに失敗しました")
 	}
-	return strings.Repeat(mark, repeat) + " " + n
+	return strings.Repeat(mark, repeat) + " " + n, nil
 }
 
-func (m *MarkDown) AddToPage(mark string, content interface{}, repeat int) {
-	melement := m.CreateMark(mark, content, repeat)
+func (m *MarkDown) AddToPage(mark string, content interface{}, repeat int) error {
+	melement, err := m.CreateMark(mark, content, repeat)
+	if err != nil {
+		return err
+	}
 	m.page = append(m.page, melement)
+	return nil
 }
 
 // 設定した文字列をつなげて返す
-func (m *MarkDown) CompleteMDFile(branknum int) string {
+func (m *MarkDown) CompleteMarkDown(branknum int) string {
 	brs := strings.Repeat("\n", branknum)
 	return strings.Join(m.page, brs)
 }

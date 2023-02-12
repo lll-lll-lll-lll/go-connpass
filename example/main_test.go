@@ -116,8 +116,8 @@ func TestForThreeMonthEvents(t *testing.T) {
 }
 
 func TestConnpassAPI(t *testing.T) {
-	connpass := connpass.NewConnpass()
-	connpass.ConnpassUSER = "Shun_Pei"
-	fmt.Println(connpass.ConnpassUSER)
-	assert.Equal(t, connpass.ConnpassUSER, "Shun_Pei")
+	connpass := connpass.New()
+	connpass.UserName = "Shun_Pei"
+	fmt.Println(connpass.UserName)
+	assert.Equal(t, connpass.UserName, "Shun_Pei")
 }

@@ -1,39 +1,26 @@
 package connpass
 
 import (
-	"encoding/json"
-	"io"
-	"net/http"
 	"strconv"
 )
 
-func NewConnpassResponse() *ConnpassResponse {
-	return &ConnpassResponse{}
+func NewResponse() *Response {
+	return &Response{}
 }
 
-//SetResponse Requestメソッド後のレスポンスをConnpassResponseプロパティにセットする
-func (c *Connpass) SetResponse(res *http.Response) error {
-	body, _ := io.ReadAll(res.Body)
-	err := json.Unmarshal(body, &c.ConnpassResponse)
-	if err != nil {
-		return err
-	}
-	return nil
-}
-
-//JoinGroupIdsByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
-func (c *Connpass) JoinGroupIdsByComma() string {
+// AggregateGroupIDByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
+func AggregateGroupIDByComma(res *Response) string {
 	var seriesId string
-	gs := c.ConnpassResponse.GetGroupIds()
-	for _, v := range gs {
+	groupIDs := res.GetGroupIds()
+	for _, v := range groupIDs {
 		v := strconv.Itoa(v)
 		seriesId += v + ","
 	}
 	return seriesId
 }
 
-//GetGroups 所属してるグループIDを取得
-func (c *ConnpassResponse) GetGroupIds() []int {
+// GetGroups 所属してるグループIDを取得
+func (c *Response) GetGroupIds() []int {
 	var g []int
 	for _, v := range c.Events {
 		g = append(g, v.Series.Id)
@@ -92,8 +79,8 @@ type Event struct {
 	Lon string `json:"lon"`
 }
 
-// ConnpassResponse コンパスapiのレスを持つ
-type ConnpassResponse struct {
+// Response コンパスapiのレスを持つ
+type Response struct {
 	// レスポンスに含まれる検索結果の件数
 	ResultsReturned int `json:"results_returned"`
 	// 検索結果の総件数
