@@ -1,121 +1,81 @@
-## CARTA HOLDINGS
+## 著作権法セミナー・勉強会グループ（提供：前田拓郎法律事務所）
 
-### 【t_wada CARTA探訪】今話題の運用型テレビCM「テレシー」を支える技術
+### 第４回著作権法セミナー　(２月２４日枠)
 
-- https://cartaholdings.connpass.com/event/274100/
+- https://kittenlawoffice.connpass.com/event/271856/
 
-- 2月22日(水) 18:00 ~
+- 2月24日(金) 20:00 ~
 
-## サイバーエージェント / CyberAgent
+## 
 
-### メディアサービスにおけるデータ・AIの活用事例 #2
+### 【第１回】【横浜市緑区鴨居】プログラミングよちよち勉強会
 
-- https://cyberagent.connpass.com/event/270224/
+- https://connpass.com/event/275344/
 
-- 2月16日(木) 19:00 ~
+- 2月19日(日) 15:00 ~
 
-## ちゅらデータ
+## 著作権法セミナー・勉強会グループ（提供：前田拓郎法律事務所）
 
-### XR開発技術とビジネスの最新動向（初心者歓迎）
+### 第４回著作権法セミナー（２月１６日枠）
 
-- https://churadata.connpass.com/event/272515/
+- https://kittenlawoffice.connpass.com/event/271854/
 
-- 2月17日(金) 19:00 ~
+- 2月16日(木) 20:00 ~
 
-## サイバーエージェント / CyberAgent
+## xRAMクラム / xR with Anything Meetup
 
-### CA.go 〜ABEMAのGoを活用したFIFA ワールドカップ生中継の舞台裏〜
+### ◤xR with Anything Meetup #019◢ #xram81 #メタバース
 
-- https://cyberagent.connpass.com/event/271708/
+- https://xram.connpass.com/event/275092/
 
-- 3月10日(金) 18:00 ~
+- 3月4日(土) 18:00 ~
 
-## tenntenn
+## Developers Guild
 
-### 【有料】Gopher塾 #3 - 静的解析を使ったGoの開発ツール制作 入門編 - DAY 1
+### エンジニアの個人開発を語る会 Developers Guild @秋葉原
 
-- https://tenntenn.connpass.com/event/271533/
+- https://devguil.connpass.com/event/273629/
 
-- 2月4日(土) 13:00 ~
+- 3月18日(土) 13:30 ~
 
-## サイバーエージェント / CyberAgent
+## てくますゼミ
 
-### 【オンライン開催】AI×DX最前線｜CyberAgentが仕掛ける新規事業 ※開発責任者登壇※
+### 【輪読会】『ゼロから作るDeep Learning』#5
 
-- https://cyberagent.connpass.com/event/273268/
+- https://techmath-seminar.connpass.com/event/275345/
 
-- 2月20日(月) 19:30 ~
+- 3月13日(月) 19:00 ~
 
-## カウシェ
+## ホログラム
 
-### Cloud Run Casual Talk！
+### 【大阪/オンライン】だんグラ/ホログラスUnityハンズオン&もくもく会 2023/02/19
 
-- https://kauche.connpass.com/event/273291/
+- https://hologram.connpass.com/event/275233/
 
-- 2月15日(水) 19:00 ~
+- 2月19日(日) 15:00 ~
 
-## サイバーエージェント / CyberAgent
+## 新宿 テルマー湯もくもく会
 
-### CA.infra #1 - Kubernetes as a Service
+### テルマー湯もくもく会 #01
 
-- https://cyberagent.connpass.com/event/272843/
-
-- 3月2日(木) 19:00 ~
-
-## サイバーエージェント / CyberAgent
-
-### 【福岡開催】サーバーサイド・SRE志望学生向け クラウドネイティブハンズオン【ECS/EKS】
-
-- https://cyberagent.connpass.com/event/271870/
-
-- 2月25日(土) 13:00 ~
-
-## サイバーエージェント / CyberAgent
-
-### Web Speed Hackathon 2023 【一般向け】
-
-- https://cyberagent.connpass.com/event/270424/
+- https://thermae-mokumoku.connpass.com/event/275330/
 
 - 3月4日(土) 10:00 ~
 
-## サイバーエージェント / CyberAgent
+## CROSS
 
-### 【となりのゲームUIデザイナー】2/2（木） 19：30開催
+### エヴァンジェリストってなんだ？ #cross2022
 
-- https://cyberagent.connpass.com/event/272078/
+- https://cross-party.connpass.com/event/274123/
 
-- 2月2日(木) 19:30 ~
+- 2月17日(金) 17:00 ~
 
-## サイバーエージェント / CyberAgent
+## CROSS
 
-### 【となりのゲームUIデザイナー】2/2（木） 19：30開催
+### 遊ぶだけじゃない、マインクラフトのいろいろな可能性について語ろう！ #cross2022
 
-- https://cyberagent.connpass.com/event/269147/
+- https://cross-party.connpass.com/event/273553/
 
-- 2月2日(木) 19:30 ~
-
-## サイバーエージェント / CyberAgent
-
-### 1day技術ワークショップ ～パフォーマンスチューニングはここから始めよう～
-
-- https://cyberagent.connpass.com/event/270624/
-
-- 2月18日(土) 13:00 ~
-
-## サイバーエージェント / CyberAgent
-
-### CA.unity #6
-
-- https://cyberagent.connpass.com/event/269257/
-
-- 2月3日(金) 19:00 ~
-
-## tenntenn
-
-### tenntenn Conference 2023
-
-- https://tenntenn.connpass.com/event/261521/
-
-- 4月1日(土) 10:00 ~
+- 2月17日(金) 15:00 ~
 
 <br> 
