@@ -1,81 +1,81 @@
-## 著作権法セミナー・勉強会グループ（提供：前田拓郎法律事務所）
-
-### 第４回著作権法セミナー　(２月２４日枠)
-
-- https://kittenlawoffice.connpass.com/event/271856/
-
-- 2月24日(金) 20:00 ~
-
 ## 
 
-### 【第１回】【横浜市緑区鴨居】プログラミングよちよち勉強会
+### U25 Sapporo Tech MeetUp
 
-- https://connpass.com/event/275344/
+- https://connpass.com/event/274728/
 
-- 2月19日(日) 15:00 ~
+- 2月25日(土) 13:00 ~
 
-## 著作権法セミナー・勉強会グループ（提供：前田拓郎法律事務所）
+## Yahoo! JAPAN Osaka
 
-### 第４回著作権法セミナー（２月１６日枠）
+### 【近畿大学 山縣ゼミフェア】2022年度価値創造デザインプロジェクト成果報告会
 
-- https://kittenlawoffice.connpass.com/event/271854/
+- https://yahoo-osaka.connpass.com/event/273060/
 
-- 2月16日(木) 20:00 ~
+- 2月21日(Tuesday) 13:00 ~
 
-## xRAMクラム / xR with Anything Meetup
+## CoderDojo西那須野
 
-### ◤xR with Anything Meetup #019◢ #xram81 #メタバース
+### 第十三回 CoderDojo西那須野
 
-- https://xram.connpass.com/event/275092/
+- https://coder-dojo-nishinasuno.connpass.com/event/276055/
 
-- 3月4日(土) 18:00 ~
+- 3月19日(日) 13:30 ~
+
+## 名古ゲ部
+
+### 復活！部室開催（久しぶりなので　兼　大掃除）　2月26日（日）
+
+- https://nagogebu.connpass.com/event/276049/
+
+- 2月26日(日) 13:00 ~
+
+## PostgreSQLアンカンファレンス
+
+### 第40回 PostgreSQLアンカンファレンス@オンライン
+
+- https://pgunconf.connpass.com/event/276054/
+
+- 3月16日(木) 20:30 ~
+
+## 四谷ラボ
+
+### Nostr勉強会 #0
+
+- https://428lab.connpass.com/event/275748/
+
+- 2月22日(水) 22:22 ~
+
+## 合同会社 東雲研究所
+
+### 30分でわかる！Microsoft Azure再入門
+
+- https://shinonomelabo.connpass.com/event/276023/
+
+- 3月27日(月) 20:00 ~
 
 ## Developers Guild
 
-### エンジニアの個人開発を語る会 Developers Guild @秋葉原
+### あつまれ！個人開発を始めたい人！【経験者も大歓迎】
 
 - https://devguil.connpass.com/event/273629/
 
 - 3月18日(土) 13:30 ~
 
-## てくますゼミ
+## ビヨンド勉強会
 
-### 【輪読会】『ゼロから作るDeep Learning』#5
+### 【ライブ配信】AWSサーバー構築タイムトライアル
 
-- https://techmath-seminar.connpass.com/event/275345/
+- https://beyondjapan.connpass.com/event/275575/
 
-- 3月13日(月) 19:00 ~
+- 3月9日(木) 19:00 ~
 
-## ホログラム
+## 情報科学若手の会
 
-### 【大阪/オンライン】だんグラ/ホログラスUnityハンズオン&もくもく会 2023/02/19
+### 情報科学若手の会春の陣2023 #wakate2023s
 
-- https://hologram.connpass.com/event/275233/
+- https://wakate.connpass.com/event/267191/
 
-- 2月19日(日) 15:00 ~
-
-## 新宿 テルマー湯もくもく会
-
-### テルマー湯もくもく会 #01
-
-- https://thermae-mokumoku.connpass.com/event/275330/
-
-- 3月4日(土) 10:00 ~
-
-## CROSS
-
-### エヴァンジェリストってなんだ？ #cross2022
-
-- https://cross-party.connpass.com/event/274123/
-
-- 2月17日(金) 17:00 ~
-
-## CROSS
-
-### 遊ぶだけじゃない、マインクラフトのいろいろな可能性について語ろう！ #cross2022
-
-- https://cross-party.connpass.com/event/273553/
-
-- 2月17日(金) 15:00 ~
+- 3月11日(土) 14:00 ~
 
 <br> 
