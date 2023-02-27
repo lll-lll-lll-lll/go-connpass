@@ -1,81 +1,81 @@
-## 
+## モダンFortran勉強会
 
-### U25 Sapporo Tech MeetUp
+### (2023年3月4日 オンライン開催)並列計算勉強会 & モダンFortran勉強会.f13
 
-- https://connpass.com/event/274728/
+- https://modern-fortran-local-user-group.connpass.com/event/275463/
 
-- 2月25日(土) 13:00 ~
+- 3月4日(土) 13:00 ~
 
-## Yahoo! JAPAN Osaka
+## OpenCAE研究会＠静岡
 
-### 【近畿大学 山縣ゼミフェア】2022年度価値創造デザインプロジェクト成果報告会
+### 第33回オープンCAE研究会@静岡
 
-- https://yahoo-osaka.connpass.com/event/273060/
+- https://opencae-shizuoka.connpass.com/event/270670/
 
-- 2月21日(Tuesday) 13:00 ~
+- 3月11日(土) 21:00 ~
 
-## CoderDojo西那須野
+## サーバーレスもくもく
 
-### 第十三回 CoderDojo西那須野
+### 第35回「オンラインITもくもく会」でゆったり作業しませんか？途中入退室OK
 
-- https://coder-dojo-nishinasuno.connpass.com/event/276055/
+- https://serverless-dev.connpass.com/event/276656/
 
-- 3月19日(日) 13:30 ~
+- 3月4日(土) 19:00 ~
 
-## 名古ゲ部
+## 初学者のための「はじめてのもくかい」
 
-### 復活！部室開催（久しぶりなので　兼　大掃除）　2月26日（日）
+### 【音声のみ】第142回プログラミング初学者歓迎もくもく会＋交流会
 
-- https://nagogebu.connpass.com/event/276049/
+- https://beginner-front.connpass.com/event/276654/
 
-- 2月26日(日) 13:00 ~
+- 3月1日(水) 19:00 ~
 
-## PostgreSQLアンカンファレンス
+## サーバーレスもくもく
 
-### 第40回 PostgreSQLアンカンファレンス@オンライン
+### 第34回「オンラインITもくもく会」でゆったり作業しませんか？途中入退室OK
 
-- https://pgunconf.connpass.com/event/276054/
+- https://serverless-dev.connpass.com/event/276655/
 
-- 3月16日(木) 20:30 ~
+- 3月2日(木) 19:00 ~
 
-## 四谷ラボ
+## LINE Developer Community
 
-### Nostr勉強会 #0
+### 初心者・初登壇Welcome！LINEを使ったLT大会 #1
 
-- https://428lab.connpass.com/event/275748/
+- https://linedevelopercommunity.connpass.com/event/275587/
 
-- 2月22日(水) 22:22 ~
+- 3月25日(土) 20:00 ~
 
-## 合同会社 東雲研究所
+## ITコミュニティ「エフスタ!!」
 
-### 30分でわかる！Microsoft Azure再入門
+### エフスタ!! 特別企画「僕たち私たちの12年とこれから」
 
-- https://shinonomelabo.connpass.com/event/276023/
+- https://efsta.connpass.com/event/275898/
 
-- 3月27日(月) 20:00 ~
+- 3月11日(土) 13:30 ~
 
-## Developers Guild
+## Agile Tech EXPO
 
-### あつまれ！個人開発を始めたい人！【経験者も大歓迎】
+### あじゃてく読書会 特別編#4 『Management 3.0』
 
-- https://devguil.connpass.com/event/273629/
+- https://agiletechexpo.connpass.com/event/276651/
 
-- 3月18日(土) 13:30 ~
+- 3月13日(月) 21:30 ~
 
-## ビヨンド勉強会
+## Adobe XD ユーザーグループ大阪
 
-### 【ライブ配信】AWSサーバー構築タイムトライアル
+### Adobe XD ユーザーグループ大阪 vol.14
 
-- https://beyondjapan.connpass.com/event/275575/
+- https://xdstudy-osaka.connpass.com/event/274846/
 
-- 3月9日(木) 19:00 ~
+- 3月4日(土) 14:00 ~
 
-## 情報科学若手の会
+## QML Club
 
-### 情報科学若手の会春の陣2023 #wakate2023s
+### 「情報幾何学の基礎」読書会 25 統計物理学への応用(3)
 
-- https://wakate.connpass.com/event/267191/
+- https://qmlclub.connpass.com/event/276645/
 
-- 3月11日(土) 14:00 ~
+- 3月6日(月) 21:00 ~
 
 <br> 
