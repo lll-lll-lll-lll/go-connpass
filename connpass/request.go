@@ -35,7 +35,7 @@ func New() *Client {
 // 引数のvaluesが空の場合エラーが発生する
 func (c *Client) SetQuery(values map[string]string) error {
 	q := url.Values{}
-	if len(q) == 0 {
+	if len(values) == 0 {
 		return errors.New("no query set")
 	}
 	for k, v := range values {
