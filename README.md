@@ -1,81 +1,153 @@
-## モダンFortran勉強会
+## メルカリ／Mercari
 
-### (2023年3月4日 オンライン開催)並列計算勉強会 & モダンFortran勉強会.f13
+### メルペイ QA Summer Training Camp 2023 オンライン説明会
 
-- https://modern-fortran-local-user-group.connpass.com/event/275463/
-
-- 3月4日(土) 13:00 ~
-
-## OpenCAE研究会＠静岡
-
-### 第33回オープンCAE研究会@静岡
-
-- https://opencae-shizuoka.connpass.com/event/270670/
-
-- 3月11日(土) 21:00 ~
-
-## サーバーレスもくもく
-
-### 第35回「オンラインITもくもく会」でゆったり作業しませんか？途中入退室OK
-
-- https://serverless-dev.connpass.com/event/276656/
-
-- 3月4日(土) 19:00 ~
-
-## 初学者のための「はじめてのもくかい」
-
-### 【音声のみ】第142回プログラミング初学者歓迎もくもく会＋交流会
-
-- https://beginner-front.connpass.com/event/276654/
-
-- 3月1日(水) 19:00 ~
-
-## サーバーレスもくもく
-
-### 第34回「オンラインITもくもく会」でゆったり作業しませんか？途中入退室OK
-
-- https://serverless-dev.connpass.com/event/276655/
+- https://mercari.connpass.com/event/275446/
 
 - 3月2日(木) 19:00 ~
 
-## LINE Developer Community
+## サイバーエージェント / CyberAgent
 
-### 初心者・初登壇Welcome！LINEを使ったLT大会 #1
+### CA.swift #16 Meetup
 
-- https://linedevelopercommunity.connpass.com/event/275587/
+- https://cyberagent.connpass.com/event/233745/
 
-- 3月25日(土) 20:00 ~
+- 3月15日(水) 19:30 ~
 
-## ITコミュニティ「エフスタ!!」
+## サイバーエージェント / CyberAgent
 
-### エフスタ!! 特別企画「僕たち私たちの12年とこれから」
+### CA.infra #1 - Kubernetes as a Service
 
-- https://efsta.connpass.com/event/275898/
+- https://cyberagent.connpass.com/event/272843/
 
-- 3月11日(土) 13:30 ~
+- 3月2日(木) 19:00 ~
 
-## Agile Tech EXPO
+## サイバーエージェント / CyberAgent
 
-### あじゃてく読書会 特別編#4 『Management 3.0』
+### CA.go 〜ABEMAのGoを活用したFIFA ワールドカップ生中継の舞台裏〜
 
-- https://agiletechexpo.connpass.com/event/276651/
+- https://cyberagent.connpass.com/event/271708/
 
-- 3月13日(月) 21:30 ~
+- 3月10日(金) 18:00 ~
 
-## Adobe XD ユーザーグループ大阪
+## サイバーエージェント / CyberAgent
 
-### Adobe XD ユーザーグループ大阪 vol.14
+### Web Speed Hackathon 2023 【一般向け】
 
-- https://xdstudy-osaka.connpass.com/event/274846/
+- https://cyberagent.connpass.com/event/270424/
 
-- 3月4日(土) 14:00 ~
+- 3月4日(土) 10:00 ~
 
-## QML Club
+## メルカリ／Mercari
 
-### 「情報幾何学の基礎」読書会 25 統計物理学への応用(3)
+### 【サイボウズ・メルペイ・freee合同開催】QAエンジニア サマーインターンシップ オンライン説明会
 
-- https://qmlclub.connpass.com/event/276645/
+- https://mercari.connpass.com/event/276402/
 
-- 3月6日(月) 21:00 ~
+- 3月15日(水) 18:00 ~
+
+## メルカリ／Mercari
+
+### Merpay Tech Talk〜メルカードのQA裏話〜
+
+- https://mercari.connpass.com/event/275621/
+
+- 3月17日(金) 19:30 ~
+
+## メルカリ／Mercari
+
+### Merpay Tech Talk〜PM、Backendエンジニアによるメルカードの開発舞台裏大公開〜
+
+- https://mercari.connpass.com/event/275305/
+
+- 3月15日(水) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### 24卒向け新卒採用説明会〜バックエンドエンジニア編〜
+
+- https://cyberagent.connpass.com/event/274315/
+
+- 3月3日(金) 18:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【サーバーサイド志望学生必見】1day技術ワークショップ 〜CI/CDで開発体験を改善せよ
+
+- https://cyberagent.connpass.com/event/274988/
+
+- 3月11日(土) 13:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【交通費全額支給】データセンター見学&社員座談会 Vol.4
+
+- https://cyberagent.connpass.com/event/274989/
+
+- 3月24日(金) 13:00 ~
+
+## tenntenn
+
+### 【有料】Gopher塾 #5 - 私も解説できるポインタ - DAY1
+
+- https://tenntenn.connpass.com/event/275805/
+
+- 3月16日(木) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.aab #2
+
+- https://cyberagent.connpass.com/event/275708/
+
+- 3月16日(木) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【サーバーサイド志望学生必見】1day技術ワークショップ 〜GCP編～
+
+- https://cyberagent.connpass.com/event/276192/
+
+- 3月25日(土) 13:00 ~
+
+## メルカリ／Mercari
+
+### 【中止／延期となります】プライバシーガバナンスナイトVol.01
+
+- https://mercari.connpass.com/event/275422/
+
+- 3月1日(水) 18:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### ゲームシナリオライター交流会【シナリオ食堂】3/16（木） 19：30開始
+
+- https://cyberagent.connpass.com/event/275258/
+
+- 3月16日(木) 19:30 ~
+
+## メルカリ／Mercari
+
+### エンジニア育成プログラム「Build@Mercari2023」オンライン説明会
+
+- https://mercari.connpass.com/event/275255/
+
+- 3月14日(Tuesday) 18:00 ~
+
+## メルカリ／Mercari
+
+### エンジニア育成プログラム「Build@Mercari2023」オンライン説明会
+
+- https://mercari.connpass.com/event/275436/
+
+- 3月7日(Tuesday) 18:00 ~
+
+## tenntenn
+
+### tenntenn Conference 2023
+
+- https://tenntenn.connpass.com/event/261521/
+
+- 4月1日(土) 10:00 ~
 
 <br> 
