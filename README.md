@@ -1,10 +1,42 @@
+## サイバーエージェント / CyberAgent
+
+### CA.aab #2
+
+- https://cyberagent.connpass.com/event/275708/
+
+- 3月16日(木) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### Women Tech Terrace 2023
+
+- https://cyberagent.connpass.com/event/276834/
+
+- 4月9日(日) 12:30 ~
+
 ## メルカリ／Mercari
 
-### メルペイ QA Summer Training Camp 2023 オンライン説明会
+### #8 Open Go Friday Online
 
-- https://mercari.connpass.com/event/275446/
+- https://mercari.connpass.com/event/276406/
 
-- 3月2日(木) 19:00 ~
+- 3月17日(金) 16:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.go 〜ABEMAのGoを活用したFIFA ワールドカップ生中継の舞台裏〜
+
+- https://cyberagent.connpass.com/event/271708/
+
+- 3月10日(金) 18:00 ~
+
+## メルカリ／Mercari
+
+### 鹿島アントラーズの裏側 -プロサッカークラブにおける財務経理の仕事-
+
+- https://mercari.connpass.com/event/276748/
+
+- 3月22日(水) 19:00 ~
 
 ## サイバーエージェント / CyberAgent
 
@@ -22,13 +54,21 @@
 
 - 3月2日(木) 19:00 ~
 
-## サイバーエージェント / CyberAgent
+## メルカリ／Mercari
 
-### CA.go 〜ABEMAのGoを活用したFIFA ワールドカップ生中継の舞台裏〜
+### Merpay QA Talk 〜メルペイQAのリアルと本音〜
 
-- https://cyberagent.connpass.com/event/271708/
+- https://mercari.connpass.com/event/276687/
 
-- 3月10日(金) 18:00 ~
+- 3月24日(金) 19:30 ~
+
+## メルカリ／Mercari
+
+### メルペイ QA Summer Training Camp 2023 オンライン説明会
+
+- https://mercari.connpass.com/event/275446/
+
+- 3月2日(木) 19:00 ~
 
 ## サイバーエージェント / CyberAgent
 
@@ -91,14 +131,6 @@
 ### 【有料】Gopher塾 #5 - 私も解説できるポインタ - DAY1
 
 - https://tenntenn.connpass.com/event/275805/
-
-- 3月16日(木) 19:30 ~
-
-## サイバーエージェント / CyberAgent
-
-### CA.aab #2
-
-- https://cyberagent.connpass.com/event/275708/
 
 - 3月16日(木) 19:30 ~
 
