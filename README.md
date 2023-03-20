@@ -1,13 +1,5 @@
 ## サイバーエージェント / CyberAgent
 
-### CA.aab #2
-
-- https://cyberagent.connpass.com/event/275708/
-
-- 3月16日(木) 19:30 ~
-
-## サイバーエージェント / CyberAgent
-
 ### Women Tech Terrace 2023
 
 - https://cyberagent.connpass.com/event/276834/
@@ -16,11 +8,83 @@
 
 ## メルカリ／Mercari
 
+### Merpay QA Talk 〜メルペイQAのリアルと本音〜
+
+- https://mercari.connpass.com/event/276687/
+
+- 3月24日(金) 19:30 ~
+
+## メルカリ／Mercari
+
+### Merpay Tech Talk〜メルカードのQA裏話〜
+
+- https://mercari.connpass.com/event/275621/
+
+- 3月17日(金) 19:30 ~
+
+## メルカリ／Mercari
+
+### 鹿島アントラーズの裏側 -プロサッカークラブにおける人事の仕事-
+
+- https://mercari.connpass.com/event/277536/
+
+- 4月4日(Tuesday) 19:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【サーバーサイド志望学生必見】1day技術ワークショップ 〜GCP編～
+
+- https://cyberagent.connpass.com/event/276192/
+
+- 3月25日(土) 13:00 ~
+
+## tenntenn
+
+### 【有料】Gopher塾 #4 - 私も解説できるポインタ - DAY1
+
+- https://tenntenn.connpass.com/event/275805/
+
+- 3月16日(木) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.aab #2
+
+- https://cyberagent.connpass.com/event/275708/
+
+- 3月16日(木) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.swift #16 Meetup
+
+- https://cyberagent.connpass.com/event/233745/
+
+- 3月15日(水) 19:30 ~
+
+## メルカリ／Mercari
+
 ### #8 Open Go Friday Online
 
 - https://mercari.connpass.com/event/276406/
 
 - 3月17日(金) 16:30 ~
+
+## メルカリ／Mercari
+
+### 【サイボウズ・メルペイ・freee合同開催】QAエンジニア サマーインターンシップ オンライン説明会
+
+- https://mercari.connpass.com/event/276402/
+
+- 3月15日(水) 18:00 ~
+
+## メルカリ／Mercari
+
+### Merpay Tech Talk〜PM、Backendエンジニアによるメルカードの開発舞台裏大公開〜
+
+- https://mercari.connpass.com/event/275305/
+
+- 3月15日(水) 19:30 ~
 
 ## サイバーエージェント / CyberAgent
 
@@ -40,27 +104,11 @@
 
 ## サイバーエージェント / CyberAgent
 
-### CA.swift #16 Meetup
-
-- https://cyberagent.connpass.com/event/233745/
-
-- 3月15日(水) 19:30 ~
-
-## サイバーエージェント / CyberAgent
-
 ### CA.infra #1 - Kubernetes as a Service
 
 - https://cyberagent.connpass.com/event/272843/
 
 - 3月2日(木) 19:00 ~
-
-## メルカリ／Mercari
-
-### Merpay QA Talk 〜メルペイQAのリアルと本音〜
-
-- https://mercari.connpass.com/event/276687/
-
-- 3月24日(金) 19:30 ~
 
 ## メルカリ／Mercari
 
@@ -77,30 +125,6 @@
 - https://cyberagent.connpass.com/event/270424/
 
 - 3月4日(土) 10:00 ~
-
-## メルカリ／Mercari
-
-### 【サイボウズ・メルペイ・freee合同開催】QAエンジニア サマーインターンシップ オンライン説明会
-
-- https://mercari.connpass.com/event/276402/
-
-- 3月15日(水) 18:00 ~
-
-## メルカリ／Mercari
-
-### Merpay Tech Talk〜メルカードのQA裏話〜
-
-- https://mercari.connpass.com/event/275621/
-
-- 3月17日(金) 19:30 ~
-
-## メルカリ／Mercari
-
-### Merpay Tech Talk〜PM、Backendエンジニアによるメルカードの開発舞台裏大公開〜
-
-- https://mercari.connpass.com/event/275305/
-
-- 3月15日(水) 19:30 ~
 
 ## サイバーエージェント / CyberAgent
 
@@ -125,22 +149,6 @@
 - https://cyberagent.connpass.com/event/274989/
 
 - 3月24日(金) 13:00 ~
-
-## tenntenn
-
-### 【有料】Gopher塾 #5 - 私も解説できるポインタ - DAY1
-
-- https://tenntenn.connpass.com/event/275805/
-
-- 3月16日(木) 19:30 ~
-
-## サイバーエージェント / CyberAgent
-
-### 【サーバーサイド志望学生必見】1day技術ワークショップ 〜GCP編～
-
-- https://cyberagent.connpass.com/event/276192/
-
-- 3月25日(土) 13:00 ~
 
 ## メルカリ／Mercari
 
