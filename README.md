@@ -1,10 +1,42 @@
+## tenntenn
+
+### tenntenn Conference 2023
+
+- https://tenntenn.connpass.com/event/261521/
+
+- 4月1日(土) 10:00 ~
+
 ## サイバーエージェント / CyberAgent
 
-### Women Tech Terrace 2023
+### CyberAgentの学習コミュニティスペース「CA Tech Lounge」説明会
 
-- https://cyberagent.connpass.com/event/276834/
+- https://cyberagent.connpass.com/event/278941/
 
-- 4月9日(日) 12:30 ~
+- 3月31日(金) 19:00 ~
+
+## メルカリ／Mercari
+
+### [最終開催] メルペイ QA Summer Training Camp 2023 オンライン説明会
+
+- https://mercari.connpass.com/event/278911/
+
+- 4月4日(Tuesday) 19:00 ~
+
+## メルカリ／Mercari
+
+### 【エンジニア学生向け】Mercari Summer Internship 2023 オンライン説明会
+
+- https://mercari.connpass.com/event/278649/
+
+- 4月18日(Tuesday) 18:00 ~
+
+## メルカリ／Mercari
+
+### 【エンジニア学生向け】Mercari Summer Internship 2023 オンライン説明会
+
+- https://mercari.connpass.com/event/278646/
+
+- 4月11日(Tuesday) 18:00 ~
 
 ## メルカリ／Mercari
 
@@ -13,6 +45,14 @@
 - https://mercari.connpass.com/event/276687/
 
 - 3月24日(金) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### Women Tech Terrace 2023
+
+- https://cyberagent.connpass.com/event/276834/
+
+- 4月9日(日) 12:30 ~
 
 ## メルカリ／Mercari
 
@@ -181,13 +221,5 @@
 - https://mercari.connpass.com/event/275436/
 
 - 3月7日(Tuesday) 18:00 ~
-
-## tenntenn
-
-### tenntenn Conference 2023
-
-- https://tenntenn.connpass.com/event/261521/
-
-- 4月1日(土) 10:00 ~
 
 <br> 
