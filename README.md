@@ -1,3 +1,107 @@
+## ファインディ／Findy
+
+### ウェブアクセシビリティ テストと自動化における挑戦と失敗
+
+- https://findy.connpass.com/event/279389/
+
+- 4月25日(Tuesday) 19:00 ~
+
+## ファインディ／Findy
+
+### SRE大集合！みんなで学ぶ、信頼性を高めるための取り組みLT大会
+
+- https://findy.connpass.com/event/281605/
+
+- 5月19日(金) 12:00 ~
+
+## ファインディ／Findy
+
+### フロントエンドの技術的負債 みんなで学ぶ Lunch LT
+
+- https://findy.connpass.com/event/281811/
+
+- 5月17日(水) 12:00 ~
+
+## ファインディ／Findy
+
+### 【開発生産性 Meetup #1】開発生産性可視化による変化~事例LTから学ぶベストプラクティス~
+
+- https://findy.connpass.com/event/279894/
+
+- 4月26日(水) 19:30 ~
+
+## サイバーエージェント / CyberAgent
+
+### 1day技術ワークショップ ～パフォーマンスチューニングはここから始めよう～
+
+- https://cyberagent.connpass.com/event/281552/
+
+- 5月27日(土) 13:00 ~
+
+## ファインディ／Findy
+
+### 機械学習モデルの継続的改善と運用課題 ~ DeNAとWeights & Biasesに聞く~
+
+- https://findy.connpass.com/event/278801/
+
+- 4月20日(木) 19:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### Muddy Web #5 - 泥臭いフロントエンドの現場
+
+- https://cyberagent.connpass.com/event/279373/
+
+- 4月28日(金) 17:55 ~
+
+## カウシェ
+
+### KAUCHE Meetup Day
+
+- https://kauche.connpass.com/event/281663/
+
+- 5月11日(木) 19:00 ~
+
+## カウシェ
+
+### KAUCHE Meetup Day
+
+- https://kauche.connpass.com/event/281619/
+
+- 5月10日(水) 12:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### アニメからゲームへ！アニメ美術経験者に聞く、転職のウラ側
+
+- https://cyberagent.connpass.com/event/281474/
+
+- 5月7日(日) 14:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### ABEMA Developer Conference 2023
+
+- https://cyberagent.connpass.com/event/276603/
+
+- 4月19日(水) 12:50 ~
+
+## サイバーエージェント / CyberAgent
+
+### 【オンライン開催】★CyberAgent★広告配信技術×大規模データ｜AdTechの真髄を突く！
+
+- https://cyberagent.connpass.com/event/280451/
+
+- 4月27日(木) 19:30 ~
+
+## ファインディ／Findy
+
+### DX内製化の裏側に迫る〜東急とパイオニアが目指すエンジニア組織〜
+
+- https://findy.connpass.com/event/279575/
+
+- 4月19日(水) 19:00 ~
+
 ## サイバーエージェント / CyberAgent
 
 ### Women Tech Terrace 2023
@@ -24,43 +128,11 @@
 
 ## ファインディ／Findy
 
-### ウェブアクセシビリティ テストと自動化における挑戦と失敗
-
-- https://findy.connpass.com/event/279389/
-
-- 4月25日(Tuesday) 19:00 ~
-
-## ファインディ／Findy
-
-### 機械学習モデルの継続的改善と運用課題 ~ DeNAとWeights & Biasesに聞く~
-
-- https://findy.connpass.com/event/278801/
-
-- 4月20日(木) 19:00 ~
-
-## ファインディ／Findy
-
 ### 鹿野さんに聞く！2023年モダンCSSの最新トレンド
 
 - https://findy.connpass.com/event/278449/
 
 - 4月13日(木) 18:00 ~
-
-## ファインディ／Findy
-
-### 【開発生産性 Meetup #1】開発生産性可視化による変化~事例LTから学ぶベストプラクティス~
-
-- https://findy.connpass.com/event/279894/
-
-- 4月26日(水) 19:30 ~
-
-## サイバーエージェント / CyberAgent
-
-### 【オンライン開催】★CyberAgent★アドテク×ビッグデータ｜AdTechの真髄を突く！
-
-- https://cyberagent.connpass.com/event/280451/
-
-- 4月27日(木) 19:30 ~
 
 ## サイバーエージェント / CyberAgent
 
@@ -77,14 +149,6 @@
 - https://findy.connpass.com/event/278455/
 
 - 4月14日(金) 19:00 ~
-
-## ファインディ／Findy
-
-### DX内製化の裏側に迫る〜東急とパイオニアが目指すエンジニア組織〜
-
-- https://findy.connpass.com/event/279575/
-
-- 4月19日(水) 19:00 ~
 
 ## ファインディ／Findy
 
@@ -133,14 +197,6 @@
 - https://findy.connpass.com/event/278047/
 
 - 4月6日(木) 19:00 ~
-
-## サイバーエージェント / CyberAgent
-
-### ABEMA Developer Conference 2023
-
-- https://cyberagent.connpass.com/event/276603/
-
-- 4月19日(水) 12:50 ~
 
 ## カウシェ
 
