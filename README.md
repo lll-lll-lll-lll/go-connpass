@@ -1,18 +1,26 @@
 ## ファインディ／Findy
 
+### 『LeanとDevOpsの科学』著者登壇！開発生産性Conference 2023
+
+- https://findy.connpass.com/event/283417/
+
+- 7月13日(木) 9:30 ~
+
+## ファインディ／Findy
+
+### みんなで学ぶ、QAエンジニアによる品質改善の取り組み LT大会
+
+- https://findy.connpass.com/event/283151/
+
+- 5月30日(Tuesday) 12:00 ~
+
+## ファインディ／Findy
+
 ### フロントエンドの技術的負債 みんなで学ぶ Lunch LT
 
 - https://findy.connpass.com/event/281811/
 
 - 5月17日(水) 12:00 ~
-
-## ファインディ／Findy
-
-### TechBrew 〜 一杯のお酒で繋がるエンジニアたち〜@福岡
-
-- https://findy.connpass.com/event/281690/
-
-- 5月19日(金) 19:00 ~
 
 ## ファインディ／Findy
 
@@ -24,11 +32,67 @@
 
 ## ファインディ／Findy
 
-### 【増枠】HR×PM Meetup ~ HRとPMが好きな人の集まり ~
+### HR×PM Meetup #2 ~ HRとPMが好きな人の集まり ~
+
+- https://findy.connpass.com/event/283694/
+
+- 6月15日(木) 20:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### CA.aab #3
+
+- https://cyberagent.connpass.com/event/281635/
+
+- 5月29日(月) 19:30 ~
+
+## ファインディ／Findy
+
+### 【増枠】HR×PM Meetup #1 ~ HRとPMが好きな人の集まり ~
 
 - https://findy.connpass.com/event/282153/
 
 - 5月10日(水) 20:00 ~
+
+## サイバーエージェント / CyberAgent
+
+### メルカリ/クックパッド/DeNA/CyberAgent インターンシップ合同説明
+
+- https://cyberagent.connpass.com/event/282517/
+
+- 5月17日(水) 18:00 ~
+
+## ファインディ／Findy
+
+### TechBrew 〜 一杯のお酒で繋がるエンジニアたち〜@福岡
+
+- https://findy.connpass.com/event/281690/
+
+- 5月19日(金) 19:00 ~
+
+## ファインディ／Findy
+
+### マクロとミクロの視点で見る『エンジニア転職マーケットレポート2023』
+
+- https://findy.connpass.com/event/279907/
+
+- 5月10日(水) 12:00 ~
+
+## ファインディ／Findy
+
+### Findy Drinkup at RubyKaigi 2023
+
+- https://findy.connpass.com/event/282155/
+
+- 5月11日(木) 21:00 ~
+
+## ファインディ／Findy
+
+### SRE大集合！みんなで学ぶ、信頼性を高めるための取り組みLT大会
+
+- https://findy.connpass.com/event/281605/
+
+- 5月19日(金) 12:00 ~
 
 ## サイバーエージェント / CyberAgent
 
@@ -48,27 +112,11 @@
 
 ## ファインディ／Findy
 
-### SRE大集合！みんなで学ぶ、信頼性を高めるための取り組みLT大会
-
-- https://findy.connpass.com/event/281605/
-
-- 5月19日(金) 12:00 ~
-
-## ファインディ／Findy
-
 ### オブザーバビリティ最前線  〜 事例LTから学ぶ、オブザーバビリティの成熟度〜
 
 - https://findy.connpass.com/event/281991/
 
 - 5月23日(Tuesday) 19:00 ~
-
-## ファインディ／Findy
-
-### Findy Drinkup at RubyKaigi 2023
-
-- https://findy.connpass.com/event/282155/
-
-- 5月11日(木) 21:00 ~
 
 ## tenntenn
 
@@ -77,14 +125,6 @@
 - https://tenntenn.connpass.com/event/282717/
 
 - 5月27日(土) 13:00 ~
-
-## サイバーエージェント / CyberAgent
-
-### メルカリ/クックパッド/DeNA/CyberAgent インターンシップ合同説明
-
-- https://cyberagent.connpass.com/event/282517/
-
-- 5月17日(水) 18:00 ~
 
 ## サイバーエージェント / CyberAgent
 
@@ -117,13 +157,5 @@
 - https://cyberagent.connpass.com/event/281474/
 
 - 5月7日(日) 14:00 ~
-
-## ファインディ／Findy
-
-### マクロとミクロの視点で見る『エンジニア転職マーケットレポート2023』
-
-- https://findy.connpass.com/event/279907/
-
-- 5月10日(水) 12:00 ~
 
 <br> 
