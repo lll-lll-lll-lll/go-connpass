@@ -1,33 +1,27 @@
 package markdown
 
 import (
-	"fmt"
 	"strings"
 )
 
 // MarkDown structに Write(content string, repeat int, method)
 type MarkDown struct {
 	page []string
-}
-
-func NewMarkDown() *MarkDown {
-	m := new(MarkDown)
-	return m
+	s    *strings.Builder
 }
 
 // mdのmarkを作成
-func (m *MarkDown) CreateMark(mark string, content interface{}, repeat int) (string, error) {
-	i := interface{}(content)
-	n, ok := i.(string)
-	if !ok {
-		return "", fmt.Errorf("入力を文字列に変換するのに失敗しました")
+func (m *MarkDown) generateMark(mark string, content string, repeat int) string {
+	if _, err := m.s.WriteString(strings.Repeat(mark, repeat) + " " + content); err != nil {
+		return ""
 	}
-	return strings.Repeat(mark, repeat) + " " + n, nil
+	return strings.Repeat(mark, repeat) + " " + content
 }
 
-func (m *MarkDown) AddToPage(mark string, content interface{}, repeat int) error {
-	melement, err := m.CreateMark(mark, content, repeat)
-	if err != nil {
+func (m *MarkDown) AddToPage(mark string, content string, repeat int, branknum int) error {
+	brs := strings.Repeat("\n", branknum)
+	melement := m.generateMark(mark, content, repeat)
+	if _, err := m.s.WriteString(melement + brs); err != nil {
 		return err
 	}
 	m.page = append(m.page, melement)

@@ -4,27 +4,26 @@ import (
 	"log"
 	"os"
 
-	"github.com/lll-lll-lll-lll/conread/connpass"
-	"github.com/lll-lll-lll-lll/conread/format"
-	"github.com/lll-lll-lll-lll/conread/markdown"
+	"github.com/lll-lll-lll-lll/go-connpass/connpass"
+	"github.com/lll-lll-lll-lll/go-connpass/markdown"
 )
 
 func main() {
 	connpassfunc()
 }
 
-func WriteHorizon(m *markdown.MarkDown, content interface{}, repeat int) {
+func WriteHorizon(m *markdown.MarkDown, content string, repeat int) {
 	markh := "-"
-	m.AddToPage(markh, content, repeat)
+	m.AddToPage(markh, content, repeat, 2)
 }
 
-func WriteTitle(m *markdown.MarkDown, content interface{}, repeat int) {
+func WriteTitle(m *markdown.MarkDown, content string, repeat int) {
 	markt := "#"
-	m.AddToPage(markt, content, repeat)
+	m.AddToPage(markt, content, repeat, 2)
 }
-func WriteBlank(m *markdown.MarkDown, content interface{}, repeat int) {
+func WriteBlank(m *markdown.MarkDown, content string, repeat int) {
 	mark := "<br>"
-	m.AddToPage(mark, content, repeat)
+	m.AddToPage(mark, content, repeat, 2)
 }
 
 // mdファイルの全体像を作るメソッド
@@ -33,7 +32,7 @@ func CreateMd(response *connpass.Response, m *markdown.MarkDown) string {
 		owner := v.Series.Title
 		et := v.Title
 		eu := v.EventUrl
-		es := format.ConvertStartAtTime(v.StartedAt)
+		es := connpass.ConvertStartAtTime(v.StartedAt)
 		m.MDHandleFunc(owner, 2, WriteTitle)
 		m.MDHandleFunc(et, 3, WriteTitle)
 		m.MDHandleFunc(eu, 1, WriteHorizon)
@@ -61,7 +60,7 @@ func connpassfunc() {
 	}
 
 	seriesId := connpass.AggregateGroupIDByComma(client.Response)
-	sm := format.GetForThreeMonthsEvent()
+	sm := connpass.GetForThreeMonthsEvent()
 	qd := make(map[string]string)
 	qd["series_id"] = seriesId
 	qd["count"] = "100"
@@ -83,22 +82,8 @@ func connpassfunc() {
 		return
 	}
 
-	m := markdown.NewMarkDown()
+	m := &markdown.MarkDown{}
 	s := CreateMd(client.Response, m)
-	file.Write([]byte(s))
-}
-
-func defaultfunc() {
-	file, err := os.Create("default.md")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-	defer os.Remove("default.md")
-	m := markdown.NewMarkDown()
-	m.MDHandleFunc("Test Write Title", 2, WriteTitle)
-	m.MDHandleFunc("Test Write Horizon", 3, WriteHorizon)
-	s := m.CompleteMarkDown(2)
 	file.Write([]byte(s))
 }
 
