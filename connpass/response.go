@@ -1,32 +1,6 @@
 package connpass
 
-import (
-	"strconv"
-)
-
-func NewResponse() *Response {
-	return &Response{}
-}
-
-// AggregateGroupIDByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
-func AggregateGroupIDByComma(res *Response) string {
-	var seriesId string
-	groupIDs := res.GetGroupIds()
-	for _, v := range groupIDs {
-		v := strconv.Itoa(v)
-		seriesId += v + ","
-	}
-	return seriesId
-}
-
-// GetGroups 所属してるグループIDを取得
-func (c *Response) GetGroupIds() []int {
-	var g []int
-	for _, v := range c.Events {
-		g = append(g, v.Series.Id)
-	}
-	return g
-}
+import "strconv"
 
 type Event struct {
 	Series struct {
@@ -79,7 +53,8 @@ type Event struct {
 	Lon string `json:"lon"`
 }
 
-// Response コンパスapiのレスを持つ
+// Response connpass api response
+// https://connpass.com/about/api/
 type Response struct {
 	// レスポンスに含まれる検索結果の件数
 	ResultsReturned int `json:"results_returned"`
@@ -89,4 +64,23 @@ type Response struct {
 	ResultsStart int `json:"results_start"`
 	// 検索結果のイベントリスト
 	Events []Event `json:"events"`
+}
+
+// JoinGroupIDByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
+func (r *Response) JoinGroupIDs(groupIDs []int) string {
+	var seriesId string
+	for _, v := range groupIDs {
+		v := strconv.Itoa(v)
+		seriesId += v + ","
+	}
+	return seriesId
+}
+
+// GetGroups 所属してるグループIDを取得
+func (r *Response) GroupIds() []int {
+	var g = make([]int, len(r.Events))
+	for _, v := range r.Events {
+		g = append(g, v.Series.Id)
+	}
+	return g
 }
