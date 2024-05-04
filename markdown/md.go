@@ -4,7 +4,6 @@ import (
 	"strings"
 )
 
-// MarkDown structに Write(content string, repeat int, method)
 type MarkDown struct {
 	s strings.Builder
 }
