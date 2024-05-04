@@ -1,7 +1,6 @@
 package connpass
 
 import (
-	"errors"
 	"fmt"
 	"net/http"
 	"net/url"
@@ -11,6 +10,10 @@ import (
 const (
 	CONNPASSAPIV1 = "https://connpass.com/api/v1/event/?"
 )
+
+var DefaultURLValues = url.Values{
+	"nickname": []string{""},
+}
 
 type Option func(*Client) error
 
@@ -23,7 +26,7 @@ func URL(q url.Values) Option {
 		u.Scheme = "https"
 		u.Host = "connpass.com"
 		u.RawQuery = q.Encode()
-		c.URL = u.String()
+		c.url = u.String()
 		return nil
 	}
 }
@@ -34,25 +37,27 @@ func Query(values map[string]string) Option {
 	return func(c *Client) error {
 		q := url.Values{}
 		if len(values) == 0 {
-			return errors.New("no query set")
+			c.query = DefaultURLValues
+			return nil
 		}
 		for k, v := range values {
 			q.Add(k, v)
 		}
-		c.Query = q
+		c.query = q
 		return nil
 	}
 }
 
 type Client struct {
-	// username of connpass
-	UserName string `json:"user_name"`
-	// link: https://connpass.com/about/api/
-	//
-	// connpass apiから返ってくるレスポンス
-	Response *Response  `json:"connpass"`
-	Query    url.Values `json:"query"`
-	URL      string     `json:"url"` // connpass apiへのリクエストURLの完成形
+	query url.Values
+	// connpass apiへのリクエストURLの完成形
+	url string
+}
+
+func (c *Client) URL() string { return c.url }
+
+func (c Client) String() string {
+	return fmt.Sprintf("query is %v \n url is %s", c.query, c.url)
 }
 
 func New(options ...Option) (*Client, error) {
@@ -66,17 +71,15 @@ func New(options ...Option) (*Client, error) {
 	return c, nil
 }
 
-// Do connpass apiにリクエストを送る
-// URLの解析とホスト名がconnpass.comかどうかチェックしている。
 func (c *Client) Do() (*http.Response, error) {
-	u, err := url.Parse(c.URL)
+	u, err := url.Parse(c.url)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse url %w", err)
 	}
 	if u.Host != "connpass.com" {
 		return nil, fmt.Errorf("host name is not connpass.com")
 	}
-	res, err := http.Get(c.URL)
+	res, err := http.Get(c.url)
 	if err != nil {
 		return nil, fmt.Errorf("failed to do connpass api request. %w", err)
 	}
