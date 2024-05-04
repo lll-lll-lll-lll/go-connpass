@@ -13,22 +13,15 @@ func (m MarkDown) String() string {
 	return m.s.String()
 }
 
-// mdのmarkを作成
-func (m *MarkDown) generateMark(mark string, content string, repeat int) string {
-	return strings.Repeat(mark, repeat) + " " + content
+func (m *MarkDown) Mark(mark string, repeat int) string {
+	return strings.Repeat(mark, repeat)
 }
 
-func (m *MarkDown) AddToPage(mark, content string, repeat, branknum int) error {
+func (m *MarkDown) AddBr(branknum int) (int, error) {
 	brs := strings.Repeat("\n", branknum)
-	melement := m.generateMark(mark, content, repeat)
-	if _, err := m.s.WriteString(melement + brs); err != nil {
-		return err
-	}
-	return nil
+	return m.s.WriteString(brs)
 }
 
-// // 設定した文字列をつなげて返す
-// func (m *MarkDown) CompleteMarkDown(branknum int) string {
-// 	brs := strings.Repeat("\n", branknum)
-// 	return strings.Join(m.page, brs)
-// }
+func (m *MarkDown) Add(content string) (int, error) {
+	return m.s.WriteString(content)
+}
