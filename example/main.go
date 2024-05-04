@@ -45,13 +45,11 @@ func CreateMd(response *connpass.Response, m *markdown.MarkDown) string {
 		et := v.Title
 		eu := v.EventUrl
 		es := convertStartAtTime(v.StartedAt)
-		m.MDHandleFunc(owner, 3, WriteTitle)
-		m.MDHandleFunc(et, 3, WriteTitle)
-		m.MDHandleFunc(eu, 1, WriteHorizon)
-		m.MDHandleFunc(es, 1, WriteHorizon)
+		WriteTitle(m, owner, 3)
+		WriteTitle(m, et, 3)
+		WriteHorizon(m, eu, 1)
+		WriteHorizon(m, es, 1)
 	}
-	m.MDHandleFunc("", 1, WriteBlank)
-	// s := m.CompleteMarkDown(2)
 	return m.String()
 }
 
