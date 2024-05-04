@@ -54,8 +54,8 @@ type Client struct {
 	url string
 }
 
-func (c *Client) URL() string { return c.url }
-
+func (c *Client) URL() string       { return c.url }
+func (c *Client) Query() url.Values { return c.query }
 func (c Client) String() string {
 	return fmt.Sprintf("query is %v \n url is %s", c.query, c.url)
 }
