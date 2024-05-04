@@ -16,8 +16,7 @@ var DefaultURLValues = url.Values{
 
 type Client struct {
 	query url.Values
-	// connpass apiへのリクエスト URL
-	url string
+	url   string
 }
 
 func New(options ...Option) (*Client, error) {
