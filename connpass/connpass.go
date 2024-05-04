@@ -1,10 +1,8 @@
 package connpass
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
-	"io"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -14,10 +12,41 @@ const (
 	CONNPASSAPIV1 = "https://connpass.com/api/v1/event/?"
 )
 
-var ErrNotHostNameConnpass = errors.New("host name is not connpass.com")
+type Option func(*Client) error
+
+func URL(q url.Values) Option {
+	return func(c *Client) error {
+		u, err := url.Parse(CONNPASSAPIV1)
+		if err != nil {
+			return fmt.Errorf("faield to parse connpass api. %w", err)
+		}
+		u.Scheme = "https"
+		u.Host = "connpass.com"
+		u.RawQuery = q.Encode()
+		c.URL = u.String()
+		return nil
+	}
+}
+
+// SetQuery connpass apiにqueryを設定する
+// 引数のvaluesが空の場合エラーが発生する
+func Query(values map[string]string) Option {
+	return func(c *Client) error {
+		q := url.Values{}
+		if len(values) == 0 {
+			return errors.New("no query set")
+		}
+		for k, v := range values {
+			q.Add(k, v)
+		}
+		c.Query = q
+		return nil
+	}
+}
 
 type Client struct {
-	UserName string `json:"user_name"` // connpassのユーザ名
+	// username of connpass
+	UserName string `json:"user_name"`
 	// link: https://connpass.com/about/api/
 	//
 	// connpass apiから返ってくるレスポンス
@@ -26,35 +55,15 @@ type Client struct {
 	URL      string     `json:"url"` // connpass apiへのリクエストURLの完成形
 }
 
-func New() *Client {
-	return &Client{}
-}
-
-// SetQuery connpass apiにqueryを設定する
-// 引数のvaluesが空の場合エラーが発生する
-func (c *Client) SetQuery(values map[string]string) error {
-	q := url.Values{}
-	if len(values) == 0 {
-		return errors.New("no query set")
+func New(options ...Option) (*Client, error) {
+	c := new(Client)
+	for _, option := range options {
+		err := option(c)
+		if err != nil {
+			return nil, err
+		}
 	}
-	for k, v := range values {
-		q.Add(k, v)
-	}
-	c.Query = q
-	return nil
-}
-
-// SetURL CONNPASSAPIV1を解析してc.URLに設定
-func (c *Client) SetURL(q url.Values) error {
-	u, err := url.Parse(CONNPASSAPIV1)
-	if err != nil {
-		return fmt.Errorf("connpass apiの解析に失敗しました. %w", err)
-	}
-	u.Scheme = "https"
-	u.Host = "connpass.com"
-	u.RawQuery = q.Encode()
-	c.URL = u.String()
-	return nil
+	return c, nil
 }
 
 // Do connpass apiにリクエストを送る
@@ -62,32 +71,22 @@ func (c *Client) SetURL(q url.Values) error {
 func (c *Client) Do() (*http.Response, error) {
 	u, err := url.Parse(c.URL)
 	if err != nil {
-		return nil, fmt.Errorf("設定したURLに間違いがあります。%w", err)
+		return nil, fmt.Errorf("failed to parse url %w", err)
 	}
 	if u.Host != "connpass.com" {
-		return nil, ErrNotHostNameConnpass
+		return nil, fmt.Errorf("host name is not connpass.com")
 	}
 	res, err := http.Get(c.URL)
 	if err != nil {
-		return nil, fmt.Errorf("connpass apiへのリクエストに失敗しました。%w", err)
+		return nil, fmt.Errorf("failed to do connpass api request. %w", err)
 	}
 	return res, nil
 }
 
-// SetResponse Requestメソッド後のレスポンスをConnpassResponseプロパティにセットする
-func (c *Client) SetResponse(res *http.Response) error {
-	body, _ := io.ReadAll(res.Body)
-	err := json.Unmarshal(body, &c.Response)
-	if err != nil {
-		return fmt.Errorf("Responseに書き込むのに失敗しました。%w", err)
-	}
-	return nil
-}
-
 // AggregateGroupIDByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
-func AggregateGroupIDByComma(res *Response) string {
+func (r *Response) AggregateGroupIDByComma() string {
 	var seriesId string
-	groupIDs := res.GetGroupIds()
+	groupIDs := r.GetGroupIds()
 	for _, v := range groupIDs {
 		v := strconv.Itoa(v)
 		seriesId += v + ","
@@ -96,9 +95,9 @@ func AggregateGroupIDByComma(res *Response) string {
 }
 
 // GetGroups 所属してるグループIDを取得
-func (c *Response) GetGroupIds() []int {
-	var g []int
-	for _, v := range c.Events {
+func (r *Response) GetGroupIds() []int {
+	var g = make([]int, len(r.Events))
+	for _, v := range r.Events {
 		g = append(g, v.Series.Id)
 	}
 	return g
@@ -155,7 +154,8 @@ type Event struct {
 	Lon string `json:"lon"`
 }
 
-// Response コンパスapiのレスを持つ
+// Response connpass api response
+// https://connpass.com/about/api/
 type Response struct {
 	// レスポンスに含まれる検索結果の件数
 	ResultsReturned int `json:"results_returned"`
