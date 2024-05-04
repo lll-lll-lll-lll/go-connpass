@@ -21,8 +21,6 @@ func URLV1() Option {
 	}
 }
 
-// Query connpass apiにqueryを設定する
-// 引数のvaluesが空の場合エラーが発生する
 func Query(values map[string]string) Option {
 	return func(c *Client) error {
 		q := url.Values{}

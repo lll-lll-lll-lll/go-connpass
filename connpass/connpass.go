@@ -1,6 +1,7 @@
 package connpass
 
 import (
+	"context"
 	"fmt"
 	"net/http"
 	"net/url"
@@ -19,7 +20,7 @@ type Client struct {
 	url   string
 }
 
-func (c *Client) Do(options ...Option) (*http.Response, error) {
+func (c *Client) Do(ctx context.Context, options ...Option) (*http.Response, error) {
 	for _, opt := range options {
 		err := opt(c)
 		if err != nil {
