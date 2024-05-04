@@ -18,4 +18,7 @@ if err := json.Unmarshal(body, &cRes); err != nil {
 }
 fmt.Println(cRes)
 ```
+### Example
+[マークダウンに書き出した例](./example/sample.md)
 
+[コード](./example/main.go)
