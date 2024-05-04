@@ -19,17 +19,6 @@ type Client struct {
 	url   string
 }
 
-func New(options ...Option) (*Client, error) {
-	c := new(Client)
-	for _, opt := range options {
-		err := opt(c)
-		if err != nil {
-			return nil, err
-		}
-	}
-	return c, nil
-}
-
 func (c *Client) Do(options ...Option) (*http.Response, error) {
 	for _, opt := range options {
 		err := opt(c)

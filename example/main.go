@@ -62,11 +62,7 @@ func connpassfunc() {
 	}
 	defer file.Close()
 
-	q := map[string]string{"nickname": "Shun_Pei"}
-	client, err := connpass.New(connpass.Query(q), connpass.URLV1())
-	if err != nil {
-		log.Fatal(err)
-	}
+	client := &connpass.Client{}
 	initRes, err := initRequest(client)
 	if err != nil {
 		log.Fatal(err)
@@ -96,7 +92,8 @@ func connpassfunc() {
 }
 
 func initRequest(c *connpass.Client) (*connpass.Response, error) {
-	res, _ := c.Do()
+	q := map[string]string{"nickname": "Shun_Pei"}
+	res, _ := c.Do(connpass.Query(q), connpass.URLV1())
 	defer res.Body.Close()
 
 	var cRes connpass.Response
