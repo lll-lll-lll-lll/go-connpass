@@ -76,7 +76,7 @@ func (c *Client) Do() (*http.Response, error) {
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse url %w", err)
 	}
-	if u.Host != "connpass.com" {
+	if u.Hostname() != "connpass.com" || u.Scheme != "https" {
 		return nil, fmt.Errorf("host name is not connpass.com")
 	}
 	res, err := http.Get(c.url)
