@@ -20,16 +20,22 @@ func main() {
 
 func WriteHorizon(m *markdown.MarkDown, content string, repeat int) {
 	markh := "-"
-	m.AddToPage(markh, content, repeat, 2)
+	markElem := m.Mark(markh, repeat)
+	m.Add(markElem + " " + content)
+	m.AddBr(2)
 }
 
 func WriteTitle(m *markdown.MarkDown, content string, repeat int) {
 	markt := "#"
-	m.AddToPage(markt, content, repeat, 2)
+	markElem := m.Mark(markt, repeat)
+	m.Add(markElem + " " + content)
+	m.AddBr(2)
 }
 func WriteBlank(m *markdown.MarkDown, content string, repeat int) {
 	mark := "<br>"
-	m.AddToPage(mark, content, repeat, 2)
+	markElem := m.Mark(mark, repeat)
+	m.Add(markElem + " " + content)
+	m.AddBr(2)
 }
 
 // mdファイルの全体像を作るメソッド
@@ -40,7 +46,7 @@ func CreateMd(response *connpass.Response, m *markdown.MarkDown) string {
 		eu := v.EventUrl
 		es := convertStartAtTime(v.StartedAt)
 		markt := "#"
-		m.AddToPage(markt, owner, 2, 2)
+		m.Add(markt, owner, 2, 2)
 		m.MDHandleFunc(et, 3, WriteTitle)
 		m.MDHandleFunc(eu, 1, WriteHorizon)
 		m.MDHandleFunc(es, 1, WriteHorizon)
