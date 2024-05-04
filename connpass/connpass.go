@@ -86,10 +86,10 @@ func (c *Client) Do() (*http.Response, error) {
 	return res, nil
 }
 
-// AggregateGroupIDByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
-func (r *Response) AggregateGroupIDByComma() string {
+// JoinGroupIDByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
+func (r *Response) JoinGroupIDByComma() string {
 	var seriesId string
-	groupIDs := r.GetGroupIds()
+	groupIDs := r.GroupIds()
 	for _, v := range groupIDs {
 		v := strconv.Itoa(v)
 		seriesId += v + ","
@@ -98,7 +98,7 @@ func (r *Response) AggregateGroupIDByComma() string {
 }
 
 // GetGroups 所属してるグループIDを取得
-func (r *Response) GetGroupIds() []int {
+func (r *Response) GroupIds() []int {
 	var g = make([]int, len(r.Events))
 	for _, v := range r.Events {
 		g = append(g, v.Series.Id)
