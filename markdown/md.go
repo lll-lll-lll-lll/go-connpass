@@ -6,7 +6,7 @@ import (
 
 // MarkDown structに Write(content string, repeat int, method)
 type MarkDown struct {
-	s *strings.Builder
+	s strings.Builder
 }
 
 func (m MarkDown) String() string {
