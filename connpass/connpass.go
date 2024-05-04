@@ -30,7 +30,13 @@ func New(options ...Option) (*Client, error) {
 	return c, nil
 }
 
-func (c *Client) Do() (*http.Response, error) {
+func (c *Client) Do(options ...Option) (*http.Response, error) {
+	for _, opt := range options {
+		err := opt(c)
+		if err != nil {
+			return nil, err
+		}
+	}
 	u, err := url.Parse(c.url)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse url %w", err)

@@ -45,8 +45,7 @@ func CreateMd(response *connpass.Response, m *markdown.MarkDown) string {
 		et := v.Title
 		eu := v.EventUrl
 		es := convertStartAtTime(v.StartedAt)
-		markt := "#"
-		m.Add(markt, owner, 2, 2)
+		m.MDHandleFunc(owner, 3, WriteTitle)
 		m.MDHandleFunc(et, 3, WriteTitle)
 		m.MDHandleFunc(eu, 1, WriteHorizon)
 		m.MDHandleFunc(es, 1, WriteHorizon)
@@ -63,28 +62,24 @@ func connpassfunc() {
 	}
 	defer file.Close()
 
-	client := &connpass.Client{}
-	client.UserName = "Shun_Pei"
-	q := map[string]string{"nickname": client.UserName}
-
-	if err := initRequest(client, q); err != nil {
-		log.Println(err)
-		return
+	q := map[string]string{"nickname": "Shun_Pei"}
+	client, err := connpass.New(connpass.Query(q), connpass.URLV1())
+	if err != nil {
+		log.Fatal(err)
 	}
-
-	seriesId := connpass.AggregateGroupIDByComma(client.Response)
+	initRes, err := initRequest(client)
+	if err != nil {
+		log.Fatal(err)
+	}
+	groupIDs := initRes.GroupIds()
+	seriesId := initRes.JoinGroupIDs(groupIDs)
 	sm := getForThreeMonthsEvent()
 	qd := make(map[string]string)
 	qd["series_id"] = seriesId
 	qd["count"] = "100"
 	qd["ym"] = sm
 
-	client.SetQuery(qd)
-	err = client.SetURL(client.Query)
-	if err != nil {
-		log.Fatal(err)
-	}
-	res, err := client.Do()
+	res, err := client.Do(connpass.Query(qd), connpass.URLV1())
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -96,25 +91,21 @@ func connpassfunc() {
 	}
 
 	m := &markdown.MarkDown{}
-	s := CreateMd(client.Response, m)
+	s := CreateMd(&cr, m)
 	file.Write([]byte(s))
 }
 
-func initRequest(c *connpass.Client, query map[string]string) error {
-	c.SetQuery(query)
-	err := c.SetURL(c.Query)
-	if err != nil {
-		return err
-	}
+func initRequest(c *connpass.Client) (*connpass.Response, error) {
 	res, _ := c.Do()
 	defer res.Body.Close()
 
+	var cRes connpass.Response
 	body, _ := io.ReadAll(res.Body)
-	if err := json.Unmarshal(body, &c.Response); err != nil {
-		return fmt.Errorf("Responseに書き込むのに失敗しました。%w", err)
+	if err := json.Unmarshal(body, &cRes); err != nil {
+		return nil, fmt.Errorf("Responseに書き込むのに失敗しました。%w", err)
 	}
 
-	return nil
+	return &cRes, nil
 }
 
 // 今月を含めた３月分のイベントを取得

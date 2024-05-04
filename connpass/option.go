@@ -7,7 +7,7 @@ import (
 
 type Option func(*Client) error
 
-func URL(q url.Values) Option {
+func URLV1() Option {
 	return func(c *Client) error {
 		u, err := url.Parse(CONNPASSAPIV1)
 		if err != nil {
@@ -15,7 +15,7 @@ func URL(q url.Values) Option {
 		}
 		u.Scheme = "https"
 		u.Host = "connpass.com"
-		u.RawQuery = q.Encode()
+		u.RawQuery = c.query.Encode()
 		c.url = u.String()
 		return nil
 	}
