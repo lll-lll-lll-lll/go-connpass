@@ -11,10 +11,6 @@ const (
 	CONNPASSAPIV1 = "https://connpass.com/api/v1/event/?"
 )
 
-var DefaultURLValues = url.Values{
-	"nickname": []string{""},
-}
-
 type Client struct {
 	query url.Values
 	url   string

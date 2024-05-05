@@ -78,7 +78,7 @@ func (r *Response) JoinGroupIDs(groupIDs []int) string {
 
 // GetGroups 所属してるグループIDを取得
 func (r *Response) GroupIds() []int {
-	var g = make([]int, len(r.Events))
+	var g = make([]int, 0, len(r.Events))
 	for _, v := range r.Events {
 		g = append(g, v.Series.Id)
 	}

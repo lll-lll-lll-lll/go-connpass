@@ -5,6 +5,13 @@ import (
 	"net/url"
 )
 
+var DefaultURLValues = url.Values{
+	"nickname":  []string{""},
+	"count":     []string{"100"},
+	"ym":        []string{"202405"},
+	"series_id": []string{"3494,13377,6108,"},
+}
+
 type Option func(*Client) error
 
 func URLV1() Option {

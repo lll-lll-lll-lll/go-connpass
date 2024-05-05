@@ -92,7 +92,7 @@ func connpassfunc() {
 
 func initRequest(c *connpass.Client) (*connpass.Response, error) {
 	q := map[string]string{"nickname": "Shun_Pei"}
-	res, _ := c.Do(context.Background(),connpass.Query(q), connpass.URLV1())
+	res, _ := c.Do(context.Background(), connpass.Query(q), connpass.URLV1())
 	defer res.Body.Close()
 
 	var cRes connpass.Response
