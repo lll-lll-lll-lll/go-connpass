@@ -75,7 +75,7 @@ func connpassfunc() {
 	qd["count"] = "100"
 	qd["ym"] = sm
 
-	res, err := client.Do(context.Background(), connpass.Query(qd), connpass.URLV1())
+	res, err := client.Do(context.Background(), connpass.URL(qd))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -93,7 +93,7 @@ func connpassfunc() {
 
 func initRequest(c *connpass.Client) (*connpass.Response, error) {
 	q := map[string]string{"nickname": "Shun_Pei"}
-	res, _ := c.Do(context.Background(), connpass.Query(q), connpass.URLV1())
+	res, _ := c.Do(context.Background(), connpass.URL(q))
 	defer res.Body.Close()
 
 	var cRes connpass.Response

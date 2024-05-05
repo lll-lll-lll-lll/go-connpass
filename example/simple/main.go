@@ -13,7 +13,7 @@ import (
 func main() {
 	client := &connpass.Client{}
 	q := map[string]string{"nickname": "your connpass user name"}
-	res, _ := client.Do(context.Background(), connpass.Query(q), connpass.URLV1())
+	res, _ := client.Do(context.Background(), connpass.URL(q))
 	defer res.Body.Close()
 
 	var cRes connpass.Response

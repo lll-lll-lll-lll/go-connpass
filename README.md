@@ -8,7 +8,7 @@ go get github.com/lll-lll-lll-lll/go-connpass
 ```go
 client := &connpass.Client{}
 q := map[string]string{"nickname": "your connpass user name"}
-res, _ := client.Do(context.Background(), connpass.Query(q), connpass.URLV1())
+res, _ := client.Do(context.Background(), connpass.URLV1(q))
 defer res.Body.Close()
 
 var cRes connpass.Response
