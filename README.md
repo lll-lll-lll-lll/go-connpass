@@ -1,6 +1,6 @@
 ### Install
 ```sh
-go get github.com/lll-lll-lll-lll/go-connpass
+go get github.com/lll-lll-lll-lll/go-connpass@v1.1.0
 ```
 
 ###  Introduction
