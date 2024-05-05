@@ -3,7 +3,7 @@
 go get github.com/lll-lll-lll-lll/go-connpass
 ```
 
-### Instruction
+###  Introduction
 #### simple request
 ```go
 client := &connpass.Client{}
