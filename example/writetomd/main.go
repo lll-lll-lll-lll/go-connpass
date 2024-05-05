@@ -1,3 +1,4 @@
+// 3ヶ月分の自分が所属しているグループのイベントを取得し、Markdownに書き込む
 package main
 
 import (
