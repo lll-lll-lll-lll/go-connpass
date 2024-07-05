@@ -1,3 +1,5 @@
+### 申請
+個人の利用ではIPアドレスをを1つに固定し、申請を出せば無償で利用できるので[こちら](https://help.connpass.com/api/#id4)から申請をしてみましょう。
 ### Install
 ```sh
 go get github.com/lll-lll-lll-lll/go-connpass@v1.1.0
