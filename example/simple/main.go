@@ -12,11 +12,14 @@ import (
 
 func main() {
 	client := &connpass.Client{}
-	q := map[string]string{"nickname": "your connpass user name"}
-	res, _ := client.Do(context.Background(), connpass.URL(q))
+	req := &connpass.EventRequest{}
+	req.SetURL(connpass.CONNPASSAPI_EVENT_V1 + "?")
+	q := map[string][]string{"nickname": {"Shun_Pei"}}
+	req.SetURLQuery(q)
+	res, _ := client.Do(context.Background(), req)
 	defer res.Body.Close()
 
-	var cRes connpass.Response
+	var cRes connpass.EventResponse
 	body, _ := io.ReadAll(res.Body)
 	if err := json.Unmarshal(body, &cRes); err != nil {
 		log.Fatal(err)
