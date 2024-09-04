@@ -8,35 +8,25 @@ import (
 )
 
 const (
-	CONNPASSAPIV1 = "https://connpass.com/api/v1/event/?"
+	CONNPASSAPI_EVENT_V1 string = "https://connpass.com/api/v1/event/"
+	CONNPASSAPI_USER_V1  string = "https://connpass.com/api/v1/user/"
 )
 
-type Client struct {
-	query url.Values
-	url   string
-}
+type Client struct{}
 
-func (c *Client) Do(ctx context.Context, options ...Option) (*http.Response, error) {
-	for _, opt := range options {
-		err := opt(c)
-		if err != nil {
-			return nil, err
-		}
-	}
-	u, err := url.Parse(c.url)
+func (c *Client) Do(ctx context.Context, req ConnpassRequest) (*http.Response, error) {
+	q := req.ToURLVal()
+	u, err := url.Parse(req.URL())
 	if err != nil {
-		return nil, fmt.Errorf("failed to parse url %w", err)
+		return nil, fmt.Errorf("faield to parse connpass api. %w", err)
 	}
+	u.RawQuery = q.Encode()
 	if u.Scheme != "https" || u.Hostname() != "connpass.com" {
 		return nil, fmt.Errorf("host name is not connpass.com")
 	}
-	res, err := http.Get(c.url)
+	res, err := http.Get(u.String())
 	if err != nil {
 		return nil, fmt.Errorf("failed to do connpass api request. %w", err)
 	}
 	return res, nil
 }
-
-func (c *Client) URL() string { return c.url }
-
-func (c *Client) Query() url.Values { return c.query }
