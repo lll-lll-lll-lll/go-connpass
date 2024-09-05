@@ -28,29 +28,6 @@ type UserRequest struct {
 	Format string `json:"format"`
 }
 
-func (u *UserRequest) SetURLQuery(vals url.Values) {
-	for k, v := range vals {
-		switch k {
-		case "nickname":
-			u.NickName = v
-		case "start":
-			startInt, err := strconv.Atoi(v[0])
-			if err != nil {
-				continue
-			}
-			u.Start = startInt
-		case "count":
-			countInt, err := strconv.Atoi(v[0])
-			if err != nil {
-				continue
-			}
-			u.Count = countInt
-		case "format":
-			u.Format = v[0]
-		}
-	}
-}
-
 func (u *UserRequest) SetURL(url string) {
 	u.RequestURL = url
 }

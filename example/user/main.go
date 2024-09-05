@@ -14,8 +14,7 @@ func main() {
 	connpassClient := &connpass.Client{}
 	req := &connpass.UserRequest{}
 	req.SetURL(connpass.CONNPASSAPI_USER_V1 + "?")
-	q := map[string][]string{"nickname": {"Shun_Pei"}}
-	req.SetURLQuery(q)
+	req.NickName = []string{"your connpass nickname"}
 	res, err := connpassClient.Do(context.Background(), req)
 	if err != nil {
 		log.Fatal(err)
@@ -31,5 +30,4 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(cRes)
-
 }
