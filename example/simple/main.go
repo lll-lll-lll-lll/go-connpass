@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"time"
 
 	"github.com/lll-lll-lll-lll/go-connpass/connpass"
 )
@@ -15,7 +16,9 @@ func main() {
 	req := &connpass.EventRequest{}
 	req.SetURL(connpass.CONNPASSAPI_EVENT_V1 + "?")
 	req.NickName = []string{"your connpass nickname"}
-	res, _ := client.Do(context.Background(), req)
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+	res, _ := client.Do(ctx, req)
 	defer res.Body.Close()
 
 	var cRes connpass.EventResponse

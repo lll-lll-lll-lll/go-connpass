@@ -8,21 +8,17 @@ go get github.com/lll-lll-lll-lll/go-connpass@v1.1.0
 ###  Introduction
 #### simple request
 ```go
-connpassClient := &connpass.Client{}
-req := &connpass.UserRequest{}
-req.SetURL(connpass.CONNPASSAPI_USER_V1 + "?")
+client := &connpass.Client{}
+req := &connpass.EventRequest{}
+req.SetURL(connpass.CONNPASSAPI_EVENT_V1 + "?")
 req.NickName = []string{"your connpass nickname"}
-res, err := connpassClient.Do(context.Background(), req)
-if err != nil {
-	log.Fatal(err)
-}
+ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+defer cancel()
+res, _ := client.Do(ctx, req)
 defer res.Body.Close()
 
-var cRes connpass.UserResponse
-body, err := io.ReadAll(res.Body)
-if err != nil {
-	log.Fatal(err)
-}
+var cRes connpass.EventResponse
+body, _ := io.ReadAll(res.Body)
 if err := json.Unmarshal(body, &cRes); err != nil {
 	log.Fatal(err)
 }
