@@ -14,8 +14,7 @@ func main() {
 	client := &connpass.Client{}
 	req := &connpass.EventRequest{}
 	req.SetURL(connpass.CONNPASSAPI_EVENT_V1 + "?")
-	q := map[string][]string{"nickname": {"Shun_Pei"}}
-	req.SetURLQuery(q)
+	req.NickName = []string{"your connpass nickname"}
 	res, _ := client.Do(context.Background(), req)
 	defer res.Body.Close()
 

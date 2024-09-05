@@ -119,60 +119,6 @@ func (e *EventRequest) SetURL(url string) {
 	e.RequestURL = url
 }
 
-// SetURLQuery url.Valuesをリクエストに詰め込む
-func (e *EventRequest) SetURLQuery(vals url.Values) {
-	for k, v := range vals {
-		switch k {
-		case "event_id":
-			for _, vv := range v {
-				eventInt, err := strconv.Atoi(vv)
-				if err != nil {
-					continue
-				}
-				e.EventIDList = append(e.EventIDList, eventInt)
-			}
-		case "keyword":
-			e.Keyword = v
-		case "keyword_or":
-			e.KeywordOR = v
-		case "ym":
-			e.YM = v
-		case "ymd":
-			e.YMD = v
-		case "nickname":
-			e.NickName = v
-		case "owner_nickname":
-			e.OwnerNickName = v
-		case "series_id":
-			sInt, err := strconv.Atoi(v[0])
-			if err != nil {
-				continue
-			}
-			e.SeriesID = sInt
-		case "start":
-			startInt, err := strconv.Atoi(v[0])
-			if err != nil {
-				continue
-			}
-			e.Start = startInt
-		case "order":
-			orderInt, err := strconv.Atoi(v[0])
-			if err != nil {
-				continue
-			}
-			e.Order = orderInt
-		case "count":
-			countInt, err := strconv.Atoi(v[0])
-			if err != nil {
-				continue
-			}
-			e.Count = countInt
-		case "format":
-			e.Format = v[0]
-		}
-	}
-}
-
 func (e *EventRequest) URL() string {
 	return e.RequestURL
 }
