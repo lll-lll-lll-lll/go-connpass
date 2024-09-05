@@ -28,6 +28,29 @@ type UserRequest struct {
 	Format string `json:"format"`
 }
 
+func (u *UserRequest) SetURLQuery(vals url.Values) {
+	for k, v := range vals {
+		switch k {
+		case "nickname":
+			u.NickName = v
+		case "start":
+			startInt, err := strconv.Atoi(v[0])
+			if err != nil {
+				continue
+			}
+			u.Start = startInt
+		case "count":
+			countInt, err := strconv.Atoi(v[0])
+			if err != nil {
+				continue
+			}
+			u.Count = countInt
+		case "format":
+			u.Format = v[0]
+		}
+	}
+}
+
 func (u *UserRequest) SetURL(url string) {
 	u.RequestURL = url
 }
@@ -119,6 +142,7 @@ func (e *EventRequest) SetURL(url string) {
 	e.RequestURL = url
 }
 
+// SetURLQuery url.Valuesをリクエストに詰め込む
 func (e *EventRequest) SetURLQuery(vals url.Values) {
 	for k, v := range vals {
 		switch k {
@@ -176,6 +200,7 @@ func (e *EventRequest) URL() string {
 	return e.RequestURL
 }
 
+// ToURLVal リクエストに詰め込まれている値をURL.Valuesに変換する
 func (e *EventRequest) ToURLVal() url.Values {
 	q := url.Values{}
 	if len(e.EventIDList) != 0 {
