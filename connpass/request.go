@@ -2,6 +2,7 @@ package connpass
 
 import (
 	"net/url"
+	"path"
 	"strconv"
 )
 
@@ -10,18 +11,23 @@ var (
 	_ ConnpassRequest = (*EventRequest)(nil)
 )
 
+type APIType string
+
+const (
+	EVENT_PATH APIType = "event"
+	USER_PATH  APIType = "user"
+)
+
 type ConnpassRequest interface {
-	// ToURLVal convert request to url.Values
-	ToURLVal() url.Values
+	// ToQueryParameter convert request to url.Values
+	ToQueryParameter() url.Values
 	// URL request url
 	URL() string
-	// SetURL set request url
-	SetURL(string)
 }
 
 type UserRequest struct {
 	// リクエスト先URL
-	RequestURL string `json:"-"`
+	Path APIType `json:"-"`
 	// ニックネーム.指定したニックネームのユーザを検索します。複数指定可能です*
 	NickName []string `json:"nickname[]"`
 	// 検索の開始位置. 検索結果の何件目から出力するかを指定します。デフォルトは1です。
@@ -32,15 +38,11 @@ type UserRequest struct {
 	Format string `json:"format"`
 }
 
-func (u *UserRequest) SetURL(url string) {
-	u.RequestURL = url
-}
-
 func (u *UserRequest) URL() string {
-	return u.RequestURL
+	return path.Join(CONNPASSAPI_V1, string(u.Path))
 }
 
-func (u *UserRequest) ToURLVal() url.Values {
+func (u *UserRequest) ToQueryParameter() url.Values {
 	q := url.Values{}
 	if len(u.NickName) != 0 {
 		q.Add("nickname", join(u.NickName))
@@ -60,7 +62,7 @@ func (u *UserRequest) ToURLVal() url.Values {
 
 type EventRequest struct {
 	// リクエスト先URL
-	RequestURL string `json:"-"`
+	Path APIType `json:"-"`
 	// イベント毎に割り当てられた番号で検索します。複数指定可能です*
 	EventIDList []int `json:"event_id[]"`
 	// キーワード. イベントのタイトル、キャッチ、概要、住所をAND条件部分一致で検索します。複数指定可能です*
@@ -119,16 +121,13 @@ func (e *EventRequest) joinInt(sliceData []int) string {
 	}
 	return res
 }
-func (e *EventRequest) SetURL(url string) {
-	e.RequestURL = url
-}
 
 func (e *EventRequest) URL() string {
-	return e.RequestURL
+	return path.Join(CONNPASSAPI_V1, string(e.Path))
 }
 
 // ToURLVal リクエストに詰め込まれている値をURL.Valuesに変換する
-func (e *EventRequest) ToURLVal() url.Values {
+func (e *EventRequest) ToQueryParameter() url.Values {
 	q := url.Values{}
 	if len(e.EventIDList) != 0 {
 		q.Add("event_id", e.joinInt(e.EventIDList))
