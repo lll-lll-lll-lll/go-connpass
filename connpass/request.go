@@ -7,8 +7,8 @@ import (
 )
 
 var (
-	_ ConnpassRequest = (*UserRequest)(nil)
-	_ ConnpassRequest = (*EventRequest)(nil)
+	_ Request = (*UserRequest)(nil)
+	_ Request = (*EventRequest)(nil)
 )
 
 type APIType string
@@ -18,7 +18,7 @@ const (
 	USER_PATH  APIType = "user"
 )
 
-type ConnpassRequest interface {
+type Request interface {
 	// ToQueryParameter convert request to url.Values
 	ToQueryParameter() url.Values
 	// URL request url

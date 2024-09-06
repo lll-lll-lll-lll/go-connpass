@@ -13,7 +13,7 @@ const (
 
 type Client struct{}
 
-func (c *Client) Do(ctx context.Context, req ConnpassRequest) (*http.Response, error) {
+func (c *Client) Do(ctx context.Context, req Request) (*http.Response, error) {
 	if req.URL() == "" {
 		return nil, fmt.Errorf("request url is empty")
 	}
