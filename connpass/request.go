@@ -13,6 +13,7 @@ var (
 type ConnpassRequest interface {
 	ToURLVal() url.Values
 	URL() string
+	SetURL(string)
 }
 
 type UserRequest struct {
