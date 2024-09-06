@@ -11,8 +11,11 @@ var (
 )
 
 type ConnpassRequest interface {
+	// ToURLVal convert request to url.Values
 	ToURLVal() url.Values
+	// URL request url
 	URL() string
+	// SetURL set request url
 	SetURL(string)
 }
 
