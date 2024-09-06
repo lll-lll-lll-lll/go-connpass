@@ -8,8 +8,7 @@ import (
 )
 
 const (
-	CONNPASSAPI_EVENT_V1 string = "https://connpass.com/api/v1/event/"
-	CONNPASSAPI_USER_V1  string = "https://connpass.com/api/v1/user/"
+	CONNPASSAPI_V1 string = "https://connpass.com/api/v1"
 )
 
 type Client struct{}
@@ -18,15 +17,12 @@ func (c *Client) Do(ctx context.Context, req ConnpassRequest) (*http.Response, e
 	if req.URL() == "" {
 		return nil, fmt.Errorf("request url is empty")
 	}
-	q := req.ToURLVal()
+	q := req.ToQueryParameter()
 	u, err := url.Parse(req.URL())
 	if err != nil {
 		return nil, fmt.Errorf("faield to parse connpass api. %w", err)
 	}
 	u.RawQuery = q.Encode()
-	if u.Scheme != "https" || u.Hostname() != "connpass.com" {
-		return nil, fmt.Errorf("host name is not connpass.com")
-	}
 	res, err := http.Get(u.String())
 	if err != nil {
 		return nil, fmt.Errorf("failed to do connpass api request. %w", err)

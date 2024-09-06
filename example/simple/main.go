@@ -14,7 +14,7 @@ import (
 func main() {
 	client := &connpass.Client{}
 	req := &connpass.EventRequest{}
-	req.SetURL(connpass.CONNPASSAPI_EVENT_V1 + "?")
+	req.Path = connpass.EVENT_PATH
 	req.NickName = []string{"your connpass nickname"}
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()

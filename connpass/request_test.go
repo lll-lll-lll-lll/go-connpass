@@ -21,7 +21,7 @@ func Test_Event_ToURLVal(t *testing.T) {
 		e.Start = 1
 		e.Order = 1
 		e.Count = 1
-		q := e.ToURLVal()
+		q := e.ToQueryParameter()
 		if len(q) != 12 {
 			fmt.Println(len(q))
 			t.Errorf("failed to ToURLVal. %v", q)

@@ -13,7 +13,7 @@ import (
 func main() {
 	connpassClient := &connpass.Client{}
 	req := &connpass.UserRequest{}
-	req.SetURL(connpass.CONNPASSAPI_USER_V1 + "?")
+	req.Path = connpass.USER_PATH
 	req.NickName = []string{"your connpass nickname"}
 	res, err := connpassClient.Do(context.Background(), req)
 	if err != nil {
