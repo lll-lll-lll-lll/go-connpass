@@ -6,23 +6,26 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"time"
 
 	"github.com/lll-lll-lll-lll/go-connpass/connpass"
 )
 
 func main() {
-	client := &connpass.Client{}
-	req := &connpass.EventRequest{}
-	req.Path = connpass.EVENT_PATH
+	connpassClient := &connpass.Client{}
+	req := &connpass.UserRequest{}
+	req.Path = connpass.USER_PATH
 	req.NickName = []string{"your connpass nickname"}
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
-	defer cancel()
-	res, _ := client.Do(ctx, req)
+	res, err := connpassClient.Do(context.Background(), req)
+	if err != nil {
+		log.Fatal(err)
+	}
 	defer res.Body.Close()
 
-	var cRes connpass.EventResponse
-	body, _ := io.ReadAll(res.Body)
+	var cRes connpass.UserResponse
+	body, err := io.ReadAll(res.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
 	if err := json.Unmarshal(body, &cRes); err != nil {
 		log.Fatal(err)
 	}

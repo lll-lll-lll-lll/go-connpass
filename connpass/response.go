@@ -1,6 +1,40 @@
 package connpass
 
-import "strconv"
+type UserResponse struct {
+	// 含まれる検索結果の件数
+	ResultsReturned int `json:"results_returned"`
+	// 検索結果の総件数
+	ResultsAvailable int `json:"results_available"`
+	// 検索の開始位置
+	ResultsStart int `json:"results_start"`
+	// 検索結果のユーザーリスト
+	Users []struct{}
+}
+
+type User struct {
+	// ユーザーID
+	UserID int `json:"user_id"`
+	// ニックネーム
+	Nickname string `json:"nickname"`
+	// 表示名
+	DisplayName string `json:"display_name"`
+	// 自己紹介
+	Description string `json:"description"`
+	// connpass.com 上のURL
+	UserURL string `json:"user_url"`
+	// ユーザのサムネ画像のURL. このURLはある程度の時間で失効されます。外部サイトでの直接参照などはご遠慮ください。
+	UserImageURL string `json:"user_image_url"`
+	// 利用開始日時 (ISO-8601形式)
+	CreatedAt string `json:"created_at"`
+	// 参加イベント数
+	AttendedEventCount int `json:"attended_event_count"`
+	// 管理イベント数
+	OrganizeEventCount int `json:"organize_event_count"`
+	// 発表イベント数
+	PresenterEventCount int `json:"presenter_event_count"`
+	// ブックマークイベント数
+	BookmarkEventCount int `json:"bookmark_event_count"`
+}
 
 type Event struct {
 	Series struct {
@@ -53,9 +87,9 @@ type Event struct {
 	Lon string `json:"lon"`
 }
 
-// Response connpass api response
+// EventResponse connpass api response
 // https://connpass.com/about/api/
-type Response struct {
+type EventResponse struct {
 	// レスポンスに含まれる検索結果の件数
 	ResultsReturned int `json:"results_returned"`
 	// 検索結果の総件数
@@ -64,23 +98,4 @@ type Response struct {
 	ResultsStart int `json:"results_start"`
 	// 検索結果のイベントリスト
 	Events []Event `json:"events"`
-}
-
-// JoinGroupIDByComma groupidを「,」で繋げる。connpassapiで複数指定は「,」で可能だから
-func (r *Response) JoinGroupIDs(groupIDs []int) string {
-	var seriesId string
-	for _, v := range groupIDs {
-		v := strconv.Itoa(v)
-		seriesId += v + ","
-	}
-	return seriesId
-}
-
-// GetGroups 所属してるグループIDを取得
-func (r *Response) GroupIds() []int {
-	var g = make([]int, 0, len(r.Events))
-	for _, v := range r.Events {
-		g = append(g, v.Series.Id)
-	}
-	return g
 }

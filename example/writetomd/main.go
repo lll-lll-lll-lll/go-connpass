@@ -2,38 +2,32 @@
 package main
 
 import (
-	"context"
-	"encoding/json"
 	"fmt"
-	"io"
 	"log"
-	"os"
 	"strconv"
 	"strings"
 	"time"
 
 	"github.com/lll-lll-lll-lll/go-connpass/connpass"
-	"github.com/lll-lll-lll-lll/go-connpass/markdown"
 )
 
 func main() {
-	connpassfunc()
 }
 
-func WriteHorizon(m *markdown.MarkDown, content string, repeat int) {
+func WriteHorizon(m *MarkDown, content string, repeat int) {
 	markh := "-"
 	markElem := m.Mark(markh, repeat)
 	m.Add(markElem + " " + content)
 	m.AddBr(2)
 }
 
-func WriteTitle(m *markdown.MarkDown, content string, repeat int) {
+func WriteTitle(m *MarkDown, content string, repeat int) {
 	markt := "#"
 	markElem := m.Mark(markt, repeat)
 	m.Add(markElem + " " + content)
 	m.AddBr(2)
 }
-func WriteBlank(m *markdown.MarkDown, content string, repeat int) {
+func WriteBlank(m *MarkDown, content string, repeat int) {
 	mark := "<br>"
 	markElem := m.Mark(mark, repeat)
 	m.Add(markElem + " " + content)
@@ -41,7 +35,7 @@ func WriteBlank(m *markdown.MarkDown, content string, repeat int) {
 }
 
 // mdファイルの全体像を作るメソッド
-func CreateMd(response *connpass.Response, m *markdown.MarkDown) string {
+func CreateMd(response *connpass.EventResponse, m *MarkDown) string {
 	for _, v := range response.Events {
 		owner := v.Series.Title
 		et := v.Title
@@ -53,56 +47,6 @@ func CreateMd(response *connpass.Response, m *markdown.MarkDown) string {
 		WriteHorizon(m, es, 1)
 	}
 	return m.String()
-}
-
-func connpassfunc() {
-	file, err := os.Create("README.md")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-
-	client := &connpass.Client{}
-	initRes, err := initRequest(client)
-	if err != nil {
-		log.Fatal(err)
-	}
-	groupIDs := initRes.GroupIds()
-	seriesId := initRes.JoinGroupIDs(groupIDs)
-	sm := getForThreeMonthsEvent()
-	qd := make(map[string]string)
-	qd["series_id"] = seriesId
-	qd["count"] = "100"
-	qd["ym"] = sm
-
-	res, err := client.Do(context.Background(), connpass.URL(qd))
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer res.Body.Close()
-	var cr connpass.Response
-	body, _ := io.ReadAll(res.Body)
-	if err := json.Unmarshal(body, &cr); err != nil {
-		log.Fatal(err)
-	}
-
-	m := &markdown.MarkDown{}
-	s := CreateMd(&cr, m)
-	file.Write([]byte(s))
-}
-
-func initRequest(c *connpass.Client) (*connpass.Response, error) {
-	q := map[string]string{"nickname": "Shun_Pei"}
-	res, _ := c.Do(context.Background(), connpass.URL(q))
-	defer res.Body.Close()
-
-	var cRes connpass.Response
-	body, _ := io.ReadAll(res.Body)
-	if err := json.Unmarshal(body, &cRes); err != nil {
-		return nil, fmt.Errorf("Responseに書き込むのに失敗しました。%w", err)
-	}
-
-	return &cRes, nil
 }
 
 // 今月を含めた３月分のイベントを取得
