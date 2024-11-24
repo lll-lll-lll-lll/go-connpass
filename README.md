@@ -24,3 +24,6 @@ if err := json.Unmarshal(body, &cRes); err != nil {
 }
 fmt.Println(cRes)
 ```
+
+### Reference
+https://connpass.com/about/api/
